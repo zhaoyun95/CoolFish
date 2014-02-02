@@ -12,7 +12,7 @@
                       ShowCloseButton="False"
                       ShowMinButton="False" ShowMaxRestoreButton="False" ShowActivated="True" WindowStartupLocation="CenterScreen">
 
-    
+
 
 
     <Controls:MetroWindow.WindowCommands>
@@ -111,19 +111,19 @@
                     <Grid x:Uid="Grid_3" HorizontalAlignment="Left" Height="234" VerticalAlignment="Top" Width="648"
                           Margin="-9,-47,-7,-3">
                         <ListBox x:Uid="ScriptsLB" x:Name="ScriptsLB" HorizontalAlignment="Left" Height="163"
-                                 Margin="10,61,0,0" VerticalAlignment="Top" Width="257" BorderBrush="Black"
-                                 SelectionChanged="ScriptsLB_SelectionChanged" />
+                                 Margin="10,61,0,0" VerticalAlignment="Top" Width="257" BorderBrush="{x:Null}"
+                                 SelectionChanged="ScriptsLB_SelectionChanged" Background="{x:Null}" />
 
                         <TextBlock x:Uid="DescriptionBox" x:Name="DescriptionBox" TextWrapping="WrapWithOverflow"
                                    Text="Look in the Plugins folder to see an example of the type of plugins you can load here"
-                                   Margin="272,133,10,10" />
+                                   Margin="272,133,10,10" Foreground="Black" />
 
                         <Button x:Uid="ConfigBTN" x:Name="ConfigBTN" Content="Config" HorizontalAlignment="Left"
                                 Margin="272,61,0,0" VerticalAlignment="Top" Width="100" Click="ConfigBTN_Click" />
                         <TextBlock x:Uid="AuthorTB" x:Name="AuthorTB" HorizontalAlignment="Left" Margin="272,91,0,0"
-                                   TextWrapping="Wrap" VerticalAlignment="Top" Width="326" />
+                                   TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Foreground="Black" />
                         <TextBlock x:Uid="VersionTB" x:Name="VersionTB" HorizontalAlignment="Left" Margin="272,112,0,0"
-                                   TextWrapping="Wrap" VerticalAlignment="Top" Width="326" />
+                                   TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Foreground="Black" />
                     </Grid>
                 </TabItem>
                 <TabItem x:Uid="DonateTab" x:Name="DonateTab" Margin="-102,-16,108,57" RenderTransformOrigin="0.5,0.5">

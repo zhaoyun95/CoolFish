@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.IO;
-using System.Linq;
-using System.Windows.Forms;
-using CoolFishNS.Management;
 using CoolFishNS.Properties;
 
 namespace CoolFishNS.Utilities
@@ -17,9 +12,9 @@ namespace CoolFishNS.Utilities
     {
         internal static Dictionary<string, string> Translations = new Dictionary<string, string>();
 
-        public static Collection<SerializableItem> Items = new Collection<SerializableItem>();
+        internal static Collection<SerializableItem> Items = new Collection<SerializableItem>();
 
-        public static Collection<SerializablePlugin> Plugins = new Collection<SerializablePlugin>();
+        internal static Dictionary<string,SerializablePlugin> Plugins = new Dictionary<string,SerializablePlugin>();
 
         /// <summary>
         ///     Loads default CoolFish settings
@@ -29,7 +24,7 @@ namespace CoolFishNS.Utilities
             Logging.Write("Loading Default Settings.");
             Settings.Default.Reset();
             Items = new Collection<SerializableItem>();
-            Plugins = new Collection<SerializablePlugin>();
+            Plugins = new Dictionary<string, SerializablePlugin>();
             SaveSettings();
         }
 
@@ -43,14 +38,14 @@ namespace CoolFishNS.Utilities
 
             Logging.Log("----Plugins----");
 
-            foreach (SerializablePlugin serializablePlugin in Plugins)
+            foreach (var serializablePlugin in Plugins)
             {
-                Logging.Log(serializablePlugin.fileName + " - Enabled: " + serializablePlugin.isEnabled);
+                Logging.Log(serializablePlugin.Key + " - Enabled: " + serializablePlugin.Value.isEnabled);
             }
             Logging.Log("----Items----");
-            foreach (SerializableItem serializableItem in Items)
+            foreach (var serializableItem in Items)
             {
-                Logging.Log(serializableItem.ItemID);
+                Logging.Log(serializableItem);
             }
         }
 
@@ -60,22 +55,22 @@ namespace CoolFishNS.Utilities
         /// </summary>
         internal static void SaveSettings()
         {
-            
+         
             Settings.Default.Save();
-            Serializer.SerializeObject("Items.xml", Items);
-            Serializer.SerializeObject("Plugins.xml", Plugins);
+            Serializer.Serialize("Items.dat", Items);
+            Serializer.Serialize("Plugins.dat", Plugins);
         }
 
         /// <summary>
-        ///     Use XML seralization to load settings
+        ///     Use seralization to load settings
         /// </summary>
         internal static void LoadSettings()
         {
             try
             {
                 Settings.Default.Reload();
-                Items = Serializer.DeSerializeObject<Collection<SerializableItem>>("Items.xml");
-                Plugins = Serializer.DeSerializeObject<Collection<SerializablePlugin>>("Plugins.xml");
+                Items = Serializer.DeSerialize<Collection<SerializableItem>>("Items.dat");
+                Plugins = Serializer.DeSerialize<Dictionary<string,SerializablePlugin>>("Plugins.dat");
             }
             catch (Exception ex)
             {

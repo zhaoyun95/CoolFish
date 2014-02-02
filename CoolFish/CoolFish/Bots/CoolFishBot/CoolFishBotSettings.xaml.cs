@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
 using System.Windows.Media;
 using System.Windows.Threading;
 using CoolFishNS.Management;
 using CoolFishNS.Properties;
 using CoolFishNS.Utilities;
+using MessageBox = System.Windows.Forms.MessageBox;
 
 namespace CoolFishNS.Bots.CoolFishBot
 {
@@ -14,9 +17,15 @@ namespace CoolFishNS.Bots.CoolFishBot
     /// </summary>
     internal partial class CoolFishBotSettings
     {
+        private Collection<SerializableItem> _items = new Collection<SerializableItem>();
+
         public CoolFishBotSettings()
         {
             InitializeComponent();
+            var col1 = new DataGridTextColumn {Binding = new Binding("Value"), Header = "ItemId or Name", Width = 150};
+            col1.SetValue(NameProperty,"ItemColumn");
+            
+            ItemsGrid.Columns.Add(col1);
             UpdateControlSettings();
         }
 
@@ -49,12 +58,13 @@ namespace CoolFishNS.Bots.CoolFishBot
                 SaveControlSettings();
                 LocalSettings.SaveSettings();
                 Logging.Write("CoolFishBot settings saved.");
+                Close();
             }
             else
             {
-                Logging.Write("Can't save settings while the bot is running. Please stop the bot first.");
+                MessageBox.Show("Can't save settings while the bot is running. Please stop the bot first.");
             }
-            Close();
+            
         }
 
         private void CloseButton_OnClick(object sender, RoutedEventArgs e)
@@ -67,20 +77,10 @@ namespace CoolFishNS.Bots.CoolFishBot
         {
             try
             {
-                if (ItemsGrid.CheckAccess())
-                {
-                    ItemsGrid.Dispatcher.Invoke(DispatcherPriority.Normal,
-                        new Action(delegate
-                                   {
-                                       ItemsGrid.ItemsSource = null;
-                                       ItemsGrid.ItemsSource = LocalSettings.Items;
-                                   }));
-                }
-                else
-                {
-                    ItemsGrid.ItemsSource = null;
-                    ItemsGrid.ItemsSource = LocalSettings.Items;
-                }
+                ItemsGrid.ItemsSource = null;
+                ItemsGrid.ItemsSource = _items;
+
+
             }
             catch (Exception ex)
             {
@@ -108,7 +108,7 @@ namespace CoolFishNS.Bots.CoolFishBot
             UseSpearCB.IsChecked = Settings.Default.UseSpear;
             DoDebugCB.IsChecked =  Settings.Default.DoDebugging;
             LanguageCB.SelectedIndex = Settings.Default.LanguageIndex;
-
+            _items = LocalSettings.Items;
             FillDataGrid();
 
 
@@ -138,7 +138,7 @@ namespace CoolFishNS.Bots.CoolFishBot
             Settings.Default.UseSpear = UseSpearCB.IsChecked.GetValueOrDefault();
             Settings.Default.DoDebugging = DoDebugCB.IsChecked.GetValueOrDefault();
             Settings.Default.LanguageIndex = LanguageCB.SelectedIndex;
-
+            LocalSettings.Items = _items;
                 double result;
                 if (!double.TryParse(StopTimeMinutesTB.Text, out result))
                 {
@@ -149,25 +149,8 @@ namespace CoolFishNS.Bots.CoolFishBot
             
         }
 
-        private void ItemsGrid_RowEditEnding(object sender, DataGridRowEditEndingEventArgs e)
-        {
-            Logging.Write("Edit");
-            var ret = e.Row.Item as SerializableItem;
-            Logging.Write(ret == null);
-            if (ret != null && (string.IsNullOrWhiteSpace(ret.ItemID)))
-            {
-                Logging.Write(ret.ItemID);
-                e.Cancel = true;
-            }
-            else
-            {
-                Logging.Write("null");
-            }
-           
-                
-            
-            
-        }
+
+
 
     }
 }

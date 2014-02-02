@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.Threading;
 using CoolFishNS.Bots.FiniteStateMachine;
 using CoolFishNS.FiniteStateMachine;
@@ -12,6 +13,7 @@ namespace CoolFishNS.Bots.CoolFishBot
     /// </summary>
     public sealed class CoolFishBot : IBot , IDisposable
     {
+
         private readonly CoolFishEngine _theEngine;
         private Timer _stopTimer;
 

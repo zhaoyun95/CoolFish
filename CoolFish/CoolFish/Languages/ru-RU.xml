@@ -2,6 +2,7 @@
   <Controls>
     <MainTabBTN Value="Главная" />
     <SettingsTabBTN Value="Настройки" />
+    <SettingsBTN Value="Настройки" />
     <PluginsTabBTN Value="Плагины" />
     <DonateTabBTN Value="Донат" />
     <UpdateTabBTN Value="Обновление" />

@@ -2,6 +2,7 @@
   <Controls>
     <MainTabBTN Value="主界面" />
     <SettingsTabBTN Value="设置" />
+    <SettingsBTN Value="设置" />
     <PluginsTabBTN Value="插件" />
     <DonateTabBTN Value="捐赠" />
     <UpdateTabBTN Value="更新" />

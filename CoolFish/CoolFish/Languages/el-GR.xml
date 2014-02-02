@@ -2,6 +2,7 @@
   <Controls>
     <MainTabBTN Value="Αρχική" />
     <SettingsTabBTN Value="Ρυθμίσεις" />
+    <SettingsBTN Value="Ρυθμίσεις" />
     <PluginsTabBTN Value="Plugins" />
     <DonateTabBTN Value="Donate" />
     <UpdateTabBTN Value="Ενημέρωση" />

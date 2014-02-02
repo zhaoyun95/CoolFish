@@ -28,8 +28,8 @@ namespace CoolFishNS
     /// </summary>
     internal partial class MainWindow
     {
-        private readonly List<IBot> _bots = new List<IBot>();
-        private readonly ObservableCollection<CheckBox> _pluginCheckBoxesList = new ObservableCollection<CheckBox>();
+        private readonly IList<IBot> _bots = new List<IBot>();
+        private readonly ICollection<CheckBox> _pluginCheckBoxesList = new Collection<CheckBox>();
         private Process[] _processes;
         private Timer _timer;
 
@@ -39,20 +39,14 @@ namespace CoolFishNS
             InitializeComponent();
         }
 
-        private static void CutBot()
-        {
-            BotManager.StopActiveBot();
-            BotManager.WasCut = true;
-            MessageBox.Show(LocalSettings.Translations["Warning Message"]);
-
-        }
-
 
         private static void Callback(object state)
         {
             if (!Updater.ShouldRun)
             {
-                CutBot();
+                BotManager.StopActiveBot();
+                BotManager.WasCut = true;
+                MessageBox.Show(LocalSettings.Translations["Warning Message"]);
             }
         }
 
@@ -74,37 +68,20 @@ namespace CoolFishNS
         private void UpdateControlSettings()
         {
             LanguageCB.SelectedIndex = Settings.Default.LanguageIndex;
-
-            foreach (SerializablePlugin script in LocalSettings.Plugins)
-            {
-                var cb = new CheckBox {Content = script.fileName};
-                cb.Checked += changedCheck;
-                cb.Unchecked += changedCheck;
-                cb.IsChecked = script.isEnabled;
-                _pluginCheckBoxesList.Add(cb);
-            }
-
             if (Settings.Default.BlackBackground)
             {
                 BackgroundColorObj.Color = Color.FromArgb(0xFF, 0x0, 0x0, 0x0);
             }
 
-            foreach (var cb in from file in PluginManager.Plugins where !_pluginCheckBoxesList.Any(checkBox => checkBox.Content.Equals(file.Key)) select new CheckBox {Content = file.Key, IsChecked = false})
+
+            foreach (var plugin in PluginManager.Plugins)
             {
+                var cb = new CheckBox { Content = plugin.Key };
                 cb.Checked += changedCheck;
                 cb.Unchecked += changedCheck;
+                cb.IsChecked = LocalSettings.Plugins.ContainsKey(plugin.Key) && (LocalSettings.Plugins[plugin.Key].isEnabled == true);
+
                 _pluginCheckBoxesList.Add(cb);
-            }
-
-            var checkBoxsCopy = new ObservableCollection<CheckBox>(_pluginCheckBoxesList);
-
-            foreach (CheckBox file in checkBoxsCopy)
-            {
-                bool found = PluginManager.Plugins.Any(checkBox => checkBox.Key.Equals(file.Content));
-                if (!found)
-                {
-                    _pluginCheckBoxesList.Remove(file);
-                }
             }
 
 
@@ -118,7 +95,7 @@ namespace CoolFishNS
 
             foreach (CheckBox script in _pluginCheckBoxesList)
             {
-                LocalSettings.Plugins.Add(new SerializablePlugin
+                LocalSettings.Plugins.Add(script.Content.ToString(), new SerializablePlugin
                                           {
                                               fileName = script.Content.ToString(),
                                               isEnabled = script.IsChecked
@@ -151,7 +128,7 @@ namespace CoolFishNS
         /// <returns>List of Process objects</returns>
         public static Process[] GetWowProcesses(bool getAllIfNoWow = false)
         {
-            Process[] proc = Process.GetProcessesByName("WoW");
+            var proc = Process.GetProcessesByName("WoW");
 
             if (!proc.Any())
             {
@@ -302,8 +279,17 @@ namespace CoolFishNS
 
         private void UpdateBTN_Click(object sender, RoutedEventArgs e)
         {
-            new Thread(Updater.Update).Start();
+
             TabControlTC.SelectedItem = MainTab;
+            try
+            {
+                Process.Start("https://github.com/unknowndev/CoolFish/releases");
+            }
+            catch (Exception ex)
+            {
+                Logging.Log(ex);
+                Logging.Write("https://github.com/unknowndev/CoolFish/releases");
+            }
         }
 
         private void MainTab_Click(object sender, RoutedEventArgs e)
@@ -356,21 +342,21 @@ namespace CoolFishNS
         private void MetroWindow_Loaded_1(object sender, RoutedEventArgs e)
         {
 
-            Logging.OnWrite += AppendMessage;
-            new Log();
+            Log.Initialize();
             Logging.Instance = new Logging();
+            Logging.OnWrite += AppendMessage;
             OutputRTB.AppendText(Updater.GetNews() + Environment.NewLine);
             OutputRTB.ScrollToEnd();
 
             Logging.Log("CoolFish Version: " + Utilities.Utilities.Version);
-
-            _timer = new Timer(Callback, null, 0, 30*60*1000);
 
             BotManager.StartUp();
 
             UpdateControlSettings();
 
             Utilities.Utilities.SetLanguage(this);
+
+            _timer = new Timer(Callback, null, 0, 30 * 60 * 1000);
 
             if (DateTime.Now.Month == 4 && DateTime.Now.Day == 1)
             {
@@ -384,8 +370,6 @@ namespace CoolFishNS
             BotBaseCB.SelectedIndex = 0;
 
             new Thread(Updater.Update).Start();
-
-            
 
             _processes = GetWowProcesses();
             if (_processes.Length == 1)

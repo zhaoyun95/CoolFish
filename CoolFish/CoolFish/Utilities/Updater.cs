@@ -102,6 +102,7 @@ namespace CoolFishNS.Utilities
 
         public static void Update()
         {
+            return;
             try
             {
                 WebRequest request = WebRequest.Create("http://coolfish.unknowndev.com/LatestVersion.php");

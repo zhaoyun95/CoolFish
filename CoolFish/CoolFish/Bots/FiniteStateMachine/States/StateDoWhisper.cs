@@ -1,4 +1,5 @@
 ﻿using System.Media;
+using System.Threading;
 using CoolFishNS.Management.CoolManager.HookingLua;
 using CoolFishNS.Properties;
 using CoolFishNS.Utilities;
@@ -42,6 +43,10 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
             var result = DxHook.Instance.ExecuteScript("NewMessage = 0;", new []{"Message","Author"});
 
             Logging.Write("Whisper from: " + result["Author"] + " Message: " + result["Message"]);
+
+            SystemSounds.Asterisk.Play();
+
+            Thread.Sleep(3000);
 
             SystemSounds.Asterisk.Play();
         }

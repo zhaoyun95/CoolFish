@@ -2,6 +2,7 @@
   <Controls>
     <MainTabBTN Value="Principal" />
     <SettingsTabBTN Value="Config" />
+    <SettingsBTN Value="Config" />
     <PluginsTabBTN Value="Plugins" />
     <DonateTabBTN Value="Donar" />
     <UpdateTabBTN Value="Actualizar" />

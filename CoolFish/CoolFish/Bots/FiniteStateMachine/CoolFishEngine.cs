@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using CoolFishNS.Bots.FiniteStateMachine.States;
 using CoolFishNS.Management;
 using CoolFishNS.Management.CoolManager;
@@ -46,10 +48,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine
         /// </summary>
         public bool Running;
 
-        /// <summary>
-        ///     The _worker thread for the engine
-        /// </summary>
-        private Thread _workerThread;
+        private Task _workerTask;
 
         /// <summary>
         ///     ctor to the Engine. Adds all of the states we plan to use and sorts them.
@@ -102,24 +101,27 @@ namespace CoolFishNS.Bots.FiniteStateMachine
         /// </summary>
         public void StartEngine()
         {
-            if (Running)
-            {
-                Logging.Write(LocalSettings.Translations["Already Running"]);
-                return;
-            }
+
             if (!LoggedIn)
             {
                 Logging.Write("Please log into the game first");
                 return;
             }
-            // Leave it as a background thread. This CAN trail off
-            // as the program exits, without any issues really.
-            Logging.Write(LocalSettings.Translations["Engine Running"]);
-            Running = true;
-            _workerThread = new Thread(Run) {IsBackground = true};
+            
 
+            if (_workerTask != null && _workerTask.Status == TaskStatus.Running)
+            {
+                Logging.Write(LocalSettings.Translations["Already Running"]);
+ 
+            }
+            else
+            {
+                _workerTask = Task.Factory.StartNew(Run);
+                Logging.Write(LocalSettings.Translations["Engine Running"]);
+                Running = true;
+            }
+            
 
-            _workerThread.Start();
         }
 
         private static void InitOptions()
@@ -129,7 +131,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine
 
             foreach (var serializableItem in LocalSettings.Items)
             {
-                builder.Append("\"" + serializableItem.ItemID + "\",");
+                builder.Append("\"" + serializableItem.Value + "\",");
             }
             string items = builder.ToString();
 
@@ -156,7 +158,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine
         }
 
 
-        private void Run(object sleepTime)
+        private void Run()
         {
             try
             {
@@ -177,11 +179,6 @@ namespace CoolFishNS.Bots.FiniteStateMachine
                 Logging.Write(LocalSettings.Translations["Unhandled Exception"]);
                 Logging.Log(ex.ToString());
             }
-            finally
-            {
-                Running = false;
-                Logging.Write(LocalSettings.Translations["Engine Stopped"]);
-            }
 
             try
             {
@@ -195,29 +192,24 @@ namespace CoolFishNS.Bots.FiniteStateMachine
             {
                 Logging.Log(ex);
             }
+
+            Running = false;
+            Logging.Write(LocalSettings.Translations["Engine Stopped"]);
         }
 
         private void Pulse()
         {
             // This starts at the highest priority state,
             // and iterates its way to the lowest priority.
-            foreach (State state in _states)
+            foreach (State state in _states.TakeWhile(state => LoggedIn).Where(state => state.NeedToRun))
             {
-                if (!LoggedIn)
-                {
-                    return;
-                }
-                if (state.NeedToRun)
-                {
-                    state.Run();
+                state.Run();
 
-                    // Break out of the iteration,
-                    // as we found a state that has run.
-                    // We don't want to run any more states
-                    // this time around.
-                    return;
-                }
-                
+                // Break out of the iteration,
+                // as we found a state that has run.
+                // We don't want to run any more states
+                // this time around.
+                break;
             }
         }
 
@@ -226,19 +218,15 @@ namespace CoolFishNS.Bots.FiniteStateMachine
         /// </summary>
         public void StopEngine()
         {
-            if (!Running)
+            if (_workerTask == null || _workerTask.Status != TaskStatus.Running)
             {
                 // Nothing to do.
                 Logging.Write(LocalSettings.Translations["Engine Not Running"]);
                 return;
             }
+
             Running = false;
-
-            // Clear out the thread object.
-            _workerThread.Join(5000);
-
-            _workerThread = null;
-
+            Logging.Write("Stopping Engine...");
             
         }
     }

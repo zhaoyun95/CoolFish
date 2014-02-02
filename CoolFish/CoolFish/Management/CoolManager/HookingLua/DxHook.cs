@@ -108,7 +108,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
 
             int size = BotManager.Memory.Asm.Assemble().Length;
             bool returnVal = BotManager.Memory.Asm.Inject((uint) address);
-
+           
             if(!returnVal)
             {
                Logging.Log("Failed to inject code: \n " + BotManager.Memory.Asm.AssemblyString);
@@ -116,7 +116,8 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
             return size;
         }
 
-        private List<string> AddRandomAsm(List<string> asm)
+
+        private List<string> AddRandomAsm(IEnumerable<string> asm)
         {
             var randomizedList = new List<string>();
 
@@ -483,7 +484,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
                     Parallel.ForEach(enumerable, value =>
                     {
                         var retnByte = new List<byte>();
-                        var dwAddress = new IntPtr(BitConverter.ToUInt32(address, offset));
+                        var dwAddress = new IntPtr(BitConverter.ToInt32(address, offset));
 
                         if (dwAddress != IntPtr.Zero)
                         {
@@ -617,7 +618,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
                 Parallel.ForEach(enumerable, value =>
                 {
                     var retnByte = new List<byte>();
-                    var dwAddress = new IntPtr(BitConverter.ToUInt32(address, offset));
+                    var dwAddress = new IntPtr(BitConverter.ToInt32(address, offset));
 
                     if (dwAddress != IntPtr.Zero)
                     {

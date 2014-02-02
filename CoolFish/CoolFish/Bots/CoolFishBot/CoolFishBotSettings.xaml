@@ -5,7 +5,7 @@
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
-                      Title="CoolFishBot Settings" Height="245.2"
+                      Title="CoolFishBot Settings" Height="269"
                       Width="649.8" ResizeMode="CanResizeWithGrip" Visibility="Visible"
                       SaveWindowPosition="False" ShowTitleBar="False" SizeToContent="WidthAndHeight"
                       WindowStyle="None" AllowsTransparency="True" Background="{x:Null}" x:ClassModifier="internal"
@@ -30,99 +30,89 @@
                 <GradientStop x:Name="GradientStopObj" x:Uid="GradientStop_2" Color="White" Offset="1" />
             </LinearGradientBrush>
         </Border.Background>
-        <Grid x:Name="BackGrid" x:Uid="Grid_1" Opacity="0.98" Height="239" VerticalAlignment="Top" Margin="0,0,0,-6">
+        <Grid x:Uid="SettingsGrid" x:Name="SettingsGrid" Height="269"
+    		VerticalAlignment="Top" HorizontalAlignment="Left" Width="650" Opacity="0.98" Margin="-6">
 
-
-            <Grid x:Uid="SettingsGrid" x:Name="SettingsGrid" Margin="0,-9,0,0" Height="248"
-                  VerticalAlignment="Top" HorizontalAlignment="Left" Width="638" Opacity="0.98">
-
-                <DataGrid x:Uid="ItemsGrid" x:Name="ItemsGrid" HorizontalAlignment="Left" Margin="10,69,0,0"
-                          VerticalAlignment="Top" Height="128" Width="193" CanUserAddRows="True"
-                          CanUserDeleteRows="True" ItemsSource="{Binding}"
-                          AutoGenerateColumns="False" Opacity="0.98" Background="#FFB0B0B0" RowEditEnding="ItemsGrid_RowEditEnding">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn x:Name="ItemColumn" x:Uid="DataGridTextColumn_1"
-                                            Binding="{Binding ItemID}" Width="150" Header="ItemID or Name" />
-                    </DataGrid.Columns>
-                </DataGrid>
-                <Label x:Uid="StopLBL" x:Name="StopLBL" Content="Stop On" HorizontalAlignment="Left"
-                       Margin="421,37,0,0" VerticalAlignment="Top" Foreground="Black" Opacity="0.98"
-                       FontSize="13" Width="216" />
-                <TextBox x:Uid="StopTimeMinutesTB" x:Name="StopTimeMinutesTB" Margin="484,180,0,0"
-                         Controls:TextboxHelper.Watermark="Time to Stop"
-                         TextChanged="StopTimeMinutesTB_TextChanged" Height="26"
-                         VerticalAlignment="Top" HorizontalAlignment="Left" Width="115" />
-                <ListBox x:Uid="StopOnListBox" x:Name="StopOnListBox" HorizontalAlignment="Left" Height="78"
-                         Margin="421,64,0,0" VerticalAlignment="Top" Width="216" Opacity="0.98" Background="{x:Null}">
-                    <CheckBox x:Uid="StopFullBagsCB" x:Name="StopFullBagsCB" Content="Full Bags" Opacity="0.98" />
-                    <CheckBox x:Uid="StopTimeCB" x:Name="StopTimeCB" Content="Time" Opacity="0.98" />
-                    <CheckBox x:Uid="StopNoLuresCB" x:Name="StopNoLuresCB" Content="No Lures Left"
-                              Opacity="0.98" />
-                </ListBox>
-                <Label x:Name="MinutesLBL" x:Uid="Label_1" Content="Minutes" HorizontalAlignment="Left"
-                       Margin="421,180,0,0" VerticalAlignment="Top" Height="26" Width="58" FontSize="13" />
-                <ListBox x:Uid="ListBox_1" HorizontalAlignment="Left" Height="197" Margin="208,31,0,0"
-                         VerticalAlignment="Top" Width="208" Background="{x:Null}" >
-                    <CheckBox x:Name="NoLureCB" Content="No Lure" />
-                    <CheckBox x:Uid="LootOnlyItemsCB" x:Name="LootOnlyItemsCB"
-                              Content="Loot Only Items on Left" Opacity="0.98" />
-                    <CheckBox x:Uid="DontLootCB" x:Name="DontLootCB" Content="Don't Loot Items on Left"
-                              Opacity="0.98" />
-                    <CheckBox x:Uid="UseRaftCB" x:Name="UseRaftCB" Content="Use Raft or Water Walking"
-                              Opacity="0.98" />
-                    <CheckBox x:Uid="UseCharmCB" x:Name="UseCharmCB" Content="Use Ancient Pandaren Charm" />
-                    <CheckBox x:Uid="UseRumseyCB" x:Name="UseRumseyCB" Content="Use Captain Rumsey's Lager" />
-                    <CheckBox x:Uid="UseSpearCB" x:Name="UseSpearCB" Content="Use Sharpened Tuskarr Spear" />
-                    <CheckBox x:Uid="SoundWhisperCB" x:Name="SoundWhisperCB" Content="Sound on Whisper"
-                              Opacity="0.98" />
-                    <CheckBox x:Uid="LogoutCB" x:Name="LogoutCB" Content="Logout on Stop" Opacity="0.98" />
-                    <CheckBox x:Uid="CloseAppsCB" x:Name="CloseAppsCB" Content="Close App and WoW on Stop"
-                              Opacity="0.98" />
-                    <CheckBox x:Uid="ShutdownCB" x:Name="ShutdownCB" Content="Shut down PC on Stop"
-                              Opacity="0.98" />
-                </ListBox>
-                <ComboBox x:Uid="QualityCMB" x:Name="QualityCMB" HorizontalAlignment="Left" Margin="10,202,0,0"
-                          VerticalAlignment="Top" Width="193" Text="Minimum Loot Quality" Height="26">
-                    <ListBoxItem x:Name="MinQualityChoice" x:Uid="ListBoxItem_1"
-                                 Content="-- Minimum Loot Quality --" />
-                    <ListBoxItem x:Name="PoorQualityChoice" x:Uid="ListBoxItem_2" Content="Poor"
-                                 Foreground="#FF9d9d9d" />
-                    <ListBoxItem x:Name="CommonQualityChoice" x:Uid="ListBoxItem_3" Content="Common"
-                                 Foreground="Black" />
-                    <ListBoxItem x:Name="UncommonQualityChoice" x:Uid="ListBoxItem_4" Content="Uncommon"
-                                 Foreground="#FF1eff00" />
-                    <ListBoxItem x:Name="RareQualityChoice" x:Uid="ListBoxItem_5" Content="Rare"
-                                 Foreground="#FF0070dd" />
-                    <ListBoxItem x:Name="EpicQualityChoice" x:Uid="ListBoxItem_6" Content="Epic"
-                                 Foreground="#FFa335ee" />
-                    <ListBoxItem x:Name="LegendaryQualityChoice" x:Uid="ListBoxItem_7" Content="Legendary"
-                                 Foreground="#FFff8000" />
-                    <ListBoxItem x:Name="ArtifactQualityChoice" x:Uid="ListBoxItem_8" Content="Artifact"
-                                 Foreground="#FFe6cc80" />
-                    <ListBoxItem x:Name="HeirloomQualityChoice" x:Uid="ListBoxItem_9" Content="Heirloom"
-                                 Foreground="#FFe6cc80" />
-                </ComboBox>
-                <Label x:Uid="DateLBL" x:Name="DateLBL" HorizontalAlignment="Left" Margin="421,149,0,0"
-                       VerticalAlignment="Top" Width="216" Foreground="Black" Height="26" />
-                <CheckBox x:Uid="DoDebugCB" x:Name="DoDebugCB" Content="Enable Debug Messages"
-                          HorizontalAlignment="Left" Margin="421,211,0,0" VerticalAlignment="Top" Width="206" />
-                <ComboBox x:Name="LanguageCB" HorizontalAlignment="Left" Margin="10,34,0,0"
-                          VerticalAlignment="Top" Width="193" Height="30"
-                          DropDownClosed="LanguageCB_DropDownClosed" SelectedIndex="0">
-                    <TextBlock Text="English" />
-                    <TextBlock Text="Español" />
-                    <TextBlock Text="Pусский" />
-                    <TextBlock Text="Norsk" />
-                    <TextBlock Text="Français" />
-                    <TextBlock Text="中文（简体)" />
-                    <TextBlock Text="中文（繁體）" />
-                    <TextBlock Text="Ελληνικά" />
-                    <TextBlock Text="Deutsch" />
-                    <TextBlock Text="العربية" />
-                    <TextBlock Text="Nederlands" />
-                    <TextBlock Text="Svenska" />
-                </ComboBox>
-            </Grid>
+            <DataGrid x:Uid="ItemsGrid" x:Name="ItemsGrid" HorizontalAlignment="Left" Margin="10,69,0,0" IsReadOnly="False" 
+    			VerticalAlignment="Top" Height="128" Width="193" AutoGenerateColumns="False" Opacity="0.98" Background="#FFB0B0B0" BorderBrush="{x:Null}">
+            </DataGrid>
+            <Label x:Uid="StopLBL" x:Name="StopLBL" Content="Stop On" HorizontalAlignment="Left"
+    			Margin="421,37,0,0" VerticalAlignment="Top" Foreground="Black" Opacity="0.98"
+    			FontSize="13" Width="216" />
+            <TextBox x:Uid="StopTimeMinutesTB" x:Name="StopTimeMinutesTB" Margin="484,214,0,0"
+    			Controls:TextboxHelper.Watermark="Time to Stop"
+    			TextChanged="StopTimeMinutesTB_TextChanged" Height="26"
+    			VerticalAlignment="Top" HorizontalAlignment="Left" Width="115" />
+            <ListBox x:Uid="StopOnListBox" x:Name="StopOnListBox" HorizontalAlignment="Left" Height="78"
+    			Margin="421,64,0,0" VerticalAlignment="Top" Width="216" Opacity="0.98" Background="{x:Null}">
+                <CheckBox x:Uid="StopFullBagsCB" x:Name="StopFullBagsCB" Content="Full Bags" Opacity="0.98" />
+                <CheckBox x:Uid="StopTimeCB" x:Name="StopTimeCB" Content="Time" Opacity="0.98" />
+                <CheckBox x:Uid="StopNoLuresCB" x:Name="StopNoLuresCB" Content="No Lures Left"
+    				Opacity="0.98" />
+            </ListBox>
+            <Label x:Name="MinutesLBL" x:Uid="Label_1" Content="Minutes" HorizontalAlignment="Left"
+    			Margin="421,214,0,0" VerticalAlignment="Top" Height="26" Width="58" FontSize="13" />
+            <ListBox x:Uid="ListBox_1" HorizontalAlignment="Left" Height="228" Margin="208,31,0,0"
+    			VerticalAlignment="Top" Width="208" Background="{x:Null}" >
+                <CheckBox x:Name="NoLureCB" Content="No Lure" />
+                <CheckBox x:Uid="LootOnlyItemsCB" x:Name="LootOnlyItemsCB"
+    				Content="Loot Only Items on Left" Opacity="0.98" />
+                <CheckBox x:Uid="DontLootCB" x:Name="DontLootCB" Content="Don't Loot Items on Left"
+    				Opacity="0.98" />
+                <CheckBox x:Uid="UseRaftCB" x:Name="UseRaftCB" Content="Use Raft or Water Walking"
+    				Opacity="0.98" />
+                <CheckBox x:Uid="UseCharmCB" x:Name="UseCharmCB" Content="Use Ancient Pandaren Charm" />
+                <CheckBox x:Uid="UseRumseyCB" x:Name="UseRumseyCB" Content="Use Captain Rumsey's Lager" />
+                <CheckBox x:Uid="UseSpearCB" x:Name="UseSpearCB" Content="Use Sharpened Tuskarr Spear" />
+                <CheckBox x:Uid="SoundWhisperCB" x:Name="SoundWhisperCB" Content="Sound on Whisper"
+    				Opacity="0.98" />
+                <CheckBox x:Uid="LogoutCB" x:Name="LogoutCB" Content="Logout on Stop" Opacity="0.98" />
+                <CheckBox x:Uid="CloseAppsCB" x:Name="CloseAppsCB" Content="Close App and WoW on Stop"
+    				Opacity="0.98" />
+                <CheckBox x:Uid="ShutdownCB" x:Name="ShutdownCB" Content="Shut down PC on Stop"
+    				Opacity="0.98" />
+            </ListBox>
+            <ComboBox x:Uid="QualityCMB" x:Name="QualityCMB" HorizontalAlignment="Left" Margin="10,233,0,0"
+    			VerticalAlignment="Top" Width="193" Text="Minimum Loot Quality" Height="26">
+                <ListBoxItem x:Name="MinQualityChoice" x:Uid="ListBoxItem_1"
+    				Content="-- Minimum Loot Quality --" />
+                <ListBoxItem x:Name="PoorQualityChoice" x:Uid="ListBoxItem_2" Content="Poor"
+    				Foreground="#FF9d9d9d" />
+                <ListBoxItem x:Name="CommonQualityChoice" x:Uid="ListBoxItem_3" Content="Common"
+    				Foreground="Black" />
+                <ListBoxItem x:Name="UncommonQualityChoice" x:Uid="ListBoxItem_4" Content="Uncommon"
+    				Foreground="#FF1eff00" />
+                <ListBoxItem x:Name="RareQualityChoice" x:Uid="ListBoxItem_5" Content="Rare"
+    				Foreground="#FF0070dd" />
+                <ListBoxItem x:Name="EpicQualityChoice" x:Uid="ListBoxItem_6" Content="Epic"
+    				Foreground="#FFa335ee" />
+                <ListBoxItem x:Name="LegendaryQualityChoice" x:Uid="ListBoxItem_7" Content="Legendary"
+    				Foreground="#FFff8000" />
+                <ListBoxItem x:Name="ArtifactQualityChoice" x:Uid="ListBoxItem_8" Content="Artifact"
+    				Foreground="#FFe6cc80" />
+                <ListBoxItem x:Name="HeirloomQualityChoice" x:Uid="ListBoxItem_9" Content="Heirloom"
+    				Foreground="#FFe6cc80" />
+            </ComboBox>
+            <Label x:Uid="DateLBL" x:Name="DateLBL" HorizontalAlignment="Left" Margin="421,183,0,0"
+    			VerticalAlignment="Top" Width="216" Foreground="Black" Height="26" />
+            <CheckBox x:Uid="DoDebugCB" x:Name="DoDebugCB" Content="Enable Debug Messages"
+    			HorizontalAlignment="Left" Margin="421,245,0,0" VerticalAlignment="Top" Width="206" />
+            <ComboBox x:Name="LanguageCB" HorizontalAlignment="Left" Margin="10,34,0,0"
+    			VerticalAlignment="Top" Width="193" Height="30"
+    			DropDownClosed="LanguageCB_DropDownClosed" SelectedIndex="0">
+                <TextBlock Text="English" />
+                <TextBlock Text="Español" />
+                <TextBlock Text="Pусский" />
+                <TextBlock Text="Norsk" />
+                <TextBlock Text="Français" />
+                <TextBlock Text="中文（简体)" />
+                <TextBlock Text="中文（繁體）" />
+                <TextBlock Text="Ελληνικά" />
+                <TextBlock Text="Deutsch" />
+                <TextBlock Text="العربية" />
+                <TextBlock Text="Nederlands" />
+                <TextBlock Text="Svenska" />
+            </ComboBox>
         </Grid>
     </Border>
 </Controls:MetroWindow>

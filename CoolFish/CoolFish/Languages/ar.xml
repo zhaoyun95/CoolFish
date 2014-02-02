@@ -2,6 +2,7 @@
   <Controls>
     <MainTabBTN Value="الرئيسية" />
     <SettingsTabBTN Value="الاعدادات" />
+    <SettingsBTN Value="الاعدادات" />
     <PluginsTabBTN Value="الاضافات" />
     <DonateTabBTN Value="تبرع" />
     <UpdateTabBTN Value="تحديث" />

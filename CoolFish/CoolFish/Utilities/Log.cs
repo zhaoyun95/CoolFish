@@ -3,13 +3,13 @@ using System.IO;
 
 namespace CoolFishNS.Utilities
 {
-    internal class Log
+    internal static class Log
     {
 
         private static string _fileNameDate;
         private static readonly object LockObject = new object();
 
-        internal Log()
+        internal static void Initialize()
         {
             _fileNameDate = DateTime.Now.ToShortDateString().Replace("/", "-") + " " + TimeStamp.Replace(":", ".");
             if (!Directory.Exists(Utilities.ApplicationPath + "\\Logs"))

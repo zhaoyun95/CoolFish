@@ -117,28 +117,38 @@ namespace CoolFishNS.Management
                 return;
             }
             StopActiveBot();
-            if (Offsets.FindOffsets(process))
+            try
             {
-                Memory = new ExternalProcessReader(process);
-
-
-                if (DxHook.Instance.Apply())
+                if (Offsets.FindOffsets(process))
                 {
-                    Logging.Write(LocalSettings.Translations["Attached to"] + ": " +
-                                  process.Id);
+                    Memory = new ExternalProcessReader(process);
+
+
+                    if (DxHook.Instance.Apply())
+                    {
+                        Logging.Write(LocalSettings.Translations["Attached to"] + ": " +
+                                      process.Id);
+                    }
+                    else
+                    {
+                        Logging.Write(LocalSettings.Translations["Error"]);
+
+                        Memory.Dispose();
+                        Memory = null;
+                    }
                 }
                 else
                 {
-                    Logging.Write(LocalSettings.Translations["Error"]);
-
-                    Memory.Dispose();
-                    Memory = null;
+                    Logging.Write(LocalSettings.Translations["Unhandled Exception"]);
                 }
             }
-            else
+            catch (Exception ex)
             {
+
                 Logging.Write(LocalSettings.Translations["Unhandled Exception"]);
+                Logging.Log(ex);
             }
+            
         }
 
         /// <summary>
@@ -209,7 +219,7 @@ namespace CoolFishNS.Management
         /// <returns>string of the player's name</returns>
         public static string GetToonName()
         {
-            return Memory.ReadString(Offsets.Addresses["PlayerName"], Encoding.UTF8);
+            return Offsets.Addresses.ContainsKey("PlayerName") ? Memory.ReadString(Offsets.Addresses["PlayerName"], Encoding.UTF8) : string.Empty;
         }
     }
 }

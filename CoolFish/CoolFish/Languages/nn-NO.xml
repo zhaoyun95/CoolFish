@@ -2,6 +2,7 @@
   <Controls>
     <MainTabBTN Value="Hovedside" />
     <SettingsTabBTN Value="Instillinger" />
+    <SettingsBTN Value="Instillinger" />
     <PluginsTabBTN Value="Plugins" />
     <DonateTabBTN Value="Donèr" />
     <UpdateTabBTN Value="Oppdater" />
