@@ -1,0 +1,72 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="主界面" />
+    <SettingsTabBTN Value="設定" />
+    <PluginsTabBTN Value="插件" />
+    <DonateTabBTN Value="捐贈" />
+    <UpdateTabBTN Value="更新" />
+    <HelpTabBTN Value="幫助" />
+    <ShutdownCB Value="停止後關閉電腦" />
+    <MinQualityChoice Value="-- 最低拾取標準 --" />
+    <PoorQualityChoice Value="粗糙" />
+    <CommonQualityChoice Value="普通" />
+    <UncommonQualityChoice Value="優秀" />
+    <RareQualityChoice Value="精良" />
+    <EpicQualityChoice Value="史詩" />
+    <LegendaryQualityChoice Value="傳說" />
+    <ArtifactQualityChoice Value="神器" />
+    <HeirloomQualityChoice Value="傳家寶" />
+    <AttachBTN Value="連接" />
+    <StopFullBagsCB Value="滿包" />
+    <DescriptionBox Value="在插件檔案夾(Plugins)中查看可以加載的插件類別" />
+    <LogoutCB Value="停止後退出遊戲" />
+    <CloseAppsCB Value="停止後自動關閉魔獸世界和本程式" />
+    <StartBTN Value="開始" />
+    <ConfigBTN Value="配置" />
+    <ThanksLBL Value="謝謝 ^_^" />
+    <DonateLBL Value="如果你很喜歡我的程式並且想鼓勵我繼續開發，請捐贈支持我" />
+    <DoDebugCB Value="啟用調試日誌記錄" />
+    <ItemColumn Value="物品ID或名稱" />
+    <MinutesLBL Value="分鐘" />
+    <DontLootCB Value="不拾取左邊列表內的物品" />
+    <NoLureCB Value="不用魚餌" />
+    <StopNoLuresCB Value="魚餌用盡" />
+    <StopBTN Value="停止" />
+    <StopLBL Value="停止條件" />
+    <LootOnlyItemsCB Value="只拾取左邊列表內的物品" />
+    <SoundWhisperCB Value="悄悄話聲音提示" />
+    <StopTimeCB Value="計時器" />
+    <UseRaftCB Value="使用筏或水上行走" />
+    <UseRumseyCB Value="使用蘭姆西船長的淡啤酒" />
+    <UseCharmCB Value="使用古代熊貓人的釣魚符咒" />
+    <UseSpearCB Value="使用尖銳巨牙矛" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="沒有可用的新版本" />
+    <Item English="Current Revision" Translation="当前版本" />
+    <Item English="Latest Revision" Translation="最新版本" />
+    <Item English="Warning Message" Translation="開發者建議現在不要運行本程式。可能是安全原因或者程式可能需要更新。請閱讀上面的新聞或查看論壇。" />
+    <Item English="Unhandled Exception" Translation="對不起，發生未知錯誤。請發送日誌檔案給開發者或把下一個對話框截圖。" />
+    <Item English="Warning" Translation="警告" />
+    <Item English="No Processes Found" Translation="找不到正在運行的魔獸世界程式。要添加所有的進程到列表內嗎？（選擇錯誤的進程或64位的魔獸世界程式可能會導致很糟糕的後果。）" />
+    <Item English="Attached to" Translation="已經連接到" />
+    <Item English="Error" Translation="錯誤" />
+    <Item English="Pick Process" Translation="請選擇一個正在運行的魔獸世界窗體" />
+    <Item English="Already Running" Translation="程式已啟動" />
+    <Item English="Loot Options Error" Translation="不能同時選擇“不拾取左邊列表内物品”和“拾取左邊列表内物品”！請調整配置。" />
+    <Item English="Author" Translation="作者" />
+    <Item English="Version" Translation="版本號" />
+    <Item English="SelectLootQuality" Translation="請在“設定”頁面下選擇最低拾取標準" />
+    <Item English="Valid Stop Time" Translation="請輸入一個有效的停止時間（分鐘）" />
+    <Item English="ShouldRun Error" Translation="無法連接到SVN。處於安全原因，源代碼服務器當機或網絡無法連接導致程式無法運行。" />
+    <Item English="New Version Available" Translation="有新版可供下載，想現在就下載嗎？" />
+    <Item English="New Version" Translation="新版本" />
+    <Item English="No Release Yet" Translation="有一个新的版本在SVN库中，但还没有发布，敬请期待。" />
+    <Item English="Engine Running" Translation="程式运行中" />
+    <Item English="Engine Not Running" Translation="程式未启动" />
+    <Item English="Engine Stopped" Translation="程式已停止" />
+    <Item English="Hook Found" Translation="已經有程式在運行了。Coolfish可以嘗試和那個程式同時運行，不過可能會產生衝突。（這很有可能會使魔獸世界程式崩潰，還要繼續連接嗎？）" />
+    <Item English="Reattach"
+          Translation="貌似要么是有一個程式已經連接上，要么就是Coolfish程式崩潰，沒有完全釋放內存。只有重新啟動魔獸世界程式才能重新連接，請重新啟動程式并連接到新的魔獸世界程式进程。" />
+  </Dictionary>
+</Language>

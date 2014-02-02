@@ -1,0 +1,83 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="Begin" />
+    <SettingsTabBTN Value="Instellingen" />
+    <PluginsTabBTN Value="Plugins" />
+    <DonateTabBTN Value="Doneren" />
+    <UpdateTabBTN Value="Updaten" />
+    <HelpTabBTN Value="Help/Fout/Functies" />
+    <ShutdownCB Value="Bij stop PC uitschakelen" />
+    <MinQualityChoice Value="-- Minimum Loot Kwaliteit --" />
+    <PoorQualityChoice Value="Poor" />
+    <CommonQualityChoice Value="Common" />
+    <UncommonQualityChoice Value="Uncommon" />
+    <RareQualityChoice Value="Rare" />
+    <EpicQualityChoice Value="Epic" />
+    <LegendaryQualityChoice Value="Legendary" />
+    <ArtifactQualityChoice Value="Artifact" />
+    <HeirloomQualityChoice Value="Heirloom" />
+    <AttachBTN Value="Koppelen" />
+    <StopFullBagsCB Value="Bags zijn vol" />
+    <DescriptionBox
+      Value="Kijk in de Plugings directory om een voorbeeld te zien van het type plugins dat je daar kunt laden" />
+    <LogoutCB Value="Bij stop uitloggen" />
+    <CloseAppsCB Value="Bij stop applicatie en WoW sluiten" />
+    <StartBTN Value="Start" />
+    <ConfigBTN Value="Configuratie" />
+    <ThanksLBL Value="Bedankt " />
+    <DonateLBL
+      Value="Als je echt genoten hebt van mijn programma's en me wilt aanmoedigen om er verder aan te werken, overweeg dan een donatie" />
+    <DoDebugCB Value="Debug logging inschakelen" />
+    <ItemColumn Value="ItemID of naam" />
+    <MinutesLBL Value="Minuten" />
+    <DontLootCB Value="Items aan de linkerkant niet looten" />
+    <NoLureCB Value="Geen aas" />
+    <StopNoLuresCB Value="Geen aas over" />
+    <StopBTN Value="Stoppen" />
+    <StopLBL Value="Stoppen wanneer" />
+    <LootOnlyItemsCB Value="Alleen items aan linkerkant looten" />
+    <SoundWhisperCB Value="Geluid bij whisper" />
+    <StopTimeCB Value="Tijd is op" />
+    <UseRaftCB Value="Gebruik vlot of lopen over water" />
+    <UseRumseyCB Value="Gebruik Captain Rumsey's Lager" />
+    <UseCharmCB Value="Gebruik Ancient Pandaren Charm" />
+    <UseSpearCB Value="Gebruik Sharpened Tuskarr Spear" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="Er zijn geen nieuwe versies beschikbaar" />
+    <Item English="Current Revision" Translation="Huidige versie" />
+    <Item English="Latest Revision" Translation="Laatste versie" />
+    <Item English="Warning Message"
+          Translation="De ontwikkelaar adviseert u de bot op dit moment niet gebruikt. Dit vanwege veiligheidsredenen of de bot moet ge-update worden. Lees het nieuws hierboven of check de forums." />
+    <Item English="Unhandled Exception"
+          Translation="Sorry. Er is een onafgehandelde fout geconstateerd. Stuur alstublieft het log bestand of een screenshot van de volgende boodschap naar de ontwikkelaar." />
+    <Item English="Warning" Translation="Waarschuwing" />
+    <Item English="No Processes Found"
+          Translation="Geen WoW processen gevonden. Wilt u alle processen aan de lijst toevoegen? (Het selecteren van een verkeerd proces of een WoW 64 bit instantie zorgt voor problemen)" />
+    <Item English="Attached to" Translation="Gekoppeld aan" />
+    <Item English="Error" Translation="Fout" />
+    <Item English="Pick Process" Translation="Selecteer alstublieft een WoW instantie om te koppelen." />
+    <Item English="Already Running" Translation="Applicatie loopt al." />
+    <Item English="Loot Options Error"
+          Translation="Je kunt niet allebei de opties &quot;Alleen items aan linkerkant looten&quot; en &quot;Items aan de linkerkant niet looten&quot; selecteren. Pas de instellingen aan." />
+    <Item English="Author" Translation="Auteur" />
+    <Item English="Version" Translation="Versie" />
+    <Item English="SelectLootQuality"
+          Translation="Selecteer alstublieft een minimum kwaliteit voor het looten op het instellingen tabblad" />
+    <Item English="Valid Stop Time" Translation="Vul alstublieft een geldige stoptijd in minuten in" />
+    <Item English="ShouldRun Error"
+          Translation="Kon geen verbinding maken met de SVN. Sourceforge ligt plat? De internetverbinding is onregelmatig? De bot wordt gestopt omdat we niet weten of het veilig is." />
+    <Item English="New Version Available"
+          Translation="Er is een nieuwe verschie beschikbaar om te downloaden. Wilt u deze nu downloaden??" />
+    <Item English="New Version" Translation="Niewe versie" />
+    <Item English="No Release Yet"
+          Translation="Er is een nieuwe versie van Coolfish beschikbaar op de SVN, maar nog geen nieuwe release. U kunt er op korte termijn een verwachten." />
+    <Item English="Engine Running" Translation="Applicatie draait" />
+    <Item English="Engine Not Running" Translation="Applicatie draait niet" />
+    <Item English="Engine Stopped" Translation="Applicatie gestopt" />
+    <Item English="Hook Found"
+          Translation="Het lijkt er op dat er al een koppeling is. Coolfish kan proberen om naast de bestaande koppeling te kopppelen wat mogelijk niet gaat werken. (Dit zal waarschijnlijk WoW laten crashen) Toch doorgaan met koppelen?" />
+    <Item English="Reattach"
+          Translation="Het lijkt er op dat een ander programma is gekoppeld, of Coolfish is gecrashed en heeft zicht niet goed opgeruimd. We kunnen niet koppelen zolang WoW niet opnieuw gestart is. Start WoW opnieuw om opnieuw te koppelen" />
+  </Dictionary>
+</Language>

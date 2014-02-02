@@ -1,0 +1,83 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="Αρχική" />
+    <SettingsTabBTN Value="Ρυθμίσεις" />
+    <PluginsTabBTN Value="Plugins" />
+    <DonateTabBTN Value="Donate" />
+    <UpdateTabBTN Value="Ενημέρωση" />
+    <HelpTabBTN Value="Βοήθεια/Λάθη προγράμματος/Ιδιότητες" />
+    <ShutdownCB Value="Κλείσιμο Η/Y όταν σταματήσει το bot" />
+    <MinQualityChoice Value="-- Ελάχιστη ποιότητα για μάζεμα --" />
+    <PoorQualityChoice Value="Poor" />
+    <CommonQualityChoice Value="Common" />
+    <UncommonQualityChoice Value="Uncommon" />
+    <RareQualityChoice Value="Rare" />
+    <EpicQualityChoice Value="Epic" />
+    <LegendaryQualityChoice Value="Legendary" />
+    <ArtifactQualityChoice Value="Artifact" />
+    <HeirloomQualityChoice Value="Heirloom" />
+    <AttachBTN Value="Σύνδεση" />
+    <StopFullBagsCB Value="Γεμάτες τσάντες" />
+    <DescriptionBox
+      Value="Κοιτάξτε στον φάκελο με τα Plugins για να δείτε ένα παράδειγμα με τα plugins που μπορείτε να φορτώσετε εδώ" />
+    <LogoutCB Value="Αποσύνδεση όταν τερματίσει bot" />
+    <CloseAppsCB Value="Κλείσιμο εφαρμογής και WOW στον τερματισμό" />
+    <StartBTN Value="Εκκίνηση" />
+    <ConfigBTN Value="Τροποποιήσεις" />
+    <ThanksLBL Value="Ευχαριστώ " />
+    <DonateLBL
+      Value="Αν σας αρέσουν τα προγράμματα μου και θέλετε να με ενθαρρύνετε να συνεχίσω να εργάζομαι πάνω σε αυτά, παρακαλώ σκεφτήτε για donation" />
+    <DoDebugCB Value="Ενεργοποίηση καταγραφής Debug" />
+    <ItemColumn Value="IDπράγματος ή όνομα" />
+    <MinutesLBL Value="Λεπτά" />
+    <DontLootCB Value="Μήν μαζέψεις λάφυρα στα αριστερά" />
+    <NoLureCB Value="Χωρίς δόλωμα" />
+    <StopNoLuresCB Value="Μας τελείωσαν τα δολώματα" />
+    <StopBTN Value="Τερματισμός" />
+    <StopLBL Value="Τερματισμός όταν" />
+    <LootOnlyItemsCB Value="Μάζεψε λάφυρα μόνο από τα αριστερά" />
+    <SoundWhisperCB Value="Ηχος στο ψιθύρισμα" />
+    <StopTimeCB Value="Χρόνος" />
+    <UseRaftCB Value="Χρησιμοποίησε Raft or Water Walking" />
+    <UseRumseyCB Value="Χρησιμοποίησε Captain Rumsey's Lager" />
+    <UseCharmCB Value="Χρησιμοποίησε Ancient Pandaren Charm" />
+    <UseSpearCB Value="Χρησιμοποίησε Sharpened Tuskarr Spear" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="Δέν ύπαρχει καινούργια έκδοση" />
+    <Item English="Current Revision" Translation="Παρούσα έκδοση" />
+    <Item English="Latest Revision" Translation="τελευταία έκδοση" />
+    <Item English="Warning Message"
+          Translation="Ο δημιουργός προτείνει να μην τρέξετε το bot αυτή τη στιγμή. Αυτό θα μπορούσε να είναι ένας λόγος για την ασφάλεια σας ή το bot πρέπει να ενημερωθεί. Διαβάστε τα νέα ​​παραπάνω ή να ελέγξετε τα φόρουμ." />
+    <Item English="Unhandled Exception"
+          Translation="Λυπάμαι. Υπήρξε ένα απρόσμενο σφάλμα. Παρακαλούμε να στείλετε το αρχείο καταγραφής στον δημιουργό του ή βγάλτε μια φωτογραφία το επόμενο MessageBox." />
+    <Item English="Warning" Translation="Προειδοποίηση" />
+    <Item English="No Processes Found"
+          Translation="Η WoW διαδικασία δεν βρέθηκε. Θα θέλατε να προσθέσετε όλες τις διαδικασίες στη λίστα; (Η επιλογή μιάς λάθος διεργασίας ή 64-bit WoW θα προκαλέσει παράξενα πράγματα να συμβούν)" />
+    <Item English="Attached to" Translation="Συνδεδεμένο με" />
+    <Item English="Error" Translation="Σφάλμα" />
+    <Item English="Pick Process" Translation="Παρακαλώ επιλέξτε ένα Wow παράθυρο για να συνδεθούμε." />
+    <Item English="Already Running" Translation="Το engine τρέχει ήδη." />
+    <Item English="Loot Options Error"
+          Translation="Δέν μπορείς &quot;Μάζεψε λάφυρα μόνο από τα αριστερά&quot; καί &quot;Μήν μαζέψεις λάφυρα στα αριστερά&quot; ταυτόχρονα. Τροποποίησε τις ρυθμήσεις" />
+    <Item English="Author" Translation="Δημιουργός" />
+    <Item English="Version" Translation="Εκδωση" />
+    <Item English="SelectLootQuality"
+          Translation="Παρακαλώ επιλέξτε ένα ελάχιστο όριο ποιότητας για τα λάφυρα στην καρτέλα Ρυθμίσεις" />
+    <Item English="Valid Stop Time" Translation="Παρακαλώ εισάγετε έναν έγκυρο χρόνο διακοπής σε λεπτά" />
+    <Item English="ShouldRun Error"
+          Translation="Δεν ήταν δυνατή η σύνδεση SVN.Το Sourceforge είναι κάτω; ή το ίντερνετ είναι γαμησέτα?; Τερματισμός του bot, γιατί δεν ξέρουμε αν είναι ασφαλές για botting." />
+    <Item English="New Version Available"
+          Translation="Μια νέα έκδοση είναι διαθέσιμη για κατέβασμα. Θα θέλατε να την κατεβάσετε τώρα??" />
+    <Item English="New Version" Translation="Νέα έκδοση" />
+    <Item English="No Release Yet"
+          Translation="Υπάρχει μια νέα έκδοση της Coolfish στο SVN Repo, αλλά δεν κυκλοφορεί ακόμα. Να περιμένετε μία σύντομα." />
+    <Item English="Engine Running" Translation="Το Engine λειτουργεί" />
+    <Item English="Engine Not Running" Translation="Το Engine δεν λειτουργεί" />
+    <Item English="Engine Stopped" Translation="Το Engine σταμάτησε" />
+    <Item English="Hook Found"
+          Translation="Φαίνεται ότι η σύνδεση έχει ήδη εφαρμοσθεί.Το Coolfish μπορεί να επιχειρήσει να τρέξει μαζί με αυτό το πρόγραμμα, αλλά μπορεί να μην λειτουργήσει. (Αυτό κατά πάσα πιθανότητα θα συντρίψει το WoW, αν δεν το κάνει) Θέλετε να το συνδέσετε ούτως ή άλλως?" />
+    <Item English="Reattach"
+          Translation="Μοιάζει οτι ενα άλλο πρόγραμμα είναι συνδεδεμένο, ή το Coolfish συνετρίβη και δεν καθάρισε μετά απο μόνο του. Δεν μπορούμε να δυνδεθούμε μέχρι το WoW να κάνει επανεκκίνηση. Παρακαλούμε να το κάνετε επανεκκίνηση και ξανασυνδέστε τη νέα διαδικασία" />
+  </Dictionary>
+</Language>

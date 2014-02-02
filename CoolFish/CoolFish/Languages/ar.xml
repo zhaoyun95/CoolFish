@@ -1,0 +1,75 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="الرئيسية" />
+    <SettingsTabBTN Value="الاعدادات" />
+    <PluginsTabBTN Value="الاضافات" />
+    <DonateTabBTN Value="تبرع" />
+    <UpdateTabBTN Value="تحديث" />
+    <HelpTabBTN Value="مساعده/تبليغ/المميزات" />
+    <ShutdownCB Value="اطفاء الجهاز بعد التوقف" />
+    <MinQualityChoice Value="-- أقل جوده يتم التقاطها --" />
+    <PoorQualityChoice Value="رصاصي" />
+    <CommonQualityChoice Value="أبيض" />
+    <UncommonQualityChoice Value="أخضر" />
+    <RareQualityChoice Value="أزرق" />
+    <EpicQualityChoice Value="بنفسجي" />
+    <LegendaryQualityChoice Value="برتقالي" />
+    <ArtifactQualityChoice Value="قطعه اثرية" />
+    <HeirloomQualityChoice Value="اصفر" />
+    <AttachBTN Value="ربط" />
+    <StopFullBagsCB Value="إمتلاء الحقيبة" />
+    <DescriptionBox Value="راجع مجلد الاضافات لمشاهده مثال للاضافات التي يمكن اضافتها" />
+    <LogoutCB Value="تسجيل الخروج بعد التوقف" />
+    <CloseAppsCB Value="اغلاق البرنامج واللعبه بعد التوقف" />
+    <StartBTN Value="ابدأ" />
+    <ConfigBTN Value="اعداد" />
+    <ThanksLBL Value="شكرا :)" />
+    <DonateLBL Value="اذا اعجبك البرنامج  ارجوا الدعم عن طريق التبرع" />
+    <DoDebugCB Value="تفعيل مراقب الاخطاء البرمجية" />
+    <ItemColumn Value="الاسم او رمز الاداه" />
+    <MinutesLBL Value="الدقائق" />
+    <DontLootCB Value="لا تلتقط الاشياء التي في اليسار" />
+    <NoLureCB Value="بدون طعم" />
+    <StopNoLuresCB Value="نفاذ الطعم" />
+    <StopBTN Value="توقف" />
+    <StopLBL Value="توقف عند" />
+    <LootOnlyItemsCB Value="التقط الاشياء التي في اليسار فقط" />
+    <SoundWhisperCB Value="تنبيه عند المحادثة" />
+    <StopTimeCB Value="الوقت" />
+    <UseRaftCB Value="اسخدام الطفو فوق الماء" />
+    <UseRumseyCB Value="Captain Rumsey's Lager استخدم" />
+    <UseCharmCB Value="Ancient Pandaren Charm استخدم" />
+    <UseSpearCB Value="Sharpened Tuskarr Spear استخدم" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="لا يوجد نسخة جديدة" />
+    <Item English="Current Revision" Translation="النسخة الحالية" />
+    <Item English="Latest Revision" Translation="آخر نسخة" />
+    <Item English="Warning Message"
+          Translation="المبرمج ينصح بعدم استخدام هذه النسخةو الرجاء تحميل آخر نسخة ومتابعه آخر اخبار البرنامج في المنتدى" />
+    <Item English="Unhandled Exception"
+          Translation="عذرا, حدث خطأ الرجاء ارسال سجل الاخطاء او صورة للخطأ الى ايميل المبرمج." />
+    <Item English="Warning" Translation="تحذير" />
+    <Item English="No Processes Found"
+          Translation="لم يتم العثور على اللعبة, تنبيه: إختيار النسخة 64 بت من اللعبةأو برنامج آخر سيتسبب بالمشاكل." />
+    <Item English="Attached to" Translation="ربط بـ" />
+    <Item English="Error" Translation="خطأ" />
+    <Item English="Pick Process" Translation="الرجاء اختيار اللعبه" />
+    <Item English="Already Running" Translation="البرنامج فعال مسبقا" />
+    <Item English="Loot Options Error"
+          Translation="لا يمكنك &quot;التقاط الاشياء التي باليسار&quot; و &quot;لا تلتقط الاشياء التي باليسار&quot; في نفس الوقت الرجاء تعديل اللائحة" />
+    <Item English="Author" Translation="المحرر" />
+    <Item English="Version" Translation="النسخة" />
+    <Item English="SelectLootQuality" Translation="الرجاء تحديد اقل جودة يسمح التقاطها بالاعدادات" />
+    <Item English="Valid Stop Time" Translation="الرجاء ادخال رقم صحيح في خانة الدقائق لوقت التوقف" />
+    <Item English="ShouldRun Error" Translation="لا يمكن الاتصال الآمن, الرجاء عدم الاستخدام وتحميل آخر نسخة آمنة" />
+    <Item English="New Version Available" Translation="نسخة جديدة متاحةو هل تريد التحميل؟" />
+    <Item English="New Version" Translation="النسخة الجديدة" />
+    <Item English="No Release Yet" Translation="توجد نسخة جديدة قيد التطور لكن لم يتم الانتهاء منها" />
+    <Item English="Engine Running" Translation="البرنامج قيد التشغيل" />
+    <Item English="Engine Not Running" Translation="البرنامج ليس قيد التشغيل" />
+    <Item English="Engine Stopped" Translation="البرنامج توقف" />
+    <Item English="Hook Found" Translation="يبدو انه تم رمي الصنارة مسبقا, هل تريد الرمي على أي حال؟" />
+    <Item English="Reattach" Translation="لا يمكن الربط باللعبة, قد تكون اللعبه مربوطه ببرنامج آخر لم يتم اقفاله" />
+  </Dictionary>
+</Language>

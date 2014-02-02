@@ -1,0 +1,83 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="Principal" />
+    <SettingsTabBTN Value="Réglages" />
+    <PluginsTabBTN Value="Plugins" />
+    <DonateTabBTN Value="Contribution" />
+    <UpdateTabBTN Value="Mise à jour" />
+    <HelpTabBTN Value="Aide/Bug/Fonctionnalités" />
+    <ShutdownCB Value="Éteindre le PC à l'arrêt du bot" />
+    <MinQualityChoice Value="-- Qualité minimum des loots --" />
+    <PoorQualityChoice Value="Médiocre" />
+    <CommonQualityChoice Value="Commun" />
+    <UncommonQualityChoice Value="Inhabituel" />
+    <RareQualityChoice Value="Rare" />
+    <EpicQualityChoice Value="Épique" />
+    <LegendaryQualityChoice Value="Légendaire" />
+    <ArtifactQualityChoice Value="Artifact" />
+    <HeirloomQualityChoice Value="Héritage" />
+    <AttachBTN Value="Attacher" />
+    <StopFullBagsCB Value="Sacs pleins" />
+    <DescriptionBox
+      Value="Regardez dans le dossier lugins pour voir un exemple du type de plugins que vous pouvez charger ici." />
+    <LogoutCB Value="Se déconnecter à l'arrêt du bot" />
+    <CloseAppsCB Value="Fermer l'application et WoW à l'arrêt du bot" />
+    <StartBTN Value="Démarrer" />
+    <ConfigBTN Value="Configurer" />
+    <ThanksLBL Value="Merci :)" />
+    <DonateLBL
+      Value="Si vous aimez vraiment mes programmes et voulez m'encourager à continuer leur développement, pensez aux donations" />
+    <DoDebugCB Value="Activer l'enregistrement de débogage" />
+    <ItemColumn Value="ID Objet ou Nom" />
+    <MinutesLBL Value="Minutes" />
+    <DontLootCB Value="Ne pas ramasser les objets de Gauche" />
+    <NoLureCB Value="Pas d'appât" />
+    <StopNoLuresCB Value="Plus d'appâts disponibles" />
+    <StopBTN Value="Arrêt" />
+    <StopLBL Value="Arrêt quand" />
+    <LootOnlyItemsCB Value="Ramasser uniquement les objets de Gauche" />
+    <SoundWhisperCB Value="Jouer son si on vous parle" />
+    <StopTimeCB Value="Durée" />
+    <UseRaftCB Value="Utiliser Radeau or Marche sur l'eau" />
+    <UseRumseyCB Value="Utiliser Brune du capitaine Rumsey" />
+    <UseCharmCB Value="Utiliser Ancien charme de pêche pandaren" />
+    <UseSpearCB Value="Utiliser Lance rohart aiguisée" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="Aucune Révision disponible" />
+    <Item English="Current Revision" Translation="Révision actuelle" />
+    <Item English="Latest Revision" Translation="Dernière Révision" />
+    <Item English="Warning Message"
+          Translation="Le développeur vous recommande de ne pas utiliser le bot pour l'instant. C'est peut être pour une raison de sécurité, ou bien le bot nécessite d'être mis à jour. Lisez les news ci-dessus ou regardez sur le forum." />
+    <Item English="Unhandled Exception"
+          Translation="Désolé. Une erreur inattendue s'est produite. Veuillez envoyer le fichier log au développeur, ou prenez une capture d'écran du prochain message." />
+    <Item English="Warning" Translation="Attention" />
+    <Item English="No Processes Found"
+          Translation="Aucun processus WoW n'a été trouvé. Voulez-vous ajouter tous les processus à la liste ? (Sélectionner un mauvais processus ou un WoW 64 bits causera des problèmes)" />
+    <Item English="Attached to" Translation="Attaché à" />
+    <Item English="Error" Translation="Erreur" />
+    <Item English="Pick Process" Translation="Veuillez sélectionner une fenêtre WoW à laquelle s'attacher." />
+    <Item English="Already Running" Translation="Le logiciel est déjà en cours d'utilisation." />
+    <Item English="Loot Options Error"
+          Translation="Vous ne pouvez pas &quot;Ramasser uniquement les objets de Gauche&quot; and &quot;Ne pas ramasser les objets de Gauche&quot; en même temps. Corrigez la configuration." />
+    <Item English="Author" Translation="Auteur" />
+    <Item English="Version" Translation="Version" />
+    <Item English="SelectLootQuality"
+          Translation="Veuillez vous rendre dans l'onglet Configuration et sélectionner la qualité minimum des objets à ramasser." />
+    <Item English="Valid Stop Time" Translation="Veuillez entrer une durée valide en minutes" />
+    <Item English="ShouldRun Error"
+          Translation="Connection à SVN échouée. Sourceforge est down ? ou coupures internet ? Arrêt du bot car nous ne savons pas s'il est sans danger de l'utiliser." />
+    <Item English="New Version Available"
+          Translation="Une nouvelle version disponible en téléchargement. Souhaitez-vous la télécharger maintenant ?" />
+    <Item English="New Version" Translation="Nouvelle Version" />
+    <Item English="No Release Yet"
+          Translation="Il y a une nouvelle révision de Coolfish sur le dépôt SVN, mais pas encore de version finale. Elle sera bientôt disponible." />
+    <Item English="Engine Running" Translation="Programme en cours d'exécution" />
+    <Item English="Engine Not Running" Translation="Programme à l'arrêt" />
+    <Item English="Engine Stopped" Translation="Arrêt du programme" />
+    <Item English="Hook Found"
+          Translation="Un bot est déjà utilisé. Coolfish peut essayer de fonctionner à côté mais cela ne fonctionnera peut-être pas. (Dans ce cas WoW plantera) Voulez-vous l'attacher quand même ?" />
+    <Item English="Reattach"
+          Translation="Soit un autre bot est utilisé, soit Coolfish a planté et n'a pas nettoyé derrière lui. Vous devez redémarrer WoW et attacher le bot au nouveau processus." />
+  </Dictionary>
+</Language>
