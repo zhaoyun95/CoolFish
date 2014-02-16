@@ -1,0 +1,1454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="ActiveBot property" Url="html/26245c7a-38a4-7911-b9a2-1e4e6c789501.htm" />
+  <HelpKINode Title="Addition operator" Url="html/9884094c-6af1-cf88-c1ab-b96fc2c16339.htm" />
+  <HelpKINode Title="Alternate enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="AnimationState enumeration member" Url="html/e38c83a0-dbf3-ae11-9a25-0694a5951eda.htm" />
+  <HelpKINode Title="AnimationState property" Url="html/fd8c5252-3961-c4ad-2ec4-a8c3bb92ae35.htm" />
+  <HelpKINode Title="AnimTier enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ApplicationPath property" Url="html/6c8a043e-d44b-ffaa-3465-67b5ccdda574.htm" />
+  <HelpKINode Title="Apply method" Url="html/d1fa2ab2-ad44-7990-5ea7-15e29c27f08b.htm" />
+  <HelpKINode Title="ArcaneCharges enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="Areatrigger enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="ArenaFaction enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="AttachToProcess method" Url="html/2f22b862-6611-ab6f-1633-182eeb4bf244.htm" />
+  <HelpKINode Title="AttackPower enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="AttackPowerModNeg enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="AttackPowerModPos enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="AttackPowerMultiplier enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="AttackRoundBaseTime enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="AuraState enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Author property" Url="html/a2e64b35-7da2-07df-b8a2-42f4fac894e0.htm" />
+  <HelpKINode Title="BaseAddress property" Url="html/db1aaea6-a75a-11d3-19b9-b0e6627826c2.htm" />
+  <HelpKINode Title="BaseHealth enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="BaseHealth property" Url="html/97e36334-7218-19c5-636d-08d052bd6501.htm" />
+  <HelpKINode Title="BaseMana enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="BaseMana property" Url="html/263725d2-4351-05f1-e744-c7f969057596.htm" />
+  <HelpKINode Title="BattlePetCompanionGUID enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="BattlePetCompanionNameTimestamp enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="BlockPercentage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="BloodElf enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="BotManager class">
+    <HelpKINode Title="BotManager Class" Url="html/9c810d38-f98a-08aa-747f-fe76f58416a6.htm" />
+    <HelpKINode Title="BotManager Members" Url="html/351a5b64-0771-ed8b-d11a-adf0719b10a0.htm" />
+    <HelpKINode Title="about BotManager class" Url="html/9c810d38-f98a-08aa-747f-fe76f58416a6.htm" />
+    <HelpKINode Title="all members" Url="html/351a5b64-0771-ed8b-d11a-adf0719b10a0.htm" />
+    <HelpKINode Title="methods" Url="html/890f68ac-a0fb-dded-2034-ee573f44f308.htm" />
+    <HelpKINode Title="properties" Url="html/978641cf-40e4-3170-0cc5-9cdbc12d4451.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BotManager.ActiveBot property" Url="html/26245c7a-38a4-7911-b9a2-1e4e6c789501.htm" />
+  <HelpKINode Title="BotManager.AttachToProcess method" Url="html/2f22b862-6611-ab6f-1633-182eeb4bf244.htm" />
+  <HelpKINode Title="BotManager.GetBotId method" Url="html/f509fc6a-8ee4-c196-ebe1-39cd37cdb635.htm" />
+  <HelpKINode Title="BotManager.GetToonName method" Url="html/f65c3d43-067c-39b1-6721-df7304cf73a7.htm" />
+  <HelpKINode Title="BotManager.IsBotLoaded method" Url="html/dcf9808d-4f9b-2545-5433-3aabc1f5e2b9.htm" />
+  <HelpKINode Title="BotManager.IsReadyToBot property" Url="html/789d6c63-03df-5ac9-b41d-314b3dbe46fc.htm" />
+  <HelpKINode Title="BotManager.LoadBot method" Url="html/71f1801a-8215-6d4d-90a3-ef562fbbfd96.htm" />
+  <HelpKINode Title="BotManager.Memory property" Url="html/3a821736-e1d8-e58d-363f-c683e225259b.htm" />
+  <HelpKINode Title="BotManager.SetActiveBot method" Url="html/22dfc57f-42f9-2388-dadf-8710d09ff062.htm" />
+  <HelpKINode Title="BotManager.StartActiveBot method" Url="html/65e64151-0366-98c1-c362-7a64fa541d27.htm" />
+  <HelpKINode Title="BotManager.StopActiveBot method" Url="html/ddf8a8aa-eac5-7f1b-615b-c1840198e4fa.htm" />
+  <HelpKINode Title="BoundingRadius enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Broken enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="BuggedTimer field" Url="html/ffffbd2e-7225-7f74-aea3-004f28f7ee9a.htm" />
+  <HelpKINode Title="BurningEmbers enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="BuybackPrice enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="BuybackTimestamp enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="CanPerformAction_Mask1 enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Caster enumeration member">
+    <HelpKINode Title="Offsets.WoWAreaTriggerFields Enumeration" Url="html/8e1aeea3-2bac-3823-5c33-edaa7b8b21d4.htm" />
+    <HelpKINode Title="Offsets.WoWDynamicObjectFields Enumeration" Url="html/2021011b-d0e0-4123-426b-0f9697c479e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Caster property" Url="html/e780de98-f154-a71c-1d2f-ed172008e03f.htm" />
+  <HelpKINode Title="CastTime enumeration member" Url="html/2021011b-d0e0-4123-426b-0f9697c479e8.htm" />
+  <HelpKINode Title="Channeling property" Url="html/5888528c-9524-0208-69e8-3260e918c606.htm" />
+  <HelpKINode Title="ChannelObject enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ChannelSpell enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="CharacterPoints enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Charges property" Url="html/f74ce373-1975-b4a2-c2ab-9d336a4b784a.htm" />
+  <HelpKINode Title="Charm enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="CharmedBy enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="CharmedBy property" Url="html/b232404c-6b21-da53-3cfd-68cea40388af.htm" />
+  <HelpKINode Title="Class property" Url="html/efc4a9b0-3479-4a68-1e41-d40d7f59ddea.htm" />
+  <HelpKINode Title="ClntObjMgrGetActivePlayerObj field" Url="html/dd0c893a-b719-3036-a89a-239bc67f759c.htm" />
+  <HelpKINode Title="Coinage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Combat enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Combat property" Url="html/f768a66d-a658-2bcb-d244-6fd7e61d9bf6.htm" />
+  <HelpKINode Title="CombatRatingExpertise enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="CombatRatings enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="CombatReach enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Compare method" Url="html/8969c464-3bde-5490-48bf-f0f4b1715e5b.htm" />
+  <HelpKINode Title="CompareTo method">
+    <HelpKINode Title="Point.CompareTo Method " Url="html/7984039c-7c9f-ccc8-036a-baf94b4dcf00.htm" />
+    <HelpKINode Title="State.CompareTo Method " Url="html/14d4da2c-beeb-0984-8cff-2feb381978cb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Confused enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="ContainedIn enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="Container enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="CoolFishNS.Bots namespace" Url="html/b9eab16d-0b3a-add3-95bc-b1183316b54c.htm" />
+  <HelpKINode Title="CoolFishNS.Bots.IBot interface">
+    <HelpKINode Title="IBot Interface" Url="html/b0076dc5-70d9-e375-3e74-eb3db5bfd59f.htm" />
+    <HelpKINode Title="IBot Members" Url="html/7fde2ee8-dfcc-c5d0-c65f-8aed99d2cde0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States namespace" Url="html/009c0bea-6bac-2ae8-1194-57b30dd1d039.htm" />
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.State class">
+    <HelpKINode Title="State Class" Url="html/815939fb-f868-839e-c849-699fed16f33c.htm" />
+    <HelpKINode Title="State Members" Url="html/4a1dd1c3-bd11-6b86-9d56-698fc0dd5ec9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateApplyLure class">
+    <HelpKINode Title="StateApplyLure Class" Url="html/3ee8e271-55a7-80b1-0992-7d685b1ed9f6.htm" />
+    <HelpKINode Title="StateApplyLure Members" Url="html/c8ac6b16-d464-42d0-daf6-f12da0ec723a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateBobbing class">
+    <HelpKINode Title="StateBobbing Class" Url="html/31343c70-9fcd-4704-2bf5-9f0a56e0ff06.htm" />
+    <HelpKINode Title="StateBobbing Members" Url="html/d2e9f993-5bf6-cdf3-98a7-87b8542d0e47.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateDoLoot class">
+    <HelpKINode Title="StateDoLoot Class" Url="html/44c62e4c-ac5f-a979-9eb6-abfc867075f6.htm" />
+    <HelpKINode Title="StateDoLoot Members" Url="html/2cd8df8a-98e8-9a6d-0c58-768c648451cd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateDoNothing class">
+    <HelpKINode Title="StateDoNothing Class" Url="html/81a55296-ea2a-0a9a-f295-8d4c8d64f557.htm" />
+    <HelpKINode Title="StateDoNothing Members" Url="html/398314d7-e50f-0f19-a73a-25ca8a48c080.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateDoWhisper class">
+    <HelpKINode Title="StateDoWhisper Class" Url="html/acb08be3-4bbe-c94e-e7c6-9eba4877b819.htm" />
+    <HelpKINode Title="StateDoWhisper Members" Url="html/bdf04b5d-c4ae-09a5-85d2-cb0aa7c0c228.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateFish class">
+    <HelpKINode Title="StateFish Class" Url="html/9e06173c-1149-34ce-749d-6992575ec166.htm" />
+    <HelpKINode Title="StateFish Members" Url="html/afd53007-86e3-74ad-5841-8ed99bbcc4be.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateStopOrLogout class">
+    <HelpKINode Title="StateStopOrLogout Class" Url="html/8d1e1d94-cdde-2259-5bb5-6bbbf69f62dd.htm" />
+    <HelpKINode Title="StateStopOrLogout Members" Url="html/225f99a5-4349-1303-9284-4970749d67ae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateUseCharm class">
+    <HelpKINode Title="StateUseCharm Class" Url="html/14ad24ec-6b65-7f20-07a9-6cea61aa628b.htm" />
+    <HelpKINode Title="StateUseCharm Members" Url="html/a8603428-5073-da0e-e480-a9522e746214.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateUseRaft class">
+    <HelpKINode Title="StateUseRaft Class" Url="html/e01d04eb-c578-78e4-e967-8669627be99d.htm" />
+    <HelpKINode Title="StateUseRaft Members" Url="html/3ee193bc-ed8e-3027-6cae-c38b66acb24f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateUseRumsey class">
+    <HelpKINode Title="StateUseRumsey Class" Url="html/31206ad8-5ebe-2277-57ad-c273b8adc647.htm" />
+    <HelpKINode Title="StateUseRumsey Members" Url="html/24def128-cc71-9d5b-a07c-35a50050971c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.FiniteStateMachine.States.StateUseSpear class">
+    <HelpKINode Title="StateUseSpear Class" Url="html/1e629d01-13a1-89ca-b0d6-5c1d292a71db.htm" />
+    <HelpKINode Title="StateUseSpear Members" Url="html/6975f8e1-a261-1a27-5a6b-b10d79bb65b8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management namespace" Url="html/14e89a2c-1d3f-1663-4b0c-05ce8c653976.htm" />
+  <HelpKINode Title="CoolFishNS.Management.BotManager class">
+    <HelpKINode Title="BotManager Class" Url="html/9c810d38-f98a-08aa-747f-fe76f58416a6.htm" />
+    <HelpKINode Title="BotManager Members" Url="html/351a5b64-0771-ed8b-d11a-adf0719b10a0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager namespace" Url="html/d3e0e056-3405-a18e-ed82-54d10a296a63.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.FindPattern class">
+    <HelpKINode Title="FindPattern Class" Url="html/321084fa-ba07-8d28-5fa4-1401ad884784.htm" />
+    <HelpKINode Title="FindPattern Members" Url="html/ad612fde-e638-a42a-9b7a-b87afa515fae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.HookingLua namespace" Url="html/2824c7ef-d0b9-cbc4-e352-39fbc559244f.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.HookingLua.DxHook class">
+    <HelpKINode Title="DxHook Class" Url="html/fc994778-7e54-11c8-a5ac-dcf8dcc4dc47.htm" />
+    <HelpKINode Title="DxHook Members" Url="html/d953d081-3a98-11d2-6dd0-594999f89e46.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects namespace" Url="html/19516d6a-1f89-559e-ca9d-954132c3c14b.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.ObjectManager class">
+    <HelpKINode Title="ObjectManager Class" Url="html/aa08a551-10d6-0e76-fdf8-9178a6cf786f.htm" />
+    <HelpKINode Title="ObjectManager Members" Url="html/1d673c27-560c-4f26-5c1d-b59c65ad2356.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.ObjectManager.ObjectType enumeration" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.ObjectManager.PowerType enumeration" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWContainer class">
+    <HelpKINode Title="WoWContainer Class" Url="html/9bfd680c-ac7e-a03a-61c0-84243110e431.htm" />
+    <HelpKINode Title="WoWContainer Members" Url="html/cca7fbc3-2189-471b-9b67-20fa0e8cba7b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWCorpse class">
+    <HelpKINode Title="WoWCorpse Class" Url="html/3e3dcdc7-afaf-2994-8396-9c7d00fe3f8c.htm" />
+    <HelpKINode Title="WoWCorpse Members" Url="html/5da99500-c505-4e8e-195a-82606d9a4d18.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWDynamicObject class">
+    <HelpKINode Title="WoWDynamicObject Class" Url="html/20b7bf08-0d82-37ee-4620-faca0a72eabe.htm" />
+    <HelpKINode Title="WoWDynamicObject Members" Url="html/db9af287-27aa-f350-5d49-73b8abdc2f5d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWGameObject class">
+    <HelpKINode Title="WoWGameObject Class" Url="html/695c6097-605f-2a6a-e10f-60c1c7a16f66.htm" />
+    <HelpKINode Title="WoWGameObject Members" Url="html/ee93bd03-5960-d9b4-e5a2-52dfb3f46368.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWItem class">
+    <HelpKINode Title="WoWItem Class" Url="html/fac6be37-908f-7af0-9704-74ca04166727.htm" />
+    <HelpKINode Title="WoWItem Members" Url="html/abacd0eb-7ed8-329f-5cc4-bc0b9c3dd661.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWObject class">
+    <HelpKINode Title="WoWObject Class" Url="html/2ee02185-a428-7346-c8da-0cfd5883d66e.htm" />
+    <HelpKINode Title="WoWObject Members" Url="html/48e00816-f094-a7fc-e91e-b0328b7a7132.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWPlayer class">
+    <HelpKINode Title="WoWPlayer Class" Url="html/2631e323-2978-cdc6-0e97-d6ddafeb96de.htm" />
+    <HelpKINode Title="WoWPlayer Members" Url="html/4e66cc99-176a-959a-3c8d-95506b976632.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWPlayerMe class">
+    <HelpKINode Title="WoWPlayerMe Class" Url="html/e1796896-629f-b67b-b809-abefc07fdcd7.htm" />
+    <HelpKINode Title="WoWPlayerMe Members" Url="html/ffee2bb5-dbfb-4f96-6151-abef35c56874.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Objects.WoWUnit class">
+    <HelpKINode Title="WoWUnit Class" Url="html/d007e0b5-af1c-f611-2c87-8df2810aefb7.htm" />
+    <HelpKINode Title="WoWUnit Members" Url="html/a7a3db77-717c-2ab6-8396-56248d516192.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets class">
+    <HelpKINode Title="Offsets Class" Url="html/7bd08a79-c18e-5bc1-36f0-d8b7faa5964e.htm" />
+    <HelpKINode Title="Offsets Members" Url="html/d2b11765-d5b0-d8ee-349b-3ed0dbf45616.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.ClassFlags enumeration" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.CorpseFlags enumeration" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.CTM enumeration" Url="html/3ae896bd-9322-9039-f711-d9e722f8a5df.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.ObjectFields enumeration" Url="html/0962ee0c-066f-b3b9-37b2-531bd9bedc0f.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.ObjectManager enumeration" Url="html/78775ca5-9ec5-46e9-383c-c1e0e5d9c714.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.RaceFlags enumeration" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.UnitDynamicFlags enumeration" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.UnitFlags enumeration" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWAreaTriggerFields enumeration" Url="html/8e1aeea3-2bac-3823-5c33-edaa7b8b21d4.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWContainerFields enumeration" Url="html/531cd97a-e9a6-cee2-5663-862fb09eed37.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWCorpseFields enumeration" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWDynamicObjectFields enumeration" Url="html/2021011b-d0e0-4123-426b-0f9697c479e8.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WowGameObject enumeration" Url="html/e38c83a0-dbf3-ae11-9a25-0694a5951eda.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWGameObjectFields enumeration" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWItemFields enumeration" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WowObject enumeration" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWObjectFields enumeration" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWPlayer enumeration" Url="html/fd76b91a-932e-8630-7dcd-0b7fe31858b2.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWPlayerFields enumeration" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWSceneObjectFields enumeration" Url="html/33a74dfd-2237-649e-fc28-94dd42d664c9.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWUnit enumeration" Url="html/554c1425-bcaa-9dac-9670-3885dc7ee0cc.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Offsets.WoWUnitFields enumeration" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="CoolFishNS.Management.CoolManager.Point class">
+    <HelpKINode Title="Point Class" Url="html/9301d98d-fe45-dc75-a7ea-f5a865f3d147.htm" />
+    <HelpKINode Title="Point Members" Url="html/a843d69f-de21-5a02-01e9-81d0bcbe7566.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.PluginSystem namespace" Url="html/ea329c6f-aac8-6274-0750-9b45de0db187.htm" />
+  <HelpKINode Title="CoolFishNS.PluginSystem.IPlugin interface">
+    <HelpKINode Title="IPlugin Interface" Url="html/1ed8f6d1-db35-a860-26e3-f9663d0c7bcc.htm" />
+    <HelpKINode Title="IPlugin Members" Url="html/e3da696e-9645-2342-1ffc-e026217f229d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities namespace" Url="html/32b95f5e-1d57-adf6-f24e-5f1458bafa73.htm" />
+  <HelpKINode Title="CoolFishNS.Utilities.Logging class">
+    <HelpKINode Title="Logging Class" Url="html/71a568d9-743a-b2d4-f1f0-e9d7f58a9684.htm" />
+    <HelpKINode Title="Logging Members" Url="html/a2cd2db2-e8db-0431-f7f8-b2edcc213fed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities.Logging.WriteDelegate delegate" Url="html/a8066bdb-1340-5d85-50ea-ab2cb3f5f8da.htm" />
+  <HelpKINode Title="CoolFishNS.Utilities.MessageEventArgs class">
+    <HelpKINode Title="MessageEventArgs Class" Url="html/5e8324ab-fea9-6875-be97-be789b85ec40.htm" />
+    <HelpKINode Title="MessageEventArgs Members" Url="html/82ac808c-2b6e-7946-4358-f850aed33001.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities.PlayerInventory class">
+    <HelpKINode Title="PlayerInventory Class" Url="html/b91b9fc3-b3bf-9b0e-5d78-70e1b29daaee.htm" />
+    <HelpKINode Title="PlayerInventory Members" Url="html/14335c7b-2536-4e13-29a3-7506f65cafbe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities.SerializableDictionary(Of TKey, TVal) class">
+    <HelpKINode Title="SerializableDictionary(TKey, TVal) Class" Url="html/cde33a44-f039-9659-cdd7-637c38b5f2aa.htm" />
+    <HelpKINode Title="SerializableDictionary(TKey, TVal) Members" Url="html/bd31fd2f-0775-e24e-be66-5489942f1a62.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities.SerializableDictionary&lt;TKey, TVal&gt; class">
+    <HelpKINode Title="SerializableDictionary(TKey, TVal) Class" Url="html/cde33a44-f039-9659-cdd7-637c38b5f2aa.htm" />
+    <HelpKINode Title="SerializableDictionary(TKey, TVal) Members" Url="html/bd31fd2f-0775-e24e-be66-5489942f1a62.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities.SerializableItem class">
+    <HelpKINode Title="SerializableItem Class" Url="html/74896f7b-779e-13e8-0aac-007095fc3c7d.htm" />
+    <HelpKINode Title="SerializableItem Members" Url="html/0ce03803-8fe8-b4d2-8630-7e2d2c58a910.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities.SerializablePlugin class">
+    <HelpKINode Title="SerializablePlugin Class" Url="html/01664fab-d4ae-d922-7c21-be1ce1dd012a.htm" />
+    <HelpKINode Title="SerializablePlugin Members" Url="html/4fd09d22-41a6-6bb8-c3fd-783a3f4bda67.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities.Serializer class">
+    <HelpKINode Title="Serializer Class" Url="html/7be6a5d5-1346-8a9d-ed35-1d70b752f1d2.htm" />
+    <HelpKINode Title="Serializer Members" Url="html/696fc87c-f226-f8bc-f746-f7e8dbc1f958.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CoolFishNS.Utilities.Utilities class">
+    <HelpKINode Title="Utilities Class" Url="html/0790b115-69b8-f365-e2f5-c4f2b17d30c7.htm" />
+    <HelpKINode Title="Utilities Members" Url="html/240a7d1d-09a9-31a4-7efd-d3685bf07a17.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Copper property" Url="html/6f012359-3939-599d-ad03-74f80a7b4863.htm" />
+  <HelpKINode Title="Corpse enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="CORPSE_FLAG_BONES enumeration member" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="CORPSE_FLAG_HIDE_CLOAK enumeration member" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="CORPSE_FLAG_HIDE_HELM enumeration member" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="CORPSE_FLAG_LOOTABLE enumeration member" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="CORPSE_FLAG_NONE enumeration member" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="CORPSE_FLAG_UNK1 enumeration member" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="CORPSE_FLAG_UNK2 enumeration member" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="Count field" Url="html/9486b90b-8c9c-4444-6e75-47fe22dad00c.htm" />
+  <HelpKINode Title="CreatedBy enumeration member">
+    <HelpKINode Title="Offsets.WoWGameObjectFields Enumeration" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+    <HelpKINode Title="Offsets.WoWSceneObjectFields Enumeration" Url="html/33a74dfd-2237-649e-fc28-94dd42d664c9.htm" />
+    <HelpKINode Title="Offsets.WoWUnitFields Enumeration" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreatedBy property">
+    <HelpKINode Title="WoWGameObject.CreatedBy Property " Url="html/d5c22492-5292-8158-32bc-dedd60046d33.htm" />
+    <HelpKINode Title="WoWUnit.CreatedBy Property " Url="html/1b27886d-fddd-38d7-96b4-474abf6c39f6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreatedBySpell enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="CreatePlayedTime enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="Creator enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="CritPercentage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Critter enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Critter property" Url="html/66c7dfbd-3d4f-9dde-3cb5-b5ddf01c005a.htm" />
+  <HelpKINode Title="CTM_Base field" Url="html/0194d833-d3c0-d563-8378-d83fd667b113.htm" />
+  <HelpKINode Title="CTM_Distance enumeration member" Url="html/3ae896bd-9322-9039-f711-d9e722f8a5df.htm" />
+  <HelpKINode Title="CTM_GUID enumeration member" Url="html/3ae896bd-9322-9039-f711-d9e722f8a5df.htm" />
+  <HelpKINode Title="CTM_Push enumeration member" Url="html/3ae896bd-9322-9039-f711-d9e722f8a5df.htm" />
+  <HelpKINode Title="CTM_X enumeration member" Url="html/3ae896bd-9322-9039-f711-d9e722f8a5df.htm" />
+  <HelpKINode Title="CTM_Y enumeration member" Url="html/3ae896bd-9322-9039-f711-d9e722f8a5df.htm" />
+  <HelpKINode Title="CTM_Z enumeration member" Url="html/3ae896bd-9322-9039-f711-d9e722f8a5df.htm" />
+  <HelpKINode Title="CurrentBattlePetBreedQuality enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="CurrentManager property" Url="html/db945452-7fbd-8404-566d-e9a057b0b1eb.htm" />
+  <HelpKINode Title="CurrentSpecID enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="DarkForce enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="Data enumeration member">
+    <HelpKINode Title="Offsets.ObjectFields Enumeration" Url="html/0962ee0c-066f-b3b9-37b2-531bd9bedc0f.htm" />
+    <HelpKINode Title="Offsets.WoWObjectFields Enumeration" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Data property" Url="html/17a60fc5-a617-28fa-a7ea-7eeb18d2b509.htm" />
+  <HelpKINode Title="Dazed enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Dead enumeration member" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="Dead property" Url="html/07db0eee-bba7-3002-8236-6c705fff0cc7.htm" />
+  <HelpKINode Title="DeathKnight enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="DemonCreator enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="DemonicFury enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="Description property" Url="html/e804c50a-a3e9-d999-0c5a-ab7637a2c11b.htm" />
+  <HelpKINode Title="DeSerializeObject(Of T) method" Url="html/dded871c-7621-5ca8-93e0-4a3687d85f49.htm" />
+  <HelpKINode Title="DeSerializeObject&lt;T&gt; method" Url="html/dded871c-7621-5ca8-93e0-4a3687d85f49.htm" />
+  <HelpKINode Title="Disarmed enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="DisplayID enumeration member">
+    <HelpKINode Title="Offsets.WoWCorpseFields Enumeration" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+    <HelpKINode Title="Offsets.WoWGameObjectFields Enumeration" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+    <HelpKINode Title="Offsets.WoWUnitFields Enumeration" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisplayId property" Url="html/2b0ad4b2-bfda-38b3-0d58-0f3c2f400841.htm" />
+  <HelpKINode Title="DisplayID property">
+    <HelpKINode Title="WoWGameObject.DisplayID Property " Url="html/595c262d-1c9d-3e2b-6cc5-47ecf8a80ce9.htm" />
+    <HelpKINode Title="WoWUnit.DisplayID Property " Url="html/c4bc0e40-17e5-1f7c-d220-55bb467a43e7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisplayPower enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="DxHook.Dispose Method " Url="html/320106ed-ee3a-1cc8-1155-31dc05a67a37.htm" />
+    <HelpKINode Title="Logging.Dispose Method " Url="html/89e2a364-ce5d-85fd-dba7-6986c5f2d8fb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Distance method" Url="html/13649b8d-be79-fb5b-dd8d-e5304f9487e8.htm" />
+  <HelpKINode Title="Distance property">
+    <HelpKINode Title="WoWGameObject.Distance Property " Url="html/999758db-93f9-e751-f424-26224183955f.htm" />
+    <HelpKINode Title="WoWObject.Distance Property " Url="html/b8831be2-1478-636c-5a4d-dfef83989289.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DodgePercentage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Draenei enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Druid enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="DuelArbiter enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="DuelTeam enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Durability enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="Durability property" Url="html/70e80b47-1c46-2fc3-1918-2bae021d783f.htm" />
+  <HelpKINode Title="Duration enumeration member" Url="html/8e1aeea3-2bac-3823-5c33-edaa7b8b21d4.htm" />
+  <HelpKINode Title="Dwarf enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="DxHook class">
+    <HelpKINode Title="DxHook Class" Url="html/fc994778-7e54-11c8-a5ac-dcf8dcc4dc47.htm" />
+    <HelpKINode Title="DxHook Members" Url="html/d953d081-3a98-11d2-6dd0-594999f89e46.htm" />
+    <HelpKINode Title="about DxHook class" Url="html/fc994778-7e54-11c8-a5ac-dcf8dcc4dc47.htm" />
+    <HelpKINode Title="all members" Url="html/d953d081-3a98-11d2-6dd0-594999f89e46.htm" />
+    <HelpKINode Title="methods" Url="html/9aaac080-c1f2-1774-7a15-3c0c8dc529c5.htm" />
+    <HelpKINode Title="properties" Url="html/c5146145-329e-9454-f21b-476327401df3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DxHook.Apply method" Url="html/d1fa2ab2-ad44-7990-5ea7-15e29c27f08b.htm" />
+  <HelpKINode Title="DxHook.Dispose method" Url="html/320106ed-ee3a-1cc8-1155-31dc05a67a37.htm" />
+  <HelpKINode Title="DxHook.ExecuteScript method" Url="html/420ac706-2f5a-7c74-cc91-ace5c6284079.htm" />
+  <HelpKINode Title="DxHook.ExecuteScriptReturn method" Url="html/095094e2-62d5-7ae3-c503-41b0f4807a1f.htm" />
+  <HelpKINode Title="DxHook.Finalize method" Url="html/de864112-d6b1-b5eb-505c-fd16c1e4beb1.htm" />
+  <HelpKINode Title="DxHook.GetLocalizedText method" Url="html/31eeb13f-5fcd-cff9-0701-b0f8ba49a00d.htm" />
+  <HelpKINode Title="DxHook.InjectAndExecute method" Url="html/f8378e43-e722-9055-b218-49b8e6c14bf7.htm" />
+  <HelpKINode Title="DxHook.InjectAndExecuteReturn method" Url="html/0a715acf-c9f4-bc5a-f72d-5af9f98c43c6.htm" />
+  <HelpKINode Title="DxHook.Instance property" Url="html/6bf40481-9b16-f07a-f7b0-bf2da4a1b582.htm" />
+  <HelpKINode Title="DxHook.IsApplied property" Url="html/39104ee4-0682-7d4b-2a55-2bcc52c98c5d.htm" />
+  <HelpKINode Title="DxHook.Restore method" Url="html/4098f7c4-11db-a058-9897-75af0502e2cd.htm" />
+  <HelpKINode Title="Dynamic property" Url="html/52374e3c-d5a9-9670-4e6c-c258bfcff693.htm" />
+  <HelpKINode Title="DynamicFlags enumeration member">
+    <HelpKINode Title="Offsets.ObjectFields Enumeration" Url="html/0962ee0c-066f-b3b9-37b2-531bd9bedc0f.htm" />
+    <HelpKINode Title="Offsets.WoWCorpseFields Enumeration" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+    <HelpKINode Title="Offsets.WoWItemFields Enumeration" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+    <HelpKINode Title="Offsets.WoWObjectFields Enumeration" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DynamicFlags property" Url="html/ae7a8894-a27c-1b6f-afc1-3eb30c57cc52.htm" />
+  <HelpKINode Title="Dynamicobject enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="Eclipse enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="EffectiveLevel enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="EmoteState enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Enchantment enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="Energy enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="Entry property" Url="html/4f2beb22-03ca-471d-003e-dc8d0248106a.htm" />
+  <HelpKINode Title="EntryID enumeration member">
+    <HelpKINode Title="Offsets.ObjectFields Enumeration" Url="html/0962ee0c-066f-b3b9-37b2-531bd9bedc0f.htm" />
+    <HelpKINode Title="Offsets.WoWObjectFields Enumeration" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Equals method" Url="html/a5fa7cd5-7b65-b224-9840-738a4eca72df.htm" />
+  <HelpKINode Title="Exception property" Url="html/68c334f7-de99-61ae-b895-5334b94c4dc7.htm" />
+  <HelpKINode Title="ExecuteScript method" Url="html/420ac706-2f5a-7c74-cc91-ace5c6284079.htm" />
+  <HelpKINode Title="ExecuteScriptReturn method" Url="html/095094e2-62d5-7ae3-c503-41b0f4807a1f.htm" />
+  <HelpKINode Title="Experience property" Url="html/0d318025-8d92-18ab-433d-2c9b9fe62302.htm" />
+  <HelpKINode Title="Expiration enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="ExplicitScale enumeration member" Url="html/8e1aeea3-2bac-3823-5c33-edaa7b8b21d4.htm" />
+  <HelpKINode Title="ExploredZones enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="FacialHairStyleID enumeration member" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+  <HelpKINode Title="Facing property" Url="html/db101479-7e3f-75ba-b4f1-45a43b0e7026.htm" />
+  <HelpKINode Title="Faction property" Url="html/0f8e3a57-3248-a34a-8815-169858bf4e53.htm" />
+  <HelpKINode Title="FactionTemplate enumeration member">
+    <HelpKINode Title="Offsets.WoWGameObjectFields Enumeration" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+    <HelpKINode Title="Offsets.WoWUnitFields Enumeration" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FakeInebriation enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="FarsightObject enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="FelOrc enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="fileName property" Url="html/7f5222ef-71ae-e052-fc42-b20ceb6b307c.htm" />
+  <HelpKINode Title="Finalize method">
+    <HelpKINode Title="DxHook.Finalize Method " Url="html/de864112-d6b1-b5eb-505c-fd16c1e4beb1.htm" />
+    <HelpKINode Title="Logging.Finalize Method " Url="html/2b79f44a-814f-e264-881b-a78226eb6ab4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FindOffsets method" Url="html/270c2f57-7c53-1da3-03d5-ac865e3180eb.htm" />
+  <HelpKINode Title="FindPattern class">
+    <HelpKINode Title="FindPattern Class" Url="html/321084fa-ba07-8d28-5fa4-1401ad884784.htm" />
+    <HelpKINode Title="FindPattern Members" Url="html/ad612fde-e638-a42a-9b7a-b87afa515fae.htm" />
+    <HelpKINode Title="about FindPattern class" Url="html/321084fa-ba07-8d28-5fa4-1401ad884784.htm" />
+    <HelpKINode Title="all members" Url="html/ad612fde-e638-a42a-9b7a-b87afa515fae.htm" />
+    <HelpKINode Title="constructor" Url="html/69bceae9-2b6b-7653-e9ea-e93e05a82ce0.htm" />
+    <HelpKINode Title="methods" Url="html/04eae80a-ca7a-d5bf-28ab-3687418e9a70.htm" />
+    <HelpKINode Title="properties" Url="html/709da5f3-5c23-62b0-1548-9b1f1120e25d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FindPattern.FindPattern constructor" Url="html/69bceae9-2b6b-7653-e9ea-e93e05a82ce0.htm" />
+  <HelpKINode Title="FindPattern.Get method" Url="html/f52415ed-953b-e266-aabc-05c984fad5d4.htm" />
+  <HelpKINode Title="FindPattern.Item property" Url="html/f2c408a1-9633-5e48-9060-e73be2633a27.htm" />
+  <HelpKINode Title="FindPattern.NotFoundCount property" Url="html/1f9e40f8-0c9b-f525-00de-0621977283a3.htm" />
+  <HelpKINode Title="FirstObject enumeration member" Url="html/78775ca5-9ec5-46e9-383c-c1e0e5d9c714.htm" />
+  <HelpKINode Title="Flags enumeration member">
+    <HelpKINode Title="Offsets.WoWCorpseFields Enumeration" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+    <HelpKINode Title="Offsets.WoWGameObjectFields Enumeration" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+    <HelpKINode Title="Offsets.WoWUnitFields Enumeration" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Flags property" Url="html/04aeeeee-059b-6702-dd22-174f0fd57c6d.htm" />
+  <HelpKINode Title="Flags2 enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="FlatDistance method" Url="html/b633df98-a617-4d59-2e19-2c85d8eac69f.htm" />
+  <HelpKINode Title="Fleeing enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Flush method" Url="html/abc7f258-8b12-bd81-c8c9-bbae833efbd0.htm" />
+  <HelpKINode Title="Focus enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="FrameScript_ExecuteBuffer field" Url="html/62322ee4-f72a-119f-0533-86e5d143d31b.htm" />
+  <HelpKINode Title="FrameScript_GetLocalizedText field" Url="html/5e856bd4-6d48-423d-f291-d9f3199abae6.htm" />
+  <HelpKINode Title="FreeSlots property" Url="html/884aadd3-1db8-b861-559d-b69a3b12c66d.htm" />
+  <HelpKINode Title="Gameobject enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="GameObjectX enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="GameObjectY enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="GameObjectZ enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="Get method" Url="html/f52415ed-953b-e266-aabc-05c984fad5d4.htm" />
+  <HelpKINode Title="GetAuthor method" Url="html/a440c9ca-343d-21d5-a814-c31783dacc6b.htm" />
+  <HelpKINode Title="GetBotId method" Url="html/f509fc6a-8ee4-c196-ebe1-39cd37cdb635.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/6fcdf165-b772-8e40-56d6-5c764e9f2fde.htm" />
+  <HelpKINode Title="GetLocalizedText method" Url="html/31eeb13f-5fcd-cff9-0701-b0f8ba49a00d.htm" />
+  <HelpKINode Title="GetName method" Url="html/55b7fe4b-170e-3681-19b2-8bfe6d4d1efa.htm" />
+  <HelpKINode Title="GetObjectsOfType(Of T) method" Url="html/bcfcdd29-ee23-6f1f-9265-2a1325a6d988.htm" />
+  <HelpKINode Title="GetObjectsOfType&lt;T&gt; method" Url="html/bcfcdd29-ee23-6f1f-9265-2a1325a6d988.htm" />
+  <HelpKINode Title="GetStorageField method" Url="html/95e4b358-bece-f7a5-a113-4bb58bd1e1e3.htm" />
+  <HelpKINode Title="GetToonName method" Url="html/f65c3d43-067c-39b1-6721-df7304cf73a7.htm" />
+  <HelpKINode Title="GetVersion method" Url="html/7a7849f6-d6ca-9cc9-1f04-56fddf061ca9.htm" />
+  <HelpKINode Title="GetXml method" Url="html/0ca74ea8-4ae1-08c9-9773-1a187240e204.htm" />
+  <HelpKINode Title="GiftCreator enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="Glyphs enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="GlyphSlots enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="GlyphSlotsEnabled enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Gnome enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Goblin enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Gold property" Url="html/710aabf1-5245-d6ec-0317-ba91c16d5b6d.htm" />
+  <HelpKINode Title="GreaterThan operator" Url="html/1458115d-2550-d0a6-fb24-b636077014c0.htm" />
+  <HelpKINode Title="GreaterThanOrEqual operator" Url="html/ba4f617b-d420-febb-9036-85037857c9e2.htm" />
+  <HelpKINode Title="Guid enumeration member">
+    <HelpKINode Title="Offsets.ObjectFields Enumeration" Url="html/0962ee0c-066f-b3b9-37b2-531bd9bedc0f.htm" />
+    <HelpKINode Title="Offsets.WoWObjectFields Enumeration" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Guid property" Url="html/dbbad4ee-d933-4b96-b3ae-a7099d22acfe.htm" />
+  <HelpKINode Title="GuildDeleteDate enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="GuildLevel enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="GuildRankID enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="GuildTimeStamp enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="HairColorID enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Happiness enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="HasCharges property" Url="html/8588360d-978f-1fdd-110d-97f6435e4bfb.htm" />
+  <HelpKINode Title="Health enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Health property" Url="html/ffa6be3a-bded-dfe3-ca4d-9c9875947b4e.htm" />
+  <HelpKINode Title="HealthPercentage property" Url="html/a0c8f0a8-a4ad-cd49-ed2d-91ec0e49308d.htm" />
+  <HelpKINode Title="HeightDiff method" Url="html/b3f05e5a-7193-dcb8-80a7-5bf2f4de2f99.htm" />
+  <HelpKINode Title="HeightDiffAbs method" Url="html/30eab7e7-5033-ae00-1d87-46feca5ef8ae.htm" />
+  <HelpKINode Title="HolyPower enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="HomeRealmTimeOffset enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="HoverHeight enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Human enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Hunter enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="IBot interface">
+    <HelpKINode Title="IBot Interface" Url="html/b0076dc5-70d9-e375-3e74-eb3db5bfd59f.htm" />
+    <HelpKINode Title="IBot Members" Url="html/7fde2ee8-dfcc-c5d0-c65f-8aed99d2cde0.htm" />
+    <HelpKINode Title="about IBot interface" Url="html/b0076dc5-70d9-e375-3e74-eb3db5bfd59f.htm" />
+    <HelpKINode Title="all members" Url="html/7fde2ee8-dfcc-c5d0-c65f-8aed99d2cde0.htm" />
+    <HelpKINode Title="methods" Url="html/0855aca2-7344-385e-bcce-0fb011f3e3b2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBot.GetAuthor method" Url="html/a440c9ca-343d-21d5-a814-c31783dacc6b.htm" />
+  <HelpKINode Title="IBot.GetName method" Url="html/55b7fe4b-170e-3681-19b2-8bfe6d4d1efa.htm" />
+  <HelpKINode Title="IBot.GetVersion method" Url="html/7a7849f6-d6ca-9cc9-1f04-56fddf061ca9.htm" />
+  <HelpKINode Title="IBot.IsRunning method" Url="html/4da8e7fd-62c9-8533-a9f1-dfaa9df7cd6f.htm" />
+  <HelpKINode Title="IBot.Settings method" Url="html/afa3a505-d3e7-8a1e-547c-072bf66de8dc.htm" />
+  <HelpKINode Title="IBot.StartBot method" Url="html/e1decf75-05e3-c476-c572-40f5e80d4185.htm" />
+  <HelpKINode Title="IBot.StopBot method" Url="html/9f7de2e3-c0ca-c5d3-2ce6-3a598fa00105.htm" />
+  <HelpKINode Title="Influenced enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="InjectAndExecute method" Url="html/f8378e43-e722-9055-b218-49b8e6c14bf7.htm" />
+  <HelpKINode Title="InjectAndExecuteReturn method" Url="html/0a715acf-c9f4-bc5a-f72d-5af9f98c43c6.htm" />
+  <HelpKINode Title="Instance field" Url="html/1c2250dd-cd4e-0847-6e1e-4454fd91dc58.htm" />
+  <HelpKINode Title="Instance property">
+    <HelpKINode Title="DxHook.Instance Property " Url="html/6bf40481-9b16-f07a-f7b0-bf2da4a1b582.htm" />
+    <HelpKINode Title="ObjectManager.Instance Property " Url="html/98514faa-a1dc-0959-937e-e03f31d2ecf9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InteractCondition property" Url="html/41372e00-a239-8e21-26aa-547423b1d1e6.htm" />
+  <HelpKINode Title="InteractSpellID enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="InUse property" Url="html/16dfb8f5-91d5-1074-3ffc-783d89710a0a.htm" />
+  <HelpKINode Title="InvSlots enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="IPlugin interface">
+    <HelpKINode Title="IPlugin Interface" Url="html/1ed8f6d1-db35-a860-26e3-f9663d0c7bcc.htm" />
+    <HelpKINode Title="IPlugin Members" Url="html/e3da696e-9645-2342-1ffc-e026217f229d.htm" />
+    <HelpKINode Title="about IPlugin interface" Url="html/1ed8f6d1-db35-a860-26e3-f9663d0c7bcc.htm" />
+    <HelpKINode Title="all members" Url="html/e3da696e-9645-2342-1ffc-e026217f229d.htm" />
+    <HelpKINode Title="methods" Url="html/89a364e8-c3e7-1d73-e719-9e9dd01ed728.htm" />
+    <HelpKINode Title="properties" Url="html/e922e592-c8fb-aa60-bb16-de407b297dd9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPlugin.Author property" Url="html/a2e64b35-7da2-07df-b8a2-42f4fac894e0.htm" />
+  <HelpKINode Title="IPlugin.Description property" Url="html/e804c50a-a3e9-d999-0c5a-ab7637a2c11b.htm" />
+  <HelpKINode Title="IPlugin.Name property" Url="html/9da9dcb0-4346-12de-bdd2-16cdb0b4c345.htm" />
+  <HelpKINode Title="IPlugin.OnConfig method" Url="html/58703b93-1328-e0f4-8980-5a60ed6ce698.htm" />
+  <HelpKINode Title="IPlugin.OnDisabled method" Url="html/b4c5c5e8-b292-ba6b-f300-1de206a26793.htm" />
+  <HelpKINode Title="IPlugin.OnEnabled method" Url="html/c64cea18-2118-bcc9-c263-164037b21dd1.htm" />
+  <HelpKINode Title="IPlugin.OnLoad method" Url="html/09d98584-428e-3051-04f5-6b419df844b8.htm" />
+  <HelpKINode Title="IPlugin.OnPulse method" Url="html/9cf115e4-01b2-b145-f81a-364a0e37e2e0.htm" />
+  <HelpKINode Title="IPlugin.OnShutdown method" Url="html/a2bad87a-20d3-5bb8-c67d-a78ba7e48216.htm" />
+  <HelpKINode Title="IPlugin.Version property" Url="html/7a5250d2-8e0c-8204-1ae1-7e668aa2613a.htm" />
+  <HelpKINode Title="IsApplied property" Url="html/39104ee4-0682-7d4b-2a55-2bcc52c98c5d.htm" />
+  <HelpKINode Title="IsBotLoaded method" Url="html/dcf9808d-4f9b-2545-5433-3aabc1f5e2b9.htm" />
+  <HelpKINode Title="IsCasting enumeration member" Url="html/fd76b91a-932e-8630-7dcd-0b7fe31858b2.htm" />
+  <HelpKINode Title="IsCasting property" Url="html/dc34fc2e-2e9c-0a41-721e-875b1a9301cc.htm" />
+  <HelpKINode Title="IsChanneling enumeration member" Url="html/fd76b91a-932e-8630-7dcd-0b7fe31858b2.htm" />
+  <HelpKINode Title="isEnabled property" Url="html/f5476c7e-3055-a2b3-3443-70a61a1653ea.htm" />
+  <HelpKINode Title="IsMe property" Url="html/4fdf71c1-cfd7-8ef6-661d-78a0b4de4264.htm" />
+  <HelpKINode Title="IsPlayer property" Url="html/e214c0c8-18f1-9ec3-bea1-3fe3feba0211.htm" />
+  <HelpKINode Title="IsReadyToBot property" Url="html/789d6c63-03df-5ac9-b41d-314b3dbe46fc.htm" />
+  <HelpKINode Title="IsRunning method" Url="html/4da8e7fd-62c9-8533-a9f1-dfaa9df7cd6f.htm" />
+  <HelpKINode Title="IsTappedByAllThreatList enumeration member" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="IsTransport property" Url="html/d7474226-5dee-6169-bd8b-d52f7c05d1bd.htm" />
+  <HelpKINode Title="IsUnit property" Url="html/1f5db497-5ef3-164f-4577-fbc5f0314686.htm" />
+  <HelpKINode Title="IsValid property" Url="html/bcf55730-5976-5d38-8d54-72ebfa267648.htm" />
+  <HelpKINode Title="Item enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="Item property" Url="html/f2c408a1-9633-5e48-9060-e73be2633a27.htm" />
+  <HelpKINode Title="ItemID property" Url="html/d79caee9-cdf2-1108-7625-8a25b06f7f42.htm" />
+  <HelpKINode Title="ItemLevelDelta enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Items enumeration member" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+  <HelpKINode Title="KnownTitles enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="LastHardwareAction field" Url="html/3050c4e5-11e7-23cc-0249-69059fd723e2.htm" />
+  <HelpKINode Title="LessThan operator" Url="html/19dcfcd8-7837-2e7c-8472-db02baa20028.htm" />
+  <HelpKINode Title="LessThanOrEqual operator" Url="html/9426fde3-4db2-a470-5bee-0e4929d7f785.htm" />
+  <HelpKINode Title="Level enumeration member">
+    <HelpKINode Title="Offsets.WoWGameObjectFields Enumeration" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+    <HelpKINode Title="Offsets.WoWUnitFields Enumeration" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Level property">
+    <HelpKINode Title="WoWGameObject.Level Property " Url="html/9863a640-a389-5059-a606-bcb637532900.htm" />
+    <HelpKINode Title="WoWUnit.Level Property " Url="html/5024bc5a-29ea-b182-f7ac-f854a09d0c11.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LfgBonusFactionID enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="LifetimeHonorableKills enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="LifetimeMaxRank enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="LightForce enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="LoadBot method" Url="html/71f1801a-8215-6d4d-90a3-ef562fbbfd96.htm" />
+  <HelpKINode Title="LoadingScreen field" Url="html/b3cba774-6c1a-6660-36fd-fb3b5315720a.htm" />
+  <HelpKINode Title="LocalGuid enumeration member" Url="html/78775ca5-9ec5-46e9-383c-c1e0e5d9c714.htm" />
+  <HelpKINode Title="Location property">
+    <HelpKINode Title="WoWGameObject.Location Property " Url="html/7b453055-211f-de4a-0c69-8534e20eafb2.htm" />
+    <HelpKINode Title="WoWObject.Location Property " Url="html/8b015a3d-6f93-d56b-1e08-06c59b619939.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Locked property" Url="html/f830605d-3a64-a897-f655-16c96a6ec687.htm" />
+  <HelpKINode Title="Log method" Url="html/3074aed4-c5f8-2c34-79f1-c1f5cf5e4057.htm" />
+  <HelpKINode Title="Logging class">
+    <HelpKINode Title="Logging Class" Url="html/71a568d9-743a-b2d4-f1f0-e9d7f58a9684.htm" />
+    <HelpKINode Title="Logging Members" Url="html/a2cd2db2-e8db-0431-f7f8-b2edcc213fed.htm" />
+    <HelpKINode Title="about Logging class" Url="html/71a568d9-743a-b2d4-f1f0-e9d7f58a9684.htm" />
+    <HelpKINode Title="all members" Url="html/a2cd2db2-e8db-0431-f7f8-b2edcc213fed.htm" />
+    <HelpKINode Title="events" Url="html/aa815d3f-95aa-64f1-3c1b-7b68e13a8d9e.htm" />
+    <HelpKINode Title="fields" Url="html/4d3d7ee6-cf2b-f1b7-52fd-cf7e745acf45.htm" />
+    <HelpKINode Title="methods" Url="html/0b834a2d-8015-69e0-ca05-e1c3c54b3c19.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Logging.Dispose method" Url="html/89e2a364-ce5d-85fd-dba7-6986c5f2d8fb.htm" />
+  <HelpKINode Title="Logging.Finalize method" Url="html/2b79f44a-814f-e264-881b-a78226eb6ab4.htm" />
+  <HelpKINode Title="Logging.Flush method" Url="html/abc7f258-8b12-bd81-c8c9-bbae833efbd0.htm" />
+  <HelpKINode Title="Logging.Instance field" Url="html/1c2250dd-cd4e-0847-6e1e-4454fd91dc58.htm" />
+  <HelpKINode Title="Logging.Log method" Url="html/3074aed4-c5f8-2c34-79f1-c1f5cf5e4057.htm" />
+  <HelpKINode Title="Logging.OnWrite event" Url="html/942e59fb-7c2f-c6f7-a3e4-0af11707c13c.htm" />
+  <HelpKINode Title="Logging.Write method" Url="html/7fe94661-64cc-41ab-2771-943139b0cf15.htm" />
+  <HelpKINode Title="Logging.WriteDelegate delegate" Url="html/a8066bdb-1340-5d85-50ea-ab2cb3f5f8da.htm" />
+  <HelpKINode Title="Lootable enumeration member" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="Lootable property" Url="html/8b3edf0c-a3d8-a827-7e86-9eb0bc3ca7a3.htm" />
+  <HelpKINode Title="Looting enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="LootSpecID enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="LureCount property" Url="html/483d4a14-a8f8-a0a5-0084-f775cf7aa65b.htm" />
+  <HelpKINode Title="Mage enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="MainhandExpertise enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Mana enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="Mastery enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="MaxDamage enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MaxDurability enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="MaxHealth enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MaxHealthModifier enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MaximumDurability property" Url="html/2c1e1477-dcc1-d5bc-36bd-ca5ea6a932e0.htm" />
+  <HelpKINode Title="MaximumHealth property" Url="html/053523c2-4632-280c-7e37-e29576f8fd90.htm" />
+  <HelpKINode Title="MaxItemLevel enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MaxLevel enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="MaxOffHandDamage enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MaxPower enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MaxRangedDamage enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MaxTalentTiers enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Me property" Url="html/6f7f0080-b35d-882c-45c9-243c78cbd910.htm" />
+  <HelpKINode Title="Memory property" Url="html/3a821736-e1d8-e58d-363f-c683e225259b.htm" />
+  <HelpKINode Title="Message property" Url="html/f17d963a-3c4e-0c31-a3da-eb13e0341831.htm" />
+  <HelpKINode Title="MessageEventArgs class">
+    <HelpKINode Title="MessageEventArgs Class" Url="html/5e8324ab-fea9-6875-be97-be789b85ec40.htm" />
+    <HelpKINode Title="MessageEventArgs Members" Url="html/82ac808c-2b6e-7946-4358-f850aed33001.htm" />
+    <HelpKINode Title="about MessageEventArgs class" Url="html/5e8324ab-fea9-6875-be97-be789b85ec40.htm" />
+    <HelpKINode Title="all members" Url="html/82ac808c-2b6e-7946-4358-f850aed33001.htm" />
+    <HelpKINode Title="constructor" Url="html/963d6f21-18e0-8811-318c-c4d563566426.htm" />
+    <HelpKINode Title="methods" Url="html/33627b9f-7280-12b4-c534-b76786149708.htm" />
+    <HelpKINode Title="properties" Url="html/cfaec241-d3d5-0c5a-3981-b46a203434e5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageEventArgs.Exception property" Url="html/68c334f7-de99-61ae-b895-5334b94c4dc7.htm" />
+  <HelpKINode Title="MessageEventArgs.Message property" Url="html/f17d963a-3c4e-0c31-a3da-eb13e0341831.htm" />
+  <HelpKINode Title="MessageEventArgs.MessageEventArgs constructor" Url="html/963d6f21-18e0-8811-318c-c4d563566426.htm" />
+  <HelpKINode Title="MinDamage enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MinItemLevel enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MinOffHandDamage enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MinRangedDamage enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ModCastingSpeed enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ModDamageDoneNeg enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModDamageDonePercent enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModDamageDonePos enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModHaste enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ModHasteRegen enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ModHealingDonePercent enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModHealingDonePos enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModHealingPercent enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModifiersMask enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="ModPeriodicHealingDonePercent enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModPetHaste enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModRangedHaste enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ModResiliencePercent enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModSpellHaste enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ModSpellPowerPercent enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModTargetPhysicalResistance enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ModTargetResistance enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Monk enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="MountDisplayID enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="MountDisplayID property" Url="html/77449046-680d-16ad-3dbc-069ab68e1e25.htm" />
+  <HelpKINode Title="Mounted enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Mounted property" Url="html/84297d92-2687-a822-e232-7ff6c9ea9ec4.htm" />
+  <HelpKINode Title="MouseOverGUID field" Url="html/fc9b398b-57cf-a1e6-da96-b028ff0fac53.htm" />
+  <HelpKINode Title="MoveTo method">
+    <HelpKINode Title="WoWObject.MoveTo Method " Url="html/b8a35173-d54b-1ac6-12da-e6589845b6cf.htm" />
+    <HelpKINode Title="WoWPlayerMe.MoveTo Method " Url="html/f0869248-16a2-576c-c70e-a55940f6fe11.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Multiply operator" Url="html/6a4df857-e96a-41b4-24fa-e58adacf061e.htm" />
+  <HelpKINode Title="Naga enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="IPlugin.Name Property " Url="html/9da9dcb0-4346-12de-bdd2-16cdb0b4c345.htm" />
+    <HelpKINode Title="State.Name Property " Url="html/857a4c20-fbbb-a6e3-3a1f-068283c8ff5b.htm" />
+    <HelpKINode Title="WoWGameObject.Name Property " Url="html/8d03819d-7687-ead7-5da2-63cff6f05e59.htm" />
+    <HelpKINode Title="WoWPlayer.Name Property " Url="html/30762cf2-ed27-336f-233e-21b334536d1b.htm" />
+    <HelpKINode Title="WoWPlayerMe.Name Property " Url="html/ae8aa866-4962-84f9-74ce-bd1c23834ef9.htm" />
+    <HelpKINode Title="WoWUnit.Name Property " Url="html/9b6bc410-97b6-47f2-9b63-632a6cf6bf69.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Name1 enumeration member">
+    <HelpKINode Title="Offsets.WowGameObject Enumeration" Url="html/e38c83a0-dbf3-ae11-9a25-0694a5951eda.htm" />
+    <HelpKINode Title="Offsets.WoWUnit Enumeration" Url="html/554c1425-bcaa-9dac-9670-3885dc7ee0cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Name2 enumeration member">
+    <HelpKINode Title="Offsets.WowGameObject Enumeration" Url="html/e38c83a0-dbf3-ae11-9a25-0694a5951eda.htm" />
+    <HelpKINode Title="Offsets.WoWUnit Enumeration" Url="html/554c1425-bcaa-9dac-9670-3885dc7ee0cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NameBase enumeration member" Url="html/fd76b91a-932e-8630-7dcd-0b7fe31858b2.htm" />
+  <HelpKINode Title="NameMask enumeration member" Url="html/fd76b91a-932e-8630-7dcd-0b7fe31858b2.htm" />
+  <HelpKINode Title="NameStore enumeration member" Url="html/fd76b91a-932e-8630-7dcd-0b7fe31858b2.htm" />
+  <HelpKINode Title="NameString enumeration member" Url="html/fd76b91a-932e-8630-7dcd-0b7fe31858b2.htm" />
+  <HelpKINode Title="NativeDisplayID enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="NeedToRun property">
+    <HelpKINode Title="State.NeedToRun Property " Url="html/64bc18fe-c220-f517-0b66-fae251292a77.htm" />
+    <HelpKINode Title="StateApplyLure.NeedToRun Property " Url="html/e3833bc4-bfdc-7b7e-cfbc-e4454ea6a7b4.htm" />
+    <HelpKINode Title="StateBobbing.NeedToRun Property " Url="html/e4c9b9df-579f-1711-a328-ba272e45ab6d.htm" />
+    <HelpKINode Title="StateDoLoot.NeedToRun Property " Url="html/9c8b8f40-aa2d-0d51-442c-90caf4b22997.htm" />
+    <HelpKINode Title="StateDoNothing.NeedToRun Property " Url="html/9fcb3fa6-57aa-ca9a-e8a4-f541a9688436.htm" />
+    <HelpKINode Title="StateDoWhisper.NeedToRun Property " Url="html/2d1ca3a6-f882-2cb3-40c7-1757ff4e2c71.htm" />
+    <HelpKINode Title="StateFish.NeedToRun Property " Url="html/73592abf-7977-a22c-658b-41f1663da4df.htm" />
+    <HelpKINode Title="StateStopOrLogout.NeedToRun Property " Url="html/eee0b7bc-cf1b-ad6d-e3c0-f64508939995.htm" />
+    <HelpKINode Title="StateUseCharm.NeedToRun Property " Url="html/0ef996da-f644-c931-030f-adfb59dbde23.htm" />
+    <HelpKINode Title="StateUseRaft.NeedToRun Property " Url="html/fde435ee-21f4-7315-fac1-4c1253d8763b.htm" />
+    <HelpKINode Title="StateUseRumsey.NeedToRun Property " Url="html/494babd5-5a3d-93e9-809f-e415ba6b5964.htm" />
+    <HelpKINode Title="StateUseSpear.NeedToRun Property " Url="html/bddc9193-0984-cca5-926f-ec527bfbd892.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NextLevel property" Url="html/565ef279-6c41-4ae8-c9dc-e2d954bb5232.htm" />
+  <HelpKINode Title="NextLevelXP enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="NextObject enumeration member" Url="html/78775ca5-9ec5-46e9-383c-c1e0e5d9c714.htm" />
+  <HelpKINode Title="NightElf enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="None enumeration member">
+    <HelpKINode Title="Offsets.ClassFlags Enumeration" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+    <HelpKINode Title="Offsets.UnitDynamicFlags Enumeration" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+    <HelpKINode Title="Offsets.UnitFlags Enumeration" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NoReagentCostMask enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="NotAttackable enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="NotFoundCount property" Url="html/1f9e40f8-0c9b-f525-00de-0621977283a3.htm" />
+  <HelpKINode Title="NotSelectable enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="NpcFlags enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="NumClientObjectTypes enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="NumSlots enumeration member" Url="html/531cd97a-e9a6-cee2-5663-862fb09eed37.htm" />
+  <HelpKINode Title="NumSlots property" Url="html/32dc54f3-6c11-61fe-8580-8ab21a36f376.htm" />
+  <HelpKINode Title="Object enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="ObjectManager class">
+    <HelpKINode Title="ObjectManager Class" Url="html/aa08a551-10d6-0e76-fdf8-9178a6cf786f.htm" />
+    <HelpKINode Title="ObjectManager Members" Url="html/1d673c27-560c-4f26-5c1d-b59c65ad2356.htm" />
+    <HelpKINode Title="about ObjectManager class" Url="html/aa08a551-10d6-0e76-fdf8-9178a6cf786f.htm" />
+    <HelpKINode Title="all members" Url="html/1d673c27-560c-4f26-5c1d-b59c65ad2356.htm" />
+    <HelpKINode Title="fields" Url="html/0cacc299-a264-237f-321c-d09d58810796.htm" />
+    <HelpKINode Title="methods" Url="html/7f5164e6-5be9-9ea8-de8d-0b2eabea51ea.htm" />
+    <HelpKINode Title="properties" Url="html/d430dae8-da16-eed5-b5ee-f0767bf8505d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectManager.CurrentManager property" Url="html/db945452-7fbd-8404-566d-e9a057b0b1eb.htm" />
+  <HelpKINode Title="ObjectManager.GetObjectsOfType(Of T) method" Url="html/bcfcdd29-ee23-6f1f-9265-2a1325a6d988.htm" />
+  <HelpKINode Title="ObjectManager.GetObjectsOfType&lt;T&gt; method" Url="html/bcfcdd29-ee23-6f1f-9265-2a1325a6d988.htm" />
+  <HelpKINode Title="ObjectManager.Instance property" Url="html/98514faa-a1dc-0959-937e-e03f31d2ecf9.htm" />
+  <HelpKINode Title="ObjectManager.Me property" Url="html/6f7f0080-b35d-882c-45c9-243c78cbd910.htm" />
+  <HelpKINode Title="ObjectManager.Objects field" Url="html/835e0df4-793c-c237-887b-25895d5953e5.htm" />
+  <HelpKINode Title="ObjectManager.ObjectType enumeration" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="ObjectManager.PlayerGuid property" Url="html/abc2c4eb-32f3-6bd0-0947-ea28662b76a9.htm" />
+  <HelpKINode Title="ObjectManager.PowerType enumeration" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="ObjectManager.Pulse method" Url="html/f713d2aa-0ab2-5bc0-8d78-b2100dc50a87.htm" />
+  <HelpKINode Title="Objects field" Url="html/835e0df4-793c-c237-887b-25895d5953e5.htm" />
+  <HelpKINode Title="OffhandCritPercentage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="OffhandExpertise enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Offsets class">
+    <HelpKINode Title="Offsets Class" Url="html/7bd08a79-c18e-5bc1-36f0-d8b7faa5964e.htm" />
+    <HelpKINode Title="Offsets Members" Url="html/d2b11765-d5b0-d8ee-349b-3ed0dbf45616.htm" />
+    <HelpKINode Title="about Offsets class" Url="html/7bd08a79-c18e-5bc1-36f0-d8b7faa5964e.htm" />
+    <HelpKINode Title="all members" Url="html/d2b11765-d5b0-d8ee-349b-3ed0dbf45616.htm" />
+    <HelpKINode Title="fields" Url="html/5df7ff52-7efd-da9b-f356-66dad3c3a757.htm" />
+    <HelpKINode Title="methods" Url="html/cd4f6a66-5f40-8dd7-855b-5b2e8cb47603.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Offsets.ClassFlags enumeration" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="Offsets.ClntObjMgrGetActivePlayerObj field" Url="html/dd0c893a-b719-3036-a89a-239bc67f759c.htm" />
+  <HelpKINode Title="Offsets.CorpseFlags enumeration" Url="html/a77e7aa2-fb72-a3ec-2842-ce0bc3ad4779.htm" />
+  <HelpKINode Title="Offsets.CTM enumeration" Url="html/3ae896bd-9322-9039-f711-d9e722f8a5df.htm" />
+  <HelpKINode Title="Offsets.CTM_Base field" Url="html/0194d833-d3c0-d563-8378-d83fd667b113.htm" />
+  <HelpKINode Title="Offsets.FindOffsets method" Url="html/270c2f57-7c53-1da3-03d5-ac865e3180eb.htm" />
+  <HelpKINode Title="Offsets.FrameScript_ExecuteBuffer field" Url="html/62322ee4-f72a-119f-0533-86e5d143d31b.htm" />
+  <HelpKINode Title="Offsets.FrameScript_GetLocalizedText field" Url="html/5e856bd4-6d48-423d-f291-d9f3199abae6.htm" />
+  <HelpKINode Title="Offsets.LastHardwareAction field" Url="html/3050c4e5-11e7-23cc-0249-69059fd723e2.htm" />
+  <HelpKINode Title="Offsets.LoadingScreen field" Url="html/b3cba774-6c1a-6660-36fd-fb3b5315720a.htm" />
+  <HelpKINode Title="Offsets.MouseOverGUID field" Url="html/fc9b398b-57cf-a1e6-da96-b028ff0fac53.htm" />
+  <HelpKINode Title="Offsets.ObjectFields enumeration" Url="html/0962ee0c-066f-b3b9-37b2-531bd9bedc0f.htm" />
+  <HelpKINode Title="Offsets.ObjectManager enumeration" Url="html/78775ca5-9ec5-46e9-383c-c1e0e5d9c714.htm" />
+  <HelpKINode Title="Offsets.PlayerName field" Url="html/41e5e575-2553-c539-ec63-1aebc67c541d.htm" />
+  <HelpKINode Title="Offsets.RaceFlags enumeration" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Offsets.s_curMgr field" Url="html/a14b7503-3d8c-32e8-983b-62b2f7d8ab81.htm" />
+  <HelpKINode Title="Offsets.TimeStamp field" Url="html/a683e506-1e5e-7ebb-62a9-a6d366f0e2bb.htm" />
+  <HelpKINode Title="Offsets.UnitDynamicFlags enumeration" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="Offsets.UnitFlags enumeration" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Offsets.WoWAreaTriggerFields enumeration" Url="html/8e1aeea3-2bac-3823-5c33-edaa7b8b21d4.htm" />
+  <HelpKINode Title="Offsets.WoWContainerFields enumeration" Url="html/531cd97a-e9a6-cee2-5663-862fb09eed37.htm" />
+  <HelpKINode Title="Offsets.WoWCorpseFields enumeration" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+  <HelpKINode Title="Offsets.WoWDynamicObjectFields enumeration" Url="html/2021011b-d0e0-4123-426b-0f9697c479e8.htm" />
+  <HelpKINode Title="Offsets.WowGameObject enumeration" Url="html/e38c83a0-dbf3-ae11-9a25-0694a5951eda.htm" />
+  <HelpKINode Title="Offsets.WoWGameObjectFields enumeration" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+  <HelpKINode Title="Offsets.WoWItemFields enumeration" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="Offsets.WowObject enumeration" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="Offsets.WoWObjectFields enumeration" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  <HelpKINode Title="Offsets.WoWPlayer enumeration" Url="html/fd76b91a-932e-8630-7dcd-0b7fe31858b2.htm" />
+  <HelpKINode Title="Offsets.WoWPlayerFields enumeration" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Offsets.WoWSceneObjectFields enumeration" Url="html/33a74dfd-2237-649e-fc28-94dd42d664c9.htm" />
+  <HelpKINode Title="Offsets.WoWUnit enumeration" Url="html/554c1425-bcaa-9dac-9670-3885dc7ee0cc.htm" />
+  <HelpKINode Title="Offsets.WoWUnitFields enumeration" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="OnConfig method" Url="html/58703b93-1328-e0f4-8980-5a60ed6ce698.htm" />
+  <HelpKINode Title="OnDisabled method" Url="html/b4c5c5e8-b292-ba6b-f300-1de206a26793.htm" />
+  <HelpKINode Title="OnEnabled method" Url="html/c64cea18-2118-bcc9-c263-164037b21dd1.htm" />
+  <HelpKINode Title="OnLoad method" Url="html/09d98584-428e-3051-04f5-6b419df844b8.htm" />
+  <HelpKINode Title="OnPulse method" Url="html/9cf115e4-01b2-b145-f81a-364a0e37e2e0.htm" />
+  <HelpKINode Title="OnShutdown method" Url="html/a2bad87a-20d3-5bb8-c67d-a78ba7e48216.htm" />
+  <HelpKINode Title="OnWrite event" Url="html/942e59fb-7c2f-c6f7-a3e4-0af11707c13c.htm" />
+  <HelpKINode Title="Orc enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="OverrideAPBySpellPowerPercent enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="OverrideDisplayPowerID enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="OverrideSpellPowerByAPPercent enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="OverrideSpellsID enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="OverrideZonePVPType enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Owner enumeration member">
+    <HelpKINode Title="Offsets.WoWCorpseFields Enumeration" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+    <HelpKINode Title="Offsets.WoWItemFields Enumeration" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Owner property" Url="html/991361fb-6ed6-2162-f326-c984ffaf2c3b.htm" />
+  <HelpKINode Title="Pacified enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Paladin enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="Pandaren enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="ParentRotation enumeration member" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+  <HelpKINode Title="ParryPercentage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="PartyGUID enumeration member" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+  <HelpKINode Title="PercentHealth enumeration member" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+  <HelpKINode Title="PetExperience enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PetInCombat enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="PetNameTimestamp enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PetNextLevelExperience enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PetNumber enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PetSpellPower enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Pitch enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="Player enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="PlayerControlled enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="PlayerFlags enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="PlayerGuid property" Url="html/abc2c4eb-32f3-6bd0-0947-ea28662b76a9.htm" />
+  <HelpKINode Title="PlayerInventory class">
+    <HelpKINode Title="PlayerInventory Class" Url="html/b91b9fc3-b3bf-9b0e-5d78-70e1b29daaee.htm" />
+    <HelpKINode Title="PlayerInventory Members" Url="html/14335c7b-2536-4e13-29a3-7506f65cafbe.htm" />
+    <HelpKINode Title="about PlayerInventory class" Url="html/b91b9fc3-b3bf-9b0e-5d78-70e1b29daaee.htm" />
+    <HelpKINode Title="all members" Url="html/14335c7b-2536-4e13-29a3-7506f65cafbe.htm" />
+    <HelpKINode Title="properties" Url="html/397a24d6-7c4f-b0bf-0a94-ebce3b79029b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlayerInventory.FreeSlots property" Url="html/884aadd3-1db8-b861-559d-b69a3b12c66d.htm" />
+  <HelpKINode Title="PlayerInventory.LureCount property" Url="html/483d4a14-a8f8-a0a5-0084-f775cf7aa65b.htm" />
+  <HelpKINode Title="PlayerName field" Url="html/41e5e575-2553-c539-ec63-1aebc67c541d.htm" />
+  <HelpKINode Title="PlayerTitle enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="PlusMob enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Point class">
+    <HelpKINode Title="Point Class" Url="html/9301d98d-fe45-dc75-a7ea-f5a865f3d147.htm" />
+    <HelpKINode Title="Point Members" Url="html/a843d69f-de21-5a02-01e9-81d0bcbe7566.htm" />
+    <HelpKINode Title="about Point class" Url="html/9301d98d-fe45-dc75-a7ea-f5a865f3d147.htm" />
+    <HelpKINode Title="all members" Url="html/a843d69f-de21-5a02-01e9-81d0bcbe7566.htm" />
+    <HelpKINode Title="constructor" Url="html/bc40d80f-0f80-2edd-1c24-d9d29880fc54.htm" />
+    <HelpKINode Title="methods" Url="html/ef920e9a-3db6-a02a-8b79-e534c86d9965.htm" />
+    <HelpKINode Title="operators" Url="html/0e864cca-79f8-14c9-a2e4-16219888b26a.htm" />
+    <HelpKINode Title="properties" Url="html/1a6e0ca9-eb36-882d-40a4-e9c3a8d8badd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Point.Addition operator" Url="html/9884094c-6af1-cf88-c1ab-b96fc2c16339.htm" />
+  <HelpKINode Title="Point.CompareTo method" Url="html/7984039c-7c9f-ccc8-036a-baf94b4dcf00.htm" />
+  <HelpKINode Title="Point.Distance method" Url="html/13649b8d-be79-fb5b-dd8d-e5304f9487e8.htm" />
+  <HelpKINode Title="Point.Equals method" Url="html/a5fa7cd5-7b65-b224-9840-738a4eca72df.htm" />
+  <HelpKINode Title="Point.FlatDistance method" Url="html/b633df98-a617-4d59-2e19-2c85d8eac69f.htm" />
+  <HelpKINode Title="Point.GetHashCode method" Url="html/6fcdf165-b772-8e40-56d6-5c764e9f2fde.htm" />
+  <HelpKINode Title="Point.GetXml method" Url="html/0ca74ea8-4ae1-08c9-9773-1a187240e204.htm" />
+  <HelpKINode Title="Point.GreaterThan operator" Url="html/1458115d-2550-d0a6-fb24-b636077014c0.htm" />
+  <HelpKINode Title="Point.GreaterThanOrEqual operator" Url="html/ba4f617b-d420-febb-9036-85037857c9e2.htm" />
+  <HelpKINode Title="Point.HeightDiff method" Url="html/b3f05e5a-7193-dcb8-80a7-5bf2f4de2f99.htm" />
+  <HelpKINode Title="Point.HeightDiffAbs method" Url="html/30eab7e7-5033-ae00-1d87-46feca5ef8ae.htm" />
+  <HelpKINode Title="Point.IsValid property" Url="html/bcf55730-5976-5d38-8d54-72ebfa267648.htm" />
+  <HelpKINode Title="Point.LessThan operator" Url="html/19dcfcd8-7837-2e7c-8472-db02baa20028.htm" />
+  <HelpKINode Title="Point.LessThanOrEqual operator" Url="html/9426fde3-4db2-a470-5bee-0e4929d7f785.htm" />
+  <HelpKINode Title="Point.Multiply operator" Url="html/6a4df857-e96a-41b4-24fa-e58adacf061e.htm" />
+  <HelpKINode Title="Point.Point constructor" Url="html/bc40d80f-0f80-2edd-1c24-d9d29880fc54.htm" />
+  <HelpKINode Title="Point.Subtraction operator" Url="html/c965e65e-730b-c17f-5743-08f8907c69eb.htm" />
+  <HelpKINode Title="Point.ToString method" Url="html/3e72347c-ddbd-21cd-2682-e9f8d12c28da.htm" />
+  <HelpKINode Title="Point.X property" Url="html/f321cf10-66ee-f8b6-6767-d456565294e1.htm" />
+  <HelpKINode Title="Point.Y property" Url="html/c556e8b8-38d6-e9a1-b46a-76c8cc317e71.htm" />
+  <HelpKINode Title="Point.Z property" Url="html/bd69aa9f-d1da-29ea-fb5c-d6f7494230ff.htm" />
+  <HelpKINode Title="Possessed enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Power enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PowerCostModifier enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PowerCostMultiplier enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PowerRegenFlatModifier enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PowerRegenInterruptedFlatModifier enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="PowerType property" Url="html/53bd608a-40a6-4cd2-b3b0-26ab71a6333a.htm" />
+  <HelpKINode Title="Preparation enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Priest enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="Priority property">
+    <HelpKINode Title="State.Priority Property " Url="html/36dbb59d-a531-4e98-cd1e-f9ebe1ef61a7.htm" />
+    <HelpKINode Title="StateApplyLure.Priority Property " Url="html/cdc211f2-4a46-48e6-d9a0-4736bdd41e26.htm" />
+    <HelpKINode Title="StateBobbing.Priority Property " Url="html/74a66f45-7782-daba-a72f-90784ce5c837.htm" />
+    <HelpKINode Title="StateDoLoot.Priority Property " Url="html/897c4371-d2bb-4050-1848-310362fa7e39.htm" />
+    <HelpKINode Title="StateDoNothing.Priority Property " Url="html/d40d2a4f-163f-7684-839a-da97d79acc8a.htm" />
+    <HelpKINode Title="StateDoWhisper.Priority Property " Url="html/4ae411cb-7cd7-a9bc-a3d9-379b98f9f698.htm" />
+    <HelpKINode Title="StateFish.Priority Property " Url="html/7d280b30-8143-fe30-8614-40cb8c63f16d.htm" />
+    <HelpKINode Title="StateStopOrLogout.Priority Property " Url="html/566d6aed-6cde-d5df-71f4-c3e31da017e5.htm" />
+    <HelpKINode Title="StateUseCharm.Priority Property " Url="html/bf5acb80-dad2-cbf1-98c1-2c6637bb5538.htm" />
+    <HelpKINode Title="StateUseRaft.Priority Property " Url="html/ca527bd2-5e0f-3c68-36d2-5893152a7b99.htm" />
+    <HelpKINode Title="StateUseRumsey.Priority Property " Url="html/b4b72db5-2a8a-df87-3639-fa70ab79dffc.htm" />
+    <HelpKINode Title="StateUseSpear.Priority Property " Url="html/091a7b34-1f89-8052-7569-65bfdbccf69d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProfessionSkillLine enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="PropertySeed enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="Pulse method" Url="html/f713d2aa-0ab2-5bc0-8d78-b2100dc50a87.htm" />
+  <HelpKINode Title="PvPFlagged enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="PvpInfo enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="PvpMedals enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="PvpPowerDamage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="PvpPowerHealing enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="QuestLog enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Race property" Url="html/c13da87c-9ade-d2c9-c325-fecda73e378c.htm" />
+  <HelpKINode Title="Radius enumeration member" Url="html/2021011b-d0e0-4123-426b-0f9697c479e8.htm" />
+  <HelpKINode Title="Radius property" Url="html/4edbac58-7512-80fa-9aaa-f3f79c8121c1.htm" />
+  <HelpKINode Title="Rage enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="RandomPropertiesID enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="RangedAttackPower enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="RangedAttackPowerModNeg enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="RangedAttackPowerModPos enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="RangedAttackPowerMultiplier enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="RangedAttackRoundBaseTime enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="RangedCritPercentage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="RangedExpertise enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ReferAFriendLinked enumeration member" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="Researching enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ResistanceBuffModsNegative enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ResistanceBuffModsPositive enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Resistances enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="RestExperience property" Url="html/f426cd08-b806-0fe6-7722-9707a4fd0867.htm" />
+  <HelpKINode Title="Restore method" Url="html/4098f7c4-11db-a058-9897-75af0502e2cd.htm" />
+  <HelpKINode Title="RestState enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="RestStateBonusPool enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="RndSeedVal enumeration member" Url="html/33a74dfd-2237-649e-fc28-94dd42d664c9.htm" />
+  <HelpKINode Title="Rogue enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="Rotation enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="RotationOffset enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="Run method">
+    <HelpKINode Title="State.Run Method " Url="html/05a04e12-d806-73a1-b7b3-7e70b586f617.htm" />
+    <HelpKINode Title="StateApplyLure.Run Method " Url="html/a5bfa998-f038-1f86-31b1-fb6d4d134d14.htm" />
+    <HelpKINode Title="StateBobbing.Run Method " Url="html/b7d5825c-563c-fb10-e732-6fafcd247dc4.htm" />
+    <HelpKINode Title="StateDoLoot.Run Method " Url="html/5c7f0db5-193a-ea7c-cd33-e3c1a1e5c6ad.htm" />
+    <HelpKINode Title="StateDoNothing.Run Method " Url="html/e2676ec0-708c-b83e-39a5-41715d96e77f.htm" />
+    <HelpKINode Title="StateDoWhisper.Run Method " Url="html/6bbb5a26-8c96-06ae-24ba-b2567008b9fd.htm" />
+    <HelpKINode Title="StateFish.Run Method " Url="html/ef7f460d-09b8-c2a0-5df2-1e89061ea02e.htm" />
+    <HelpKINode Title="StateStopOrLogout.Run Method " Url="html/662d4037-e040-4296-f522-0055ee4a9023.htm" />
+    <HelpKINode Title="StateUseCharm.Run Method " Url="html/dde9a006-5e57-8517-38e8-d364dee58447.htm" />
+    <HelpKINode Title="StateUseRaft.Run Method " Url="html/ed37117a-6d15-0082-304b-c7c4cb828fbc.htm" />
+    <HelpKINode Title="StateUseRumsey.Run Method " Url="html/1d789206-01d3-970e-151c-8984ee6f0906.htm" />
+    <HelpKINode Title="StateUseSpear.Run Method " Url="html/5de44234-1a41-63cc-9fe4-7b969b4212a7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RuneRegen enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Runes enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="RunicPower enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="Scale enumeration member">
+    <HelpKINode Title="Offsets.ObjectFields Enumeration" Url="html/0962ee0c-066f-b3b9-37b2-531bd9bedc0f.htm" />
+    <HelpKINode Title="Offsets.WoWObjectFields Enumeration" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scale_X property" Url="html/e60ee463-f59c-9bb1-c1bc-12c14f9b19bc.htm" />
+  <HelpKINode Title="Sceneobject enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="SceneType enumeration member" Url="html/33a74dfd-2237-649e-fc28-94dd42d664c9.htm" />
+  <HelpKINode Title="ScriptPackageID enumeration member" Url="html/33a74dfd-2237-649e-fc28-94dd42d664c9.htm" />
+  <HelpKINode Title="SelfResSpell enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="SerializableDictionary(Of TKey, TVal) class">
+    <HelpKINode Title="SerializableDictionary(TKey, TVal) Class" Url="html/cde33a44-f039-9659-cdd7-637c38b5f2aa.htm" />
+    <HelpKINode Title="SerializableDictionary(TKey, TVal) Members" Url="html/bd31fd2f-0775-e24e-be66-5489942f1a62.htm" />
+    <HelpKINode Title="about SerializableDictionary(Of TKey, TVal) class" Url="html/cde33a44-f039-9659-cdd7-637c38b5f2aa.htm" />
+    <HelpKINode Title="all members" Url="html/bd31fd2f-0775-e24e-be66-5489942f1a62.htm" />
+    <HelpKINode Title="constructor" Url="html/72405df4-27dd-a08d-e9de-9b7af6225442.htm" />
+    <HelpKINode Title="methods" Url="html/57c2310e-e6ee-ecb6-58ef-45fcabeb0e8f.htm" />
+    <HelpKINode Title="properties" Url="html/d0d438dd-718b-b9fa-0413-357f15dfa96f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableDictionary(Of TKey, TVal).SerializableDictionary constructor" Url="html/72405df4-27dd-a08d-e9de-9b7af6225442.htm" />
+  <HelpKINode Title="SerializableDictionary(Of TKey, TVal).ValueSerializer property" Url="html/de310636-9847-a4d4-50d0-20822606c980.htm" />
+  <HelpKINode Title="SerializableDictionary&lt;TKey, TVal&gt; class">
+    <HelpKINode Title="SerializableDictionary(TKey, TVal) Class" Url="html/cde33a44-f039-9659-cdd7-637c38b5f2aa.htm" />
+    <HelpKINode Title="SerializableDictionary(TKey, TVal) Members" Url="html/bd31fd2f-0775-e24e-be66-5489942f1a62.htm" />
+    <HelpKINode Title="about SerializableDictionary&lt;TKey, TVal&gt; class" Url="html/cde33a44-f039-9659-cdd7-637c38b5f2aa.htm" />
+    <HelpKINode Title="all members" Url="html/bd31fd2f-0775-e24e-be66-5489942f1a62.htm" />
+    <HelpKINode Title="constructor" Url="html/72405df4-27dd-a08d-e9de-9b7af6225442.htm" />
+    <HelpKINode Title="methods" Url="html/57c2310e-e6ee-ecb6-58ef-45fcabeb0e8f.htm" />
+    <HelpKINode Title="properties" Url="html/d0d438dd-718b-b9fa-0413-357f15dfa96f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableDictionary&lt;TKey, TVal&gt;.SerializableDictionary constructor" Url="html/72405df4-27dd-a08d-e9de-9b7af6225442.htm" />
+  <HelpKINode Title="SerializableDictionary&lt;TKey, TVal&gt;.ValueSerializer property" Url="html/de310636-9847-a4d4-50d0-20822606c980.htm" />
+  <HelpKINode Title="SerializableItem class">
+    <HelpKINode Title="SerializableItem Class" Url="html/74896f7b-779e-13e8-0aac-007095fc3c7d.htm" />
+    <HelpKINode Title="SerializableItem Members" Url="html/0ce03803-8fe8-b4d2-8630-7e2d2c58a910.htm" />
+    <HelpKINode Title="about SerializableItem class" Url="html/74896f7b-779e-13e8-0aac-007095fc3c7d.htm" />
+    <HelpKINode Title="all members" Url="html/0ce03803-8fe8-b4d2-8630-7e2d2c58a910.htm" />
+    <HelpKINode Title="constructor" Url="html/6b5e80b1-7359-36ad-3d42-f4733d875cff.htm" />
+    <HelpKINode Title="methods" Url="html/2be709e5-82b2-fe4e-44ad-e27a85d1e337.htm" />
+    <HelpKINode Title="properties" Url="html/24a87623-4dd4-0965-9671-01c8b82fe000.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableItem.ItemID property" Url="html/d79caee9-cdf2-1108-7625-8a25b06f7f42.htm" />
+  <HelpKINode Title="SerializableItem.SerializableItem constructor" Url="html/6b5e80b1-7359-36ad-3d42-f4733d875cff.htm" />
+  <HelpKINode Title="SerializablePlugin class">
+    <HelpKINode Title="SerializablePlugin Class" Url="html/01664fab-d4ae-d922-7c21-be1ce1dd012a.htm" />
+    <HelpKINode Title="SerializablePlugin Members" Url="html/4fd09d22-41a6-6bb8-c3fd-783a3f4bda67.htm" />
+    <HelpKINode Title="about SerializablePlugin class" Url="html/01664fab-d4ae-d922-7c21-be1ce1dd012a.htm" />
+    <HelpKINode Title="all members" Url="html/4fd09d22-41a6-6bb8-c3fd-783a3f4bda67.htm" />
+    <HelpKINode Title="constructor" Url="html/e19403c2-e142-a923-c875-9f8ce6fd5645.htm" />
+    <HelpKINode Title="methods" Url="html/cfc74215-370b-d4ec-83b2-2878cfc2cf1c.htm" />
+    <HelpKINode Title="properties" Url="html/645ac993-7fa9-56d7-6b33-c604dc6277f8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializablePlugin.fileName property" Url="html/7f5222ef-71ae-e052-fc42-b20ceb6b307c.htm" />
+  <HelpKINode Title="SerializablePlugin.isEnabled property" Url="html/f5476c7e-3055-a2b3-3443-70a61a1653ea.htm" />
+  <HelpKINode Title="SerializablePlugin.SerializablePlugin constructor" Url="html/e19403c2-e142-a923-c875-9f8ce6fd5645.htm" />
+  <HelpKINode Title="SerializeObject method" Url="html/31354e18-18de-5386-0996-1a24df466c8d.htm" />
+  <HelpKINode Title="Serializer class">
+    <HelpKINode Title="Serializer Class" Url="html/7be6a5d5-1346-8a9d-ed35-1d70b752f1d2.htm" />
+    <HelpKINode Title="Serializer Members" Url="html/696fc87c-f226-f8bc-f746-f7e8dbc1f958.htm" />
+    <HelpKINode Title="about Serializer class" Url="html/7be6a5d5-1346-8a9d-ed35-1d70b752f1d2.htm" />
+    <HelpKINode Title="all members" Url="html/696fc87c-f226-f8bc-f746-f7e8dbc1f958.htm" />
+    <HelpKINode Title="constructor" Url="html/b1790a84-a8ef-af05-c2bd-443d1665a992.htm" />
+    <HelpKINode Title="methods" Url="html/7947dbcf-0415-b4ee-4949-a8de551d32fb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Serializer.DeSerializeObject(Of T) method" Url="html/dded871c-7621-5ca8-93e0-4a3687d85f49.htm" />
+  <HelpKINode Title="Serializer.DeSerializeObject&lt;T&gt; method" Url="html/dded871c-7621-5ca8-93e0-4a3687d85f49.htm" />
+  <HelpKINode Title="Serializer.SerializeObject method" Url="html/31354e18-18de-5386-0996-1a24df466c8d.htm" />
+  <HelpKINode Title="Serializer.Serializer constructor" Url="html/b1790a84-a8ef-af05-c2bd-443d1665a992.htm" />
+  <HelpKINode Title="SetActiveBot method" Url="html/22dfc57f-42f9-2388-dadf-8710d09ff062.htm" />
+  <HelpKINode Title="SetLanguage method" Url="html/afe23c4c-1bca-93f7-ef61-a9ceeaedf110.htm" />
+  <HelpKINode Title="Settings method" Url="html/afa3a505-d3e7-8a1e-547c-072bf66de8dc.htm" />
+  <HelpKINode Title="Sex enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="ShadowOrbs enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="Shaman enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="ShapeshiftForm enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Sheathe enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="ShieldBlock enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="ShieldBlockCritPercentage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Silenced enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Silver property" Url="html/d21d9edc-c73e-8d3a-0720-0ff44fc70a51.htm" />
+  <HelpKINode Title="Sitting enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Skeleton enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Skill enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="SkinID enumeration member" Url="html/581c3abf-84cb-1339-1492-92b2820a60f0.htm" />
+  <HelpKINode Title="Skinnable enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Slots enumeration member" Url="html/531cd97a-e9a6-cee2-5663-862fb09eed37.htm" />
+  <HelpKINode Title="Slots property" Url="html/3a1d619b-4d06-6a8f-ded7-f050ce33b7d1.htm" />
+  <HelpKINode Title="SoulShards enumeration member" Url="html/c8df209b-40a0-7cb1-138f-6e377c13cd1c.htm" />
+  <HelpKINode Title="SpecialInfo enumeration member" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="Speed property" Url="html/cda9ef57-ca4f-fc0f-6e0d-f326c324ba0b.htm" />
+  <HelpKINode Title="SpellCharges enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="SpellCritPercentage enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="SpellID enumeration member">
+    <HelpKINode Title="Offsets.WoWAreaTriggerFields Enumeration" Url="html/8e1aeea3-2bac-3823-5c33-edaa7b8b21d4.htm" />
+    <HelpKINode Title="Offsets.WoWDynamicObjectFields Enumeration" Url="html/2021011b-d0e0-4123-426b-0f9697c479e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpellID property" Url="html/7767a24e-5a6b-1fb6-ff04-181791be693f.htm" />
+  <HelpKINode Title="SpellVisualID enumeration member" Url="html/8e1aeea3-2bac-3823-5c33-edaa7b8b21d4.htm" />
+  <HelpKINode Title="StackCount enumeration member" Url="html/d775d46e-58a8-be8a-2473-d078eb2aceb4.htm" />
+  <HelpKINode Title="StackCount property" Url="html/eb096d33-ded1-4097-71b0-e6e7577d9a69.htm" />
+  <HelpKINode Title="StartActiveBot method" Url="html/65e64151-0366-98c1-c362-7a64fa541d27.htm" />
+  <HelpKINode Title="StartBot method" Url="html/e1decf75-05e3-c476-c572-40f5e80d4185.htm" />
+  <HelpKINode Title="State class">
+    <HelpKINode Title="State Class" Url="html/815939fb-f868-839e-c849-699fed16f33c.htm" />
+    <HelpKINode Title="State Members" Url="html/4a1dd1c3-bd11-6b86-9d56-698fc0dd5ec9.htm" />
+    <HelpKINode Title="about State class" Url="html/815939fb-f868-839e-c849-699fed16f33c.htm" />
+    <HelpKINode Title="all members" Url="html/4a1dd1c3-bd11-6b86-9d56-698fc0dd5ec9.htm" />
+    <HelpKINode Title="constructor" Url="html/c179a62d-63ce-d4fc-2f27-7119d43c3e88.htm" />
+    <HelpKINode Title="methods" Url="html/724e880b-3d84-f847-b242-50c3b4d72add.htm" />
+    <HelpKINode Title="properties" Url="html/a710e408-a424-dff5-cafa-c60b7e086671.htm" />
+  </HelpKINode>
+  <HelpKINode Title="State.Compare method" Url="html/8969c464-3bde-5490-48bf-f0f4b1715e5b.htm" />
+  <HelpKINode Title="State.CompareTo method" Url="html/14d4da2c-beeb-0984-8cff-2feb381978cb.htm" />
+  <HelpKINode Title="State.Name property" Url="html/857a4c20-fbbb-a6e3-3a1f-068283c8ff5b.htm" />
+  <HelpKINode Title="State.NeedToRun property" Url="html/64bc18fe-c220-f517-0b66-fae251292a77.htm" />
+  <HelpKINode Title="State.Priority property" Url="html/36dbb59d-a531-4e98-cd1e-f9ebe1ef61a7.htm" />
+  <HelpKINode Title="State.Run method" Url="html/05a04e12-d806-73a1-b7b3-7e70b586f617.htm" />
+  <HelpKINode Title="State.State constructor" Url="html/c179a62d-63ce-d4fc-2f27-7119d43c3e88.htm" />
+  <HelpKINode Title="StateApplyLure class">
+    <HelpKINode Title="StateApplyLure Class" Url="html/3ee8e271-55a7-80b1-0992-7d685b1ed9f6.htm" />
+    <HelpKINode Title="StateApplyLure Members" Url="html/c8ac6b16-d464-42d0-daf6-f12da0ec723a.htm" />
+    <HelpKINode Title="about StateApplyLure class" Url="html/3ee8e271-55a7-80b1-0992-7d685b1ed9f6.htm" />
+    <HelpKINode Title="all members" Url="html/c8ac6b16-d464-42d0-daf6-f12da0ec723a.htm" />
+    <HelpKINode Title="constructor" Url="html/9b039b03-1ba9-fb25-8a8b-0cb255ea9287.htm" />
+    <HelpKINode Title="fields" Url="html/78feabb1-31a2-b08f-de83-90d0329d70e1.htm" />
+    <HelpKINode Title="methods" Url="html/07875960-e473-3247-22fe-4fdeaecfedc8.htm" />
+    <HelpKINode Title="properties" Url="html/f85e923b-957d-732d-ca79-554e63ac3741.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateApplyLure.Count field" Url="html/9486b90b-8c9c-4444-6e75-47fe22dad00c.htm" />
+  <HelpKINode Title="StateApplyLure.NeedToRun property" Url="html/e3833bc4-bfdc-7b7e-cfbc-e4454ea6a7b4.htm" />
+  <HelpKINode Title="StateApplyLure.Priority property" Url="html/cdc211f2-4a46-48e6-d9a0-4736bdd41e26.htm" />
+  <HelpKINode Title="StateApplyLure.Run method" Url="html/a5bfa998-f038-1f86-31b1-fb6d4d134d14.htm" />
+  <HelpKINode Title="StateApplyLure.StateApplyLure constructor" Url="html/9b039b03-1ba9-fb25-8a8b-0cb255ea9287.htm" />
+  <HelpKINode Title="StateBobbing class">
+    <HelpKINode Title="StateBobbing Class" Url="html/31343c70-9fcd-4704-2bf5-9f0a56e0ff06.htm" />
+    <HelpKINode Title="StateBobbing Members" Url="html/d2e9f993-5bf6-cdf3-98a7-87b8542d0e47.htm" />
+    <HelpKINode Title="about StateBobbing class" Url="html/31343c70-9fcd-4704-2bf5-9f0a56e0ff06.htm" />
+    <HelpKINode Title="all members" Url="html/d2e9f993-5bf6-cdf3-98a7-87b8542d0e47.htm" />
+    <HelpKINode Title="constructor" Url="html/54fe8395-629f-146a-18eb-1b7f0990b80a.htm" />
+    <HelpKINode Title="fields" Url="html/e71c5b1d-f6dd-75cf-8a2a-b8f89a36726f.htm" />
+    <HelpKINode Title="methods" Url="html/235d5b6d-2ab2-2c36-4c6b-b26174f2bcf7.htm" />
+    <HelpKINode Title="properties" Url="html/70829b1c-76b5-0ea7-36c6-b567aeca7116.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateBobbing.BuggedTimer field" Url="html/ffffbd2e-7225-7f74-aea3-004f28f7ee9a.htm" />
+  <HelpKINode Title="StateBobbing.NeedToRun property" Url="html/e4c9b9df-579f-1711-a328-ba272e45ab6d.htm" />
+  <HelpKINode Title="StateBobbing.Priority property" Url="html/74a66f45-7782-daba-a72f-90784ce5c837.htm" />
+  <HelpKINode Title="StateBobbing.Run method" Url="html/b7d5825c-563c-fb10-e732-6fafcd247dc4.htm" />
+  <HelpKINode Title="StateBobbing.StateBobbing constructor" Url="html/54fe8395-629f-146a-18eb-1b7f0990b80a.htm" />
+  <HelpKINode Title="StateDoLoot class">
+    <HelpKINode Title="StateDoLoot Class" Url="html/44c62e4c-ac5f-a979-9eb6-abfc867075f6.htm" />
+    <HelpKINode Title="StateDoLoot Members" Url="html/2cd8df8a-98e8-9a6d-0c58-768c648451cd.htm" />
+    <HelpKINode Title="about StateDoLoot class" Url="html/44c62e4c-ac5f-a979-9eb6-abfc867075f6.htm" />
+    <HelpKINode Title="all members" Url="html/2cd8df8a-98e8-9a6d-0c58-768c648451cd.htm" />
+    <HelpKINode Title="constructor" Url="html/1e5b41a8-86e9-5c63-7fc8-791d90ace22b.htm" />
+    <HelpKINode Title="methods" Url="html/40f7ad20-a27f-7b18-813d-46603b030afc.htm" />
+    <HelpKINode Title="properties" Url="html/b8d00a29-c054-1d14-cca8-e349b0bfa3c3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateDoLoot.NeedToRun property" Url="html/9c8b8f40-aa2d-0d51-442c-90caf4b22997.htm" />
+  <HelpKINode Title="StateDoLoot.Priority property" Url="html/897c4371-d2bb-4050-1848-310362fa7e39.htm" />
+  <HelpKINode Title="StateDoLoot.Run method" Url="html/5c7f0db5-193a-ea7c-cd33-e3c1a1e5c6ad.htm" />
+  <HelpKINode Title="StateDoLoot.StateDoLoot constructor" Url="html/1e5b41a8-86e9-5c63-7fc8-791d90ace22b.htm" />
+  <HelpKINode Title="StateDoNothing class">
+    <HelpKINode Title="StateDoNothing Class" Url="html/81a55296-ea2a-0a9a-f295-8d4c8d64f557.htm" />
+    <HelpKINode Title="StateDoNothing Members" Url="html/398314d7-e50f-0f19-a73a-25ca8a48c080.htm" />
+    <HelpKINode Title="about StateDoNothing class" Url="html/81a55296-ea2a-0a9a-f295-8d4c8d64f557.htm" />
+    <HelpKINode Title="all members" Url="html/398314d7-e50f-0f19-a73a-25ca8a48c080.htm" />
+    <HelpKINode Title="constructor" Url="html/dcdd9918-f841-a8da-bbee-275aee281fd6.htm" />
+    <HelpKINode Title="methods" Url="html/157240ea-38c1-336e-1de1-ba37b53ef285.htm" />
+    <HelpKINode Title="properties" Url="html/cbad7942-d5ca-99ae-02c1-79750038bf37.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateDoNothing.NeedToRun property" Url="html/9fcb3fa6-57aa-ca9a-e8a4-f541a9688436.htm" />
+  <HelpKINode Title="StateDoNothing.Priority property" Url="html/d40d2a4f-163f-7684-839a-da97d79acc8a.htm" />
+  <HelpKINode Title="StateDoNothing.Run method" Url="html/e2676ec0-708c-b83e-39a5-41715d96e77f.htm" />
+  <HelpKINode Title="StateDoNothing.StateDoNothing constructor" Url="html/dcdd9918-f841-a8da-bbee-275aee281fd6.htm" />
+  <HelpKINode Title="StateDoWhisper class">
+    <HelpKINode Title="StateDoWhisper Class" Url="html/acb08be3-4bbe-c94e-e7c6-9eba4877b819.htm" />
+    <HelpKINode Title="StateDoWhisper Members" Url="html/bdf04b5d-c4ae-09a5-85d2-cb0aa7c0c228.htm" />
+    <HelpKINode Title="about StateDoWhisper class" Url="html/acb08be3-4bbe-c94e-e7c6-9eba4877b819.htm" />
+    <HelpKINode Title="all members" Url="html/bdf04b5d-c4ae-09a5-85d2-cb0aa7c0c228.htm" />
+    <HelpKINode Title="constructor" Url="html/ae24fd99-d671-d3cc-97e0-0e3f852fb5fb.htm" />
+    <HelpKINode Title="methods" Url="html/42a138a5-e5d2-f339-9936-7e00658ce9e3.htm" />
+    <HelpKINode Title="properties" Url="html/13afcd29-5da8-5d9b-2b15-df87ceff2e4b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateDoWhisper.NeedToRun property" Url="html/2d1ca3a6-f882-2cb3-40c7-1757ff4e2c71.htm" />
+  <HelpKINode Title="StateDoWhisper.Priority property" Url="html/4ae411cb-7cd7-a9bc-a3d9-379b98f9f698.htm" />
+  <HelpKINode Title="StateDoWhisper.Run method" Url="html/6bbb5a26-8c96-06ae-24ba-b2567008b9fd.htm" />
+  <HelpKINode Title="StateDoWhisper.StateDoWhisper constructor" Url="html/ae24fd99-d671-d3cc-97e0-0e3f852fb5fb.htm" />
+  <HelpKINode Title="StateFish class">
+    <HelpKINode Title="StateFish Class" Url="html/9e06173c-1149-34ce-749d-6992575ec166.htm" />
+    <HelpKINode Title="StateFish Members" Url="html/afd53007-86e3-74ad-5841-8ed99bbcc4be.htm" />
+    <HelpKINode Title="about StateFish class" Url="html/9e06173c-1149-34ce-749d-6992575ec166.htm" />
+    <HelpKINode Title="all members" Url="html/afd53007-86e3-74ad-5841-8ed99bbcc4be.htm" />
+    <HelpKINode Title="constructor" Url="html/84eb2463-4f98-24a1-45be-ed7c0b1c696b.htm" />
+    <HelpKINode Title="methods" Url="html/8f7d790f-ec89-5a7d-1ce2-b78c87e61abf.htm" />
+    <HelpKINode Title="properties" Url="html/66df1986-ecd6-7695-3889-29395271854b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateFish.NeedToRun property" Url="html/73592abf-7977-a22c-658b-41f1663da4df.htm" />
+  <HelpKINode Title="StateFish.Priority property" Url="html/7d280b30-8143-fe30-8614-40cb8c63f16d.htm" />
+  <HelpKINode Title="StateFish.Run method" Url="html/ef7f460d-09b8-c2a0-5df2-1e89061ea02e.htm" />
+  <HelpKINode Title="StateFish.StateFish constructor" Url="html/84eb2463-4f98-24a1-45be-ed7c0b1c696b.htm" />
+  <HelpKINode Title="StateSpellVisualID enumeration member" Url="html/d2ba8aae-6a1f-dc91-02ef-2559479412e2.htm" />
+  <HelpKINode Title="StateStopOrLogout class">
+    <HelpKINode Title="StateStopOrLogout Class" Url="html/8d1e1d94-cdde-2259-5bb5-6bbbf69f62dd.htm" />
+    <HelpKINode Title="StateStopOrLogout Members" Url="html/225f99a5-4349-1303-9284-4970749d67ae.htm" />
+    <HelpKINode Title="about StateStopOrLogout class" Url="html/8d1e1d94-cdde-2259-5bb5-6bbbf69f62dd.htm" />
+    <HelpKINode Title="all members" Url="html/225f99a5-4349-1303-9284-4970749d67ae.htm" />
+    <HelpKINode Title="constructor" Url="html/1da9ba7a-5ac7-fb2f-0fd6-63faefc525d6.htm" />
+    <HelpKINode Title="methods" Url="html/a6e76ec8-58f5-11c2-3928-525cccdc60bd.htm" />
+    <HelpKINode Title="properties" Url="html/cac490de-b6d2-a5c0-cded-d785cde1a409.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateStopOrLogout.NeedToRun property" Url="html/eee0b7bc-cf1b-ad6d-e3c0-f64508939995.htm" />
+  <HelpKINode Title="StateStopOrLogout.Priority property" Url="html/566d6aed-6cde-d5df-71f4-c3e31da017e5.htm" />
+  <HelpKINode Title="StateStopOrLogout.Run method" Url="html/662d4037-e040-4296-f522-0055ee4a9023.htm" />
+  <HelpKINode Title="StateStopOrLogout.StateStopOrLogout constructor" Url="html/1da9ba7a-5ac7-fb2f-0fd6-63faefc525d6.htm" />
+  <HelpKINode Title="StateUseCharm class">
+    <HelpKINode Title="StateUseCharm Class" Url="html/14ad24ec-6b65-7f20-07a9-6cea61aa628b.htm" />
+    <HelpKINode Title="StateUseCharm Members" Url="html/a8603428-5073-da0e-e480-a9522e746214.htm" />
+    <HelpKINode Title="about StateUseCharm class" Url="html/14ad24ec-6b65-7f20-07a9-6cea61aa628b.htm" />
+    <HelpKINode Title="all members" Url="html/a8603428-5073-da0e-e480-a9522e746214.htm" />
+    <HelpKINode Title="constructor" Url="html/d9940782-d39b-4592-c6be-bc0a66090c8f.htm" />
+    <HelpKINode Title="methods" Url="html/8881a564-3d19-28b2-295a-422f9f8da39b.htm" />
+    <HelpKINode Title="properties" Url="html/754420bb-e7c4-ca6e-a446-2e7e08654050.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateUseCharm.NeedToRun property" Url="html/0ef996da-f644-c931-030f-adfb59dbde23.htm" />
+  <HelpKINode Title="StateUseCharm.Priority property" Url="html/bf5acb80-dad2-cbf1-98c1-2c6637bb5538.htm" />
+  <HelpKINode Title="StateUseCharm.Run method" Url="html/dde9a006-5e57-8517-38e8-d364dee58447.htm" />
+  <HelpKINode Title="StateUseCharm.StateUseCharm constructor" Url="html/d9940782-d39b-4592-c6be-bc0a66090c8f.htm" />
+  <HelpKINode Title="StateUseRaft class">
+    <HelpKINode Title="StateUseRaft Class" Url="html/e01d04eb-c578-78e4-e967-8669627be99d.htm" />
+    <HelpKINode Title="StateUseRaft Members" Url="html/3ee193bc-ed8e-3027-6cae-c38b66acb24f.htm" />
+    <HelpKINode Title="about StateUseRaft class" Url="html/e01d04eb-c578-78e4-e967-8669627be99d.htm" />
+    <HelpKINode Title="all members" Url="html/3ee193bc-ed8e-3027-6cae-c38b66acb24f.htm" />
+    <HelpKINode Title="constructor" Url="html/e3994d4b-e825-f1f6-f4a1-9271a309e43c.htm" />
+    <HelpKINode Title="methods" Url="html/6c21b448-6bad-814d-e5cf-a514e9479ec6.htm" />
+    <HelpKINode Title="properties" Url="html/0c71b936-8e4e-2890-a513-4ff843c989fa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateUseRaft.NeedToRun property" Url="html/fde435ee-21f4-7315-fac1-4c1253d8763b.htm" />
+  <HelpKINode Title="StateUseRaft.Priority property" Url="html/ca527bd2-5e0f-3c68-36d2-5893152a7b99.htm" />
+  <HelpKINode Title="StateUseRaft.Run method" Url="html/ed37117a-6d15-0082-304b-c7c4cb828fbc.htm" />
+  <HelpKINode Title="StateUseRaft.StateUseRaft constructor" Url="html/e3994d4b-e825-f1f6-f4a1-9271a309e43c.htm" />
+  <HelpKINode Title="StateUseRumsey class">
+    <HelpKINode Title="StateUseRumsey Class" Url="html/31206ad8-5ebe-2277-57ad-c273b8adc647.htm" />
+    <HelpKINode Title="StateUseRumsey Members" Url="html/24def128-cc71-9d5b-a07c-35a50050971c.htm" />
+    <HelpKINode Title="about StateUseRumsey class" Url="html/31206ad8-5ebe-2277-57ad-c273b8adc647.htm" />
+    <HelpKINode Title="all members" Url="html/24def128-cc71-9d5b-a07c-35a50050971c.htm" />
+    <HelpKINode Title="constructor" Url="html/89ff0db3-c8fc-65f7-2a26-2c2fc13ff12a.htm" />
+    <HelpKINode Title="methods" Url="html/2dca1f98-5a63-f332-a3a6-05d608e2d9bc.htm" />
+    <HelpKINode Title="properties" Url="html/09448f8a-02fe-75cb-f93c-0ce42dacc17e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateUseRumsey.NeedToRun property" Url="html/494babd5-5a3d-93e9-809f-e415ba6b5964.htm" />
+  <HelpKINode Title="StateUseRumsey.Priority property" Url="html/b4b72db5-2a8a-df87-3639-fa70ab79dffc.htm" />
+  <HelpKINode Title="StateUseRumsey.Run method" Url="html/1d789206-01d3-970e-151c-8984ee6f0906.htm" />
+  <HelpKINode Title="StateUseRumsey.StateUseRumsey constructor" Url="html/89ff0db3-c8fc-65f7-2a26-2c2fc13ff12a.htm" />
+  <HelpKINode Title="StateUseSpear class">
+    <HelpKINode Title="StateUseSpear Class" Url="html/1e629d01-13a1-89ca-b0d6-5c1d292a71db.htm" />
+    <HelpKINode Title="StateUseSpear Members" Url="html/6975f8e1-a261-1a27-5a6b-b10d79bb65b8.htm" />
+    <HelpKINode Title="about StateUseSpear class" Url="html/1e629d01-13a1-89ca-b0d6-5c1d292a71db.htm" />
+    <HelpKINode Title="all members" Url="html/6975f8e1-a261-1a27-5a6b-b10d79bb65b8.htm" />
+    <HelpKINode Title="constructor" Url="html/f5e55934-d2c8-7f7b-dd7d-63ca83c3946e.htm" />
+    <HelpKINode Title="methods" Url="html/02de0c5c-58ec-f66d-e5fe-2fb1f1171fd6.htm" />
+    <HelpKINode Title="properties" Url="html/6353199d-f8d8-eab9-e8eb-baef13a23d88.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StateUseSpear.NeedToRun property" Url="html/bddc9193-0984-cca5-926f-ec527bfbd892.htm" />
+  <HelpKINode Title="StateUseSpear.Priority property" Url="html/091a7b34-1f89-8052-7569-65bfdbccf69d.htm" />
+  <HelpKINode Title="StateUseSpear.Run method" Url="html/5de44234-1a41-63cc-9fe4-7b969b4212a7.htm" />
+  <HelpKINode Title="StateUseSpear.StateUseSpear constructor" Url="html/f5e55934-d2c8-7f7b-dd7d-63ca83c3946e.htm" />
+  <HelpKINode Title="StatNegBuff enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="StatPosBuff enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Stats enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="StopActiveBot method" Url="html/ddf8a8aa-eac5-7f1b-615b-c1840198e4fa.htm" />
+  <HelpKINode Title="StopBot method" Url="html/9f7de2e3-c0ca-c5d3-2ce6-3a598fa00105.htm" />
+  <HelpKINode Title="Stunned enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="Subtraction operator" Url="html/c965e65e-730b-c17f-5743-08f8907c69eb.htm" />
+  <HelpKINode Title="Summon enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="SummonedBattlePetGUID enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="SummonedBy enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="SummonedBy property" Url="html/6808c188-86c5-4a04-4db5-3d2610a16943.htm" />
+  <HelpKINode Title="SummonedByHomeRealm enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="s_curMgr field" Url="html/a14b7503-3d8c-32e8-983b-62b2f7d8ab81.htm" />
+  <HelpKINode Title="TaggedByMe enumeration member" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="TaggedByOther enumeration member" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="Target enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="Target property" Url="html/c21e7ac5-e807-8dbf-c788-3e2b26414bc1.htm" />
+  <HelpKINode Title="TargetGuid enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="Tauren enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="TaxiFlight enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="TaxiMountAnimKitID enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="TimeStamp field" Url="html/a683e506-1e5e-7ebb-62a9-a6d366f0e2bb.htm" />
+  <HelpKINode Title="ToString method" Url="html/3e72347c-ddbd-21cd-2682-e9f8d12c28da.htm" />
+  <HelpKINode Title="Totem enumeration member" Url="html/ea0f3287-87e4-e37c-d196-eb9c411d2676.htm" />
+  <HelpKINode Title="TrackCreatureMask enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="TrackResourceMask enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="TrackUnit enumeration member" Url="html/238cf777-2a5b-710d-bec1-b10ec464ae17.htm" />
+  <HelpKINode Title="Troll enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Type enumeration member">
+    <HelpKINode Title="Offsets.ObjectFields Enumeration" Url="html/0962ee0c-066f-b3b9-37b2-531bd9bedc0f.htm" />
+    <HelpKINode Title="Offsets.WoWObjectFields Enumeration" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Type property" Url="html/3f9bebc7-6e48-74e9-966d-e62a54a4efed.htm" />
+  <HelpKINode Title="TypeAndVisualID enumeration member" Url="html/2021011b-d0e0-4123-426b-0f9697c479e8.htm" />
+  <HelpKINode Title="UiHitModifier enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="UiSpellHitModifier enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Undead enumeration member" Url="html/b7c7f7f9-22ab-48c8-cb9b-b947dfcedd2b.htm" />
+  <HelpKINode Title="Unit enumeration member" Url="html/f10f9521-3649-3382-e73b-89a40de7c3dd.htm" />
+  <HelpKINode Title="Utilities class">
+    <HelpKINode Title="Utilities Class" Url="html/0790b115-69b8-f365-e2f5-c4f2b17d30c7.htm" />
+    <HelpKINode Title="Utilities Members" Url="html/240a7d1d-09a9-31a4-7efd-d3685bf07a17.htm" />
+    <HelpKINode Title="about Utilities class" Url="html/0790b115-69b8-f365-e2f5-c4f2b17d30c7.htm" />
+    <HelpKINode Title="all members" Url="html/240a7d1d-09a9-31a4-7efd-d3685bf07a17.htm" />
+    <HelpKINode Title="constructor" Url="html/2d869415-ecb7-5ac0-80fe-0144227ce321.htm" />
+    <HelpKINode Title="methods" Url="html/47f039f2-8842-7dee-28bf-cf5ae3ac7383.htm" />
+    <HelpKINode Title="properties" Url="html/a2b97bd1-d052-340b-774d-424811ba5452.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Utilities.ApplicationPath property" Url="html/6c8a043e-d44b-ffaa-3465-67b5ccdda574.htm" />
+  <HelpKINode Title="Utilities.SetLanguage method" Url="html/afe23c4c-1bca-93f7-ef61-a9ceeaedf110.htm" />
+  <HelpKINode Title="Utilities.Utilities constructor" Url="html/2d869415-ecb7-5ac0-80fe-0144227ce321.htm" />
+  <HelpKINode Title="Utilities.Version property" Url="html/ffe57b15-1f77-3b1c-e994-a934e35f2b3a.htm" />
+  <HelpKINode Title="ValueSerializer property" Url="html/de310636-9847-a4d4-50d0-20822606c980.htm" />
+  <HelpKINode Title="Version property">
+    <HelpKINode Title="IPlugin.Version Property " Url="html/7a5250d2-8e0c-8204-1ae1-7e668aa2613a.htm" />
+    <HelpKINode Title="Utilities.Version Property " Url="html/ffe57b15-1f77-3b1c-e994-a934e35f2b3a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VirtualItemID enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="VirtualPlayerRealm enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="VisibleGuid enumeration member" Url="html/0f43a994-479b-55cd-d22b-38e6a651aea1.htm" />
+  <HelpKINode Title="VisibleItems enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Warlock enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="Warrior enumeration member" Url="html/156e3c21-f368-13e0-ae72-691d4764df61.htm" />
+  <HelpKINode Title="WatchedFactionIndex enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="WeaponDmgMultipliers enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="WildBattlePetLevel enumeration member" Url="html/bc799ed9-bf96-a9dd-4d3c-bd1eeffc1ee9.htm" />
+  <HelpKINode Title="WoWContainer class">
+    <HelpKINode Title="WoWContainer Class" Url="html/9bfd680c-ac7e-a03a-61c0-84243110e431.htm" />
+    <HelpKINode Title="WoWContainer Members" Url="html/cca7fbc3-2189-471b-9b67-20fa0e8cba7b.htm" />
+    <HelpKINode Title="about WoWContainer class" Url="html/9bfd680c-ac7e-a03a-61c0-84243110e431.htm" />
+    <HelpKINode Title="all members" Url="html/cca7fbc3-2189-471b-9b67-20fa0e8cba7b.htm" />
+    <HelpKINode Title="constructor" Url="html/52c04e79-c319-ed4e-772a-ad1e3bc3190a.htm" />
+    <HelpKINode Title="methods" Url="html/0a849f3a-881b-51d4-de4f-7f6ae05199ca.htm" />
+    <HelpKINode Title="properties" Url="html/619508dd-aec3-56f6-e901-75a384bdf556.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWContainer.NumSlots property" Url="html/32dc54f3-6c11-61fe-8580-8ab21a36f376.htm" />
+  <HelpKINode Title="WoWContainer.Slots property" Url="html/3a1d619b-4d06-6a8f-ded7-f050ce33b7d1.htm" />
+  <HelpKINode Title="WoWContainer.WoWContainer constructor" Url="html/52c04e79-c319-ed4e-772a-ad1e3bc3190a.htm" />
+  <HelpKINode Title="WoWCorpse class">
+    <HelpKINode Title="WoWCorpse Class" Url="html/3e3dcdc7-afaf-2994-8396-9c7d00fe3f8c.htm" />
+    <HelpKINode Title="WoWCorpse Members" Url="html/5da99500-c505-4e8e-195a-82606d9a4d18.htm" />
+    <HelpKINode Title="about WoWCorpse class" Url="html/3e3dcdc7-afaf-2994-8396-9c7d00fe3f8c.htm" />
+    <HelpKINode Title="all members" Url="html/5da99500-c505-4e8e-195a-82606d9a4d18.htm" />
+    <HelpKINode Title="constructor" Url="html/2c0bff8a-7865-9898-040e-e078e321ce3c.htm" />
+    <HelpKINode Title="methods" Url="html/3183465b-7a1e-2567-2d3a-5cc263edc6de.htm" />
+    <HelpKINode Title="properties" Url="html/27bfe170-60ab-dde8-c6b6-15c164a0914c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWCorpse.DisplayId property" Url="html/2b0ad4b2-bfda-38b3-0d58-0f3c2f400841.htm" />
+  <HelpKINode Title="WoWCorpse.Owner property" Url="html/991361fb-6ed6-2162-f326-c984ffaf2c3b.htm" />
+  <HelpKINode Title="WoWCorpse.WoWCorpse constructor" Url="html/2c0bff8a-7865-9898-040e-e078e321ce3c.htm" />
+  <HelpKINode Title="WoWDynamicObject class">
+    <HelpKINode Title="WoWDynamicObject Class" Url="html/20b7bf08-0d82-37ee-4620-faca0a72eabe.htm" />
+    <HelpKINode Title="WoWDynamicObject Members" Url="html/db9af287-27aa-f350-5d49-73b8abdc2f5d.htm" />
+    <HelpKINode Title="about WoWDynamicObject class" Url="html/20b7bf08-0d82-37ee-4620-faca0a72eabe.htm" />
+    <HelpKINode Title="all members" Url="html/db9af287-27aa-f350-5d49-73b8abdc2f5d.htm" />
+    <HelpKINode Title="constructor" Url="html/a7df3ae0-21dc-de4b-9f18-c4f17a6a1d8b.htm" />
+    <HelpKINode Title="methods" Url="html/9945e0a5-d994-6955-84c3-7118472e5c07.htm" />
+    <HelpKINode Title="properties" Url="html/68d2ce79-52e2-ecb4-91d6-82dcdb598bc1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWDynamicObject.Caster property" Url="html/e780de98-f154-a71c-1d2f-ed172008e03f.htm" />
+  <HelpKINode Title="WoWDynamicObject.Radius property" Url="html/4edbac58-7512-80fa-9aaa-f3f79c8121c1.htm" />
+  <HelpKINode Title="WoWDynamicObject.SpellID property" Url="html/7767a24e-5a6b-1fb6-ff04-181791be693f.htm" />
+  <HelpKINode Title="WoWDynamicObject.WoWDynamicObject constructor" Url="html/a7df3ae0-21dc-de4b-9f18-c4f17a6a1d8b.htm" />
+  <HelpKINode Title="WoWGameObject class">
+    <HelpKINode Title="WoWGameObject Class" Url="html/695c6097-605f-2a6a-e10f-60c1c7a16f66.htm" />
+    <HelpKINode Title="WoWGameObject Members" Url="html/ee93bd03-5960-d9b4-e5a2-52dfb3f46368.htm" />
+    <HelpKINode Title="about WoWGameObject class" Url="html/695c6097-605f-2a6a-e10f-60c1c7a16f66.htm" />
+    <HelpKINode Title="all members" Url="html/ee93bd03-5960-d9b4-e5a2-52dfb3f46368.htm" />
+    <HelpKINode Title="constructor" Url="html/439af39a-a437-38cc-0e92-7b7e06fa5906.htm" />
+    <HelpKINode Title="methods" Url="html/12713161-b07a-0123-2296-9d50cd70048b.htm" />
+    <HelpKINode Title="properties" Url="html/aaf41d59-fa81-aba2-8ac4-bdf2736e576e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWGameObject.AnimationState property" Url="html/fd8c5252-3961-c4ad-2ec4-a8c3bb92ae35.htm" />
+  <HelpKINode Title="WoWGameObject.CreatedBy property" Url="html/d5c22492-5292-8158-32bc-dedd60046d33.htm" />
+  <HelpKINode Title="WoWGameObject.DisplayID property" Url="html/595c262d-1c9d-3e2b-6cc5-47ecf8a80ce9.htm" />
+  <HelpKINode Title="WoWGameObject.Distance property" Url="html/999758db-93f9-e751-f424-26224183955f.htm" />
+  <HelpKINode Title="WoWGameObject.Dynamic property" Url="html/52374e3c-d5a9-9670-4e6c-c258bfcff693.htm" />
+  <HelpKINode Title="WoWGameObject.Faction property" Url="html/0f8e3a57-3248-a34a-8815-169858bf4e53.htm" />
+  <HelpKINode Title="WoWGameObject.Flags property" Url="html/04aeeeee-059b-6702-dd22-174f0fd57c6d.htm" />
+  <HelpKINode Title="WoWGameObject.InteractCondition property" Url="html/41372e00-a239-8e21-26aa-547423b1d1e6.htm" />
+  <HelpKINode Title="WoWGameObject.InUse property" Url="html/16dfb8f5-91d5-1074-3ffc-783d89710a0a.htm" />
+  <HelpKINode Title="WoWGameObject.IsTransport property" Url="html/d7474226-5dee-6169-bd8b-d52f7c05d1bd.htm" />
+  <HelpKINode Title="WoWGameObject.Level property" Url="html/9863a640-a389-5059-a606-bcb637532900.htm" />
+  <HelpKINode Title="WoWGameObject.Location property" Url="html/7b453055-211f-de4a-0c69-8534e20eafb2.htm" />
+  <HelpKINode Title="WoWGameObject.Locked property" Url="html/f830605d-3a64-a897-f655-16c96a6ec687.htm" />
+  <HelpKINode Title="WoWGameObject.Name property" Url="html/8d03819d-7687-ead7-5da2-63cff6f05e59.htm" />
+  <HelpKINode Title="WoWGameObject.WoWGameObject constructor" Url="html/439af39a-a437-38cc-0e92-7b7e06fa5906.htm" />
+  <HelpKINode Title="WoWGameObject.X property" Url="html/83328a61-c75c-ce1e-4641-e020a72babcd.htm" />
+  <HelpKINode Title="WoWGameObject.Y property" Url="html/cd42053e-d5c0-c98e-5adc-851f6c7d1fe7.htm" />
+  <HelpKINode Title="WoWGameObject.Z property" Url="html/62c761c0-723d-6e1c-ecd3-1794135fa946.htm" />
+  <HelpKINode Title="WoWItem class">
+    <HelpKINode Title="WoWItem Class" Url="html/fac6be37-908f-7af0-9704-74ca04166727.htm" />
+    <HelpKINode Title="WoWItem Members" Url="html/abacd0eb-7ed8-329f-5cc4-bc0b9c3dd661.htm" />
+    <HelpKINode Title="about WoWItem class" Url="html/fac6be37-908f-7af0-9704-74ca04166727.htm" />
+    <HelpKINode Title="all members" Url="html/abacd0eb-7ed8-329f-5cc4-bc0b9c3dd661.htm" />
+    <HelpKINode Title="constructor" Url="html/77e1e932-f755-a823-89c8-b4d6ba6fc673.htm" />
+    <HelpKINode Title="methods" Url="html/1eb3a2ba-ae0d-a87a-86c2-0ba1a4894206.htm" />
+    <HelpKINode Title="properties" Url="html/0019d401-146a-e927-4f26-935c890ba6cd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWItem.Charges property" Url="html/f74ce373-1975-b4a2-c2ab-9d336a4b784a.htm" />
+  <HelpKINode Title="WoWItem.Durability property" Url="html/70e80b47-1c46-2fc3-1918-2bae021d783f.htm" />
+  <HelpKINode Title="WoWItem.HasCharges property" Url="html/8588360d-978f-1fdd-110d-97f6435e4bfb.htm" />
+  <HelpKINode Title="WoWItem.MaximumDurability property" Url="html/2c1e1477-dcc1-d5bc-36bd-ca5ea6a932e0.htm" />
+  <HelpKINode Title="WoWItem.StackCount property" Url="html/eb096d33-ded1-4097-71b0-e6e7577d9a69.htm" />
+  <HelpKINode Title="WoWItem.WoWItem constructor" Url="html/77e1e932-f755-a823-89c8-b4d6ba6fc673.htm" />
+  <HelpKINode Title="WoWObject class">
+    <HelpKINode Title="WoWObject Class" Url="html/2ee02185-a428-7346-c8da-0cfd5883d66e.htm" />
+    <HelpKINode Title="WoWObject Members" Url="html/48e00816-f094-a7fc-e91e-b0328b7a7132.htm" />
+    <HelpKINode Title="about WoWObject class" Url="html/2ee02185-a428-7346-c8da-0cfd5883d66e.htm" />
+    <HelpKINode Title="all members" Url="html/48e00816-f094-a7fc-e91e-b0328b7a7132.htm" />
+    <HelpKINode Title="constructor" Url="html/f31c6048-894b-ce14-0dd0-30e434d862f1.htm" />
+    <HelpKINode Title="methods" Url="html/1fa89c1b-96e8-6d4c-cc2d-1a6fe02911be.htm" />
+    <HelpKINode Title="properties" Url="html/37ecf64a-810b-3af5-bd69-831bef12446d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWObject.BaseAddress property" Url="html/db1aaea6-a75a-11d3-19b9-b0e6627826c2.htm" />
+  <HelpKINode Title="WoWObject.Data property" Url="html/17a60fc5-a617-28fa-a7ea-7eeb18d2b509.htm" />
+  <HelpKINode Title="WoWObject.Distance property" Url="html/b8831be2-1478-636c-5a4d-dfef83989289.htm" />
+  <HelpKINode Title="WoWObject.DynamicFlags property" Url="html/ae7a8894-a27c-1b6f-afc1-3eb30c57cc52.htm" />
+  <HelpKINode Title="WoWObject.Entry property" Url="html/4f2beb22-03ca-471d-003e-dc8d0248106a.htm" />
+  <HelpKINode Title="WoWObject.Facing property" Url="html/db101479-7e3f-75ba-b4f1-45a43b0e7026.htm" />
+  <HelpKINode Title="WoWObject.GetStorageField method" Url="html/95e4b358-bece-f7a5-a113-4bb58bd1e1e3.htm" />
+  <HelpKINode Title="WoWObject.Guid property" Url="html/dbbad4ee-d933-4b96-b3ae-a7099d22acfe.htm" />
+  <HelpKINode Title="WoWObject.IsMe property" Url="html/4fdf71c1-cfd7-8ef6-661d-78a0b4de4264.htm" />
+  <HelpKINode Title="WoWObject.Location property" Url="html/8b015a3d-6f93-d56b-1e08-06c59b619939.htm" />
+  <HelpKINode Title="WoWObject.MoveTo method" Url="html/b8a35173-d54b-1ac6-12da-e6589845b6cf.htm" />
+  <HelpKINode Title="WoWObject.Scale_X property" Url="html/e60ee463-f59c-9bb1-c1bc-12c14f9b19bc.htm" />
+  <HelpKINode Title="WoWObject.Type property" Url="html/3f9bebc7-6e48-74e9-966d-e62a54a4efed.htm" />
+  <HelpKINode Title="WoWObject.WoWObject constructor" Url="html/f31c6048-894b-ce14-0dd0-30e434d862f1.htm" />
+  <HelpKINode Title="WoWObject.X property" Url="html/186899ba-d572-4784-3cbf-8da23f19065d.htm" />
+  <HelpKINode Title="WoWObject.Y property" Url="html/17281910-05d7-ac11-820d-5ae829314e52.htm" />
+  <HelpKINode Title="WoWObject.Z property" Url="html/b3dcce90-6cff-fde9-72f4-bd88099bcc25.htm" />
+  <HelpKINode Title="WoWPlayer class">
+    <HelpKINode Title="WoWPlayer Class" Url="html/2631e323-2978-cdc6-0e97-d6ddafeb96de.htm" />
+    <HelpKINode Title="WoWPlayer Members" Url="html/4e66cc99-176a-959a-3c8d-95506b976632.htm" />
+    <HelpKINode Title="about WoWPlayer class" Url="html/2631e323-2978-cdc6-0e97-d6ddafeb96de.htm" />
+    <HelpKINode Title="all members" Url="html/4e66cc99-176a-959a-3c8d-95506b976632.htm" />
+    <HelpKINode Title="constructor" Url="html/42b985a2-2e94-3cdf-501f-f2ee5aedc7f2.htm" />
+    <HelpKINode Title="methods" Url="html/52c6cf14-f74c-6550-c5c2-69940446efea.htm" />
+    <HelpKINode Title="properties" Url="html/74879d90-c4da-4433-30a0-bfd44c6b5ee9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWPlayer.Channeling property" Url="html/5888528c-9524-0208-69e8-3260e918c606.htm" />
+  <HelpKINode Title="WoWPlayer.Combat property" Url="html/f768a66d-a658-2bcb-d244-6fd7e61d9bf6.htm" />
+  <HelpKINode Title="WoWPlayer.Experience property" Url="html/0d318025-8d92-18ab-433d-2c9b9fe62302.htm" />
+  <HelpKINode Title="WoWPlayer.IsCasting property" Url="html/dc34fc2e-2e9c-0a41-721e-875b1a9301cc.htm" />
+  <HelpKINode Title="WoWPlayer.Mounted property" Url="html/84297d92-2687-a822-e232-7ff6c9ea9ec4.htm" />
+  <HelpKINode Title="WoWPlayer.Name property" Url="html/30762cf2-ed27-336f-233e-21b334536d1b.htm" />
+  <HelpKINode Title="WoWPlayer.NextLevel property" Url="html/565ef279-6c41-4ae8-c9dc-e2d954bb5232.htm" />
+  <HelpKINode Title="WoWPlayer.RestExperience property" Url="html/f426cd08-b806-0fe6-7722-9707a4fd0867.htm" />
+  <HelpKINode Title="WoWPlayer.WoWPlayer constructor" Url="html/42b985a2-2e94-3cdf-501f-f2ee5aedc7f2.htm" />
+  <HelpKINode Title="WoWPlayerMe class">
+    <HelpKINode Title="WoWPlayerMe Class" Url="html/e1796896-629f-b67b-b809-abefc07fdcd7.htm" />
+    <HelpKINode Title="WoWPlayerMe Members" Url="html/ffee2bb5-dbfb-4f96-6151-abef35c56874.htm" />
+    <HelpKINode Title="about WoWPlayerMe class" Url="html/e1796896-629f-b67b-b809-abefc07fdcd7.htm" />
+    <HelpKINode Title="all members" Url="html/ffee2bb5-dbfb-4f96-6151-abef35c56874.htm" />
+    <HelpKINode Title="constructor" Url="html/23396117-7720-d127-4936-0eca07d05e6b.htm" />
+    <HelpKINode Title="methods" Url="html/69be591d-ff83-215f-4bc5-8e5021d8cd3b.htm" />
+    <HelpKINode Title="properties" Url="html/07de8c03-9011-6318-f234-c43a1407bce5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWPlayerMe.Copper property" Url="html/6f012359-3939-599d-ad03-74f80a7b4863.htm" />
+  <HelpKINode Title="WoWPlayerMe.Gold property" Url="html/710aabf1-5245-d6ec-0317-ba91c16d5b6d.htm" />
+  <HelpKINode Title="WoWPlayerMe.MoveTo method" Url="html/f0869248-16a2-576c-c70e-a55940f6fe11.htm" />
+  <HelpKINode Title="WoWPlayerMe.Name property" Url="html/ae8aa866-4962-84f9-74ce-bd1c23834ef9.htm" />
+  <HelpKINode Title="WoWPlayerMe.Silver property" Url="html/d21d9edc-c73e-8d3a-0720-0ff44fc70a51.htm" />
+  <HelpKINode Title="WoWPlayerMe.WoWPlayerMe constructor" Url="html/23396117-7720-d127-4936-0eca07d05e6b.htm" />
+  <HelpKINode Title="WoWUnit class">
+    <HelpKINode Title="WoWUnit Class" Url="html/d007e0b5-af1c-f611-2c87-8df2810aefb7.htm" />
+    <HelpKINode Title="WoWUnit Members" Url="html/a7a3db77-717c-2ab6-8396-56248d516192.htm" />
+    <HelpKINode Title="about WoWUnit class" Url="html/d007e0b5-af1c-f611-2c87-8df2810aefb7.htm" />
+    <HelpKINode Title="all members" Url="html/a7a3db77-717c-2ab6-8396-56248d516192.htm" />
+    <HelpKINode Title="constructor" Url="html/147fad4e-2597-a162-5afb-f1fc90ff0cad.htm" />
+    <HelpKINode Title="methods" Url="html/21b5ea60-08c1-2d0a-8cc5-4efe9190a862.htm" />
+    <HelpKINode Title="properties" Url="html/aaf861d1-e080-15c3-a239-b7b994474670.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WoWUnit.BaseHealth property" Url="html/97e36334-7218-19c5-636d-08d052bd6501.htm" />
+  <HelpKINode Title="WoWUnit.BaseMana property" Url="html/263725d2-4351-05f1-e744-c7f969057596.htm" />
+  <HelpKINode Title="WoWUnit.CharmedBy property" Url="html/b232404c-6b21-da53-3cfd-68cea40388af.htm" />
+  <HelpKINode Title="WoWUnit.Class property" Url="html/efc4a9b0-3479-4a68-1e41-d40d7f59ddea.htm" />
+  <HelpKINode Title="WoWUnit.CreatedBy property" Url="html/1b27886d-fddd-38d7-96b4-474abf6c39f6.htm" />
+  <HelpKINode Title="WoWUnit.Critter property" Url="html/66c7dfbd-3d4f-9dde-3cb5-b5ddf01c005a.htm" />
+  <HelpKINode Title="WoWUnit.Dead property" Url="html/07db0eee-bba7-3002-8236-6c705fff0cc7.htm" />
+  <HelpKINode Title="WoWUnit.DisplayID property" Url="html/c4bc0e40-17e5-1f7c-d220-55bb467a43e7.htm" />
+  <HelpKINode Title="WoWUnit.Health property" Url="html/ffa6be3a-bded-dfe3-ca4d-9c9875947b4e.htm" />
+  <HelpKINode Title="WoWUnit.HealthPercentage property" Url="html/a0c8f0a8-a4ad-cd49-ed2d-91ec0e49308d.htm" />
+  <HelpKINode Title="WoWUnit.IsPlayer property" Url="html/e214c0c8-18f1-9ec3-bea1-3fe3feba0211.htm" />
+  <HelpKINode Title="WoWUnit.IsUnit property" Url="html/1f5db497-5ef3-164f-4577-fbc5f0314686.htm" />
+  <HelpKINode Title="WoWUnit.Level property" Url="html/5024bc5a-29ea-b182-f7ac-f854a09d0c11.htm" />
+  <HelpKINode Title="WoWUnit.Lootable property" Url="html/8b3edf0c-a3d8-a827-7e86-9eb0bc3ca7a3.htm" />
+  <HelpKINode Title="WoWUnit.MaximumHealth property" Url="html/053523c2-4632-280c-7e37-e29576f8fd90.htm" />
+  <HelpKINode Title="WoWUnit.MountDisplayID property" Url="html/77449046-680d-16ad-3dbc-069ab68e1e25.htm" />
+  <HelpKINode Title="WoWUnit.Name property" Url="html/9b6bc410-97b6-47f2-9b63-632a6cf6bf69.htm" />
+  <HelpKINode Title="WoWUnit.PowerType property" Url="html/53bd608a-40a6-4cd2-b3b0-26ab71a6333a.htm" />
+  <HelpKINode Title="WoWUnit.Race property" Url="html/c13da87c-9ade-d2c9-c325-fecda73e378c.htm" />
+  <HelpKINode Title="WoWUnit.Speed property" Url="html/cda9ef57-ca4f-fc0f-6e0d-f326c324ba0b.htm" />
+  <HelpKINode Title="WoWUnit.SummonedBy property" Url="html/6808c188-86c5-4a04-4db5-3d2610a16943.htm" />
+  <HelpKINode Title="WoWUnit.Target property" Url="html/c21e7ac5-e807-8dbf-c788-3e2b26414bc1.htm" />
+  <HelpKINode Title="WoWUnit.WoWUnit constructor" Url="html/147fad4e-2597-a162-5afb-f1fc90ff0cad.htm" />
+  <HelpKINode Title="Write method" Url="html/7fe94661-64cc-41ab-2771-943139b0cf15.htm" />
+  <HelpKINode Title="X enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="X property">
+    <HelpKINode Title="Point.X Property " Url="html/f321cf10-66ee-f8b6-6767-d456565294e1.htm" />
+    <HelpKINode Title="WoWGameObject.X Property " Url="html/83328a61-c75c-ce1e-4641-e020a72babcd.htm" />
+    <HelpKINode Title="WoWObject.X Property " Url="html/186899ba-d572-4784-3cbf-8da23f19065d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XP enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Y enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="Y property">
+    <HelpKINode Title="Point.Y Property " Url="html/c556e8b8-38d6-e9a1-b46a-76c8cc317e71.htm" />
+    <HelpKINode Title="WoWGameObject.Y Property " Url="html/cd42053e-d5c0-c98e-5adc-851f6c7d1fe7.htm" />
+    <HelpKINode Title="WoWObject.Y Property " Url="html/17281910-05d7-ac11-820d-5ae829314e52.htm" />
+  </HelpKINode>
+  <HelpKINode Title="YesterdayHonorableKills enumeration member" Url="html/34d62856-b9bd-437d-9221-630ca1e57477.htm" />
+  <HelpKINode Title="Z enumeration member" Url="html/e6477fa4-ae8e-881d-2f54-a6fe17e9ac6f.htm" />
+  <HelpKINode Title="Z property">
+    <HelpKINode Title="Point.Z Property " Url="html/bd69aa9f-d1da-29ea-fb5c-d6f7494230ff.htm" />
+    <HelpKINode Title="WoWGameObject.Z Property " Url="html/62c761c0-723d-6e1c-ecd3-1794135fa946.htm" />
+    <HelpKINode Title="WoWObject.Z Property " Url="html/b3dcce90-6cff-fde9-72f4-bd88099bcc25.htm" />
+  </HelpKINode>
+</HelpKI>
