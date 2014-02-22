@@ -25,7 +25,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             get
             {
-                if (Settings.Default.StopOnBagsFull)
+                if (LocalSettings.Settings["StopOnBagsFull"])
                 {
                     return PlayerInventory.FreeSlots == 0;
                 }
@@ -43,8 +43,8 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             get
             {
-                if (Settings.Default.StopOnNoLures &&
-                    !Settings.Default.NoLure)
+                if (LocalSettings.Settings["StopOnNoLures"] &&
+                    !LocalSettings.Settings["NoLure"])
                 {
                     string result = DxHook.Instance.ExecuteScript("enchant = GetWeaponEnchantInfo();", "enchant");
 
@@ -119,7 +119,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
             }
 
 
-            if (Settings.Default.CloseWoWonStop)
+            if (LocalSettings.Settings["CloseWoWonStop"].As<bool>())
             {
                 DxHook.Instance.Restore();
                 BotManager.Memory.Process.CloseMainWindow();
@@ -128,12 +128,12 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
                 Environment.Exit(0);
             }
 
-            if (Settings.Default.LogoutOnStop)
+            if (LocalSettings.Settings["LogoutOnStop"].As<bool>())
             {
                 DxHook.Instance.ExecuteScript("Logout();");
             }
 
-            if (Settings.Default.ShutdownPConStop)
+            if (LocalSettings.Settings["ShutdownPConStop"].As<bool>())
             {
                 Process.Start("shutdown", "/s /t 0");
             }

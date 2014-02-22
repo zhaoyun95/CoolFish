@@ -45,7 +45,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             //doNothing
 
-            if (Settings.Default.DoDebugging)
+            if (LocalSettings.Settings["DoDebugging"])
             {
                 Logging.Log("[DEBUG] DoNothingState");
             }

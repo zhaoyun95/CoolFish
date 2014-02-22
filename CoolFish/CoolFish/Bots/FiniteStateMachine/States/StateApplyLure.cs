@@ -27,7 +27,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             get
             {
-                if (Settings.Default.NoLure)
+                if (LocalSettings.Settings["NoLure"])
                 {
                     return false;
                 }

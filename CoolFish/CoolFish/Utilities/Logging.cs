@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.IO;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CoolFishNS.Utilities
@@ -18,6 +15,16 @@ namespace CoolFishNS.Utilities
         #region Delegates
 
         /// <summary>
+        ///     Delegate method that log events should conform to if they are to be fired
+        /// </summary>
+        public delegate void LogDelegate(object sender, MessageEventArgs e);
+
+        /// <summary>
+        ///     Delegate method that log events should conform to if they are to be fired
+        /// </summary>
+        public delegate void WriteDelegate(object sender, MessageEventArgs e);
+
+        /// <summary>
         ///     Occurs when Logging.Write is called
         /// </summary>
         public static event WriteDelegate OnWrite;
@@ -27,16 +34,6 @@ namespace CoolFishNS.Utilities
         /// </summary>
         public static event LogDelegate OnLog;
 
-        /// <summary>
-        ///     Delegate method that log events should conform to if they are to be fired
-        /// </summary>
-        public delegate void WriteDelegate(object sender, MessageEventArgs e);
-
-        /// <summary>
-        ///     Delegate method that log events should conform to if they are to be fired
-        /// </summary>
-        public delegate void LogDelegate(object sender, MessageEventArgs e);
-
         #endregion
 
         /// <summary>
@@ -44,11 +41,12 @@ namespace CoolFishNS.Utilities
         /// </summary>
         public static Logging Instance;
 
-        private Thread _processThread;
+        private readonly ManualResetEvent _hasNewItems = new ManualResetEvent(false);
+
         private readonly ConcurrentQueue<Action> _queue = new ConcurrentQueue<Action>();
         private readonly ManualResetEvent _terminate = new ManualResetEvent(false);
         private readonly ManualResetEvent _waiting = new ManualResetEvent(false);
-        private readonly ManualResetEvent _hasNewItems = new ManualResetEvent(false);
+        private Thread _processThread;
 
         internal Logging()
         {
@@ -63,9 +61,7 @@ namespace CoolFishNS.Utilities
 
         private static void LogAsync(object format, params object[] args)
         {
-
             OnLog("Logging.Log", new MessageEventArgs(string.Format(format.ToString(), args)));
-            
         }
 
         /// <summary>
@@ -79,9 +75,7 @@ namespace CoolFishNS.Utilities
             {
                 Instance._queue.Enqueue(() => WriteAsync(format, args));
                 Instance._hasNewItems.Set();
-                
             }
-            
         }
 
         /// <summary>
@@ -91,11 +85,10 @@ namespace CoolFishNS.Utilities
         /// <param name="args">The args.</param>
         public static void Log(object format, params object[] args)
         {
-             if (format != null)
+            if (format != null)
             {
                 Instance._queue.Enqueue(() => LogAsync(format, args));
                 Instance._hasNewItems.Set();
-                
             }
         }
 
@@ -106,7 +99,7 @@ namespace CoolFishNS.Utilities
                 try
                 {
                     _waiting.Set();
-                    int i = WaitHandle.WaitAny(new WaitHandle[] { _hasNewItems, _terminate });
+                    int i = WaitHandle.WaitAny(new WaitHandle[] {_hasNewItems, _terminate});
 
 
                     _hasNewItems.Reset();
@@ -116,8 +109,7 @@ namespace CoolFishNS.Utilities
                         Action item;
                         if (_queue.TryDequeue(out item))
                         {
-                                item();
-                            
+                            item();
                         }
                     }
 
@@ -131,8 +123,6 @@ namespace CoolFishNS.Utilities
                     MessageBox.Show(ex.ToString());
                     return;
                 }
-                
-
             }
         }
 
@@ -166,10 +156,8 @@ namespace CoolFishNS.Utilities
                 }
                 catch (Exception ex)
                 {
-                    
                     Log(ex);
                 }
-                
             }
         }
 

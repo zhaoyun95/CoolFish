@@ -26,7 +26,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             get
             {
-                if (Settings.Default.SoundOnWhisper)
+                if (LocalSettings.Settings["SoundOnWhisper"])
                 {
                     string result = DxHook.Instance.GetLocalizedText("NewMessage");
                     return result == "1";

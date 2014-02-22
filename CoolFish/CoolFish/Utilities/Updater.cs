@@ -34,7 +34,7 @@ namespace CoolFishNS.Utilities
                 try
                 {
                     WebRequest request = WebRequest.Create("http://coolfish.unknowndev.com/ShouldRun.php?version=" + Utilities.Version);
-                    
+
                     request.CachePolicy = new RequestCachePolicy(RequestCacheLevel.Reload);
                     WebResponse response = request.GetResponse();
 
@@ -153,8 +153,7 @@ namespace CoolFishNS.Utilities
         {
             try
             {
-                 Process.Start("http://coolfish.unknowndev.com/ReleaseBuilds/");
-               
+                Process.Start("http://coolfish.unknowndev.com/ReleaseBuilds/");
             }
             catch (Exception ex)
             {

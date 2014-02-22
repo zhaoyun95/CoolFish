@@ -194,6 +194,7 @@
     <Compile Include="Bots\CoolFishBot\CoolFishBot.cs" />
     <Compile Include="Bots\IBot.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="Utilities\BotSetting.cs" />
     <Compile Include="Utilities\MessageEventArgs.cs" />
     <Compile Include="NamespaceDoc.cs" />
     <Compile Include="Management\CoolManager\D3D\D3D11Device.cs" />
@@ -411,7 +412,7 @@ Version.exe CoolFish.exe fasmdll_managed.dll CoolFish.pdb README.txt CoolFish.ex
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties BuildVersion_DetectChanges="True" BuildVersion_UpdateFileVersion="True" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_BuildVersioningStyle="None.None.Increment.None" />
+      <UserProperties BuildVersion_BuildVersioningStyle="None.None.Increment.None" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UpdateFileVersion="True" BuildVersion_DetectChanges="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

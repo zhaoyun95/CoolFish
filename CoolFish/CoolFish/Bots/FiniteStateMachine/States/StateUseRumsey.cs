@@ -25,7 +25,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             get
             {
-                if (!Settings.Default.UseRumsey)
+                if (!LocalSettings.Settings["UseRumsey"])
                 {
                     return false;
                 }

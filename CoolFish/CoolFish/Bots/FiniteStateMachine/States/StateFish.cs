@@ -47,7 +47,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
             // We write this value to LastHardwareAction so that our character isn't logged out due to inactivity
             var ticks = BotManager.Memory.Read<int>(Offsets.Addresses["Timestamp"]);
 
-            if (Settings.Default.DoDebugging)
+            if (LocalSettings.Settings["DoDebugging"].As<bool>())
             {
                 var currentTicks = BotManager.Memory.Read<int>(Offsets.Addresses["LastHardwareAction"]);
                 Logging.Log("Writing " + ticks + " ticks while previous was " + currentTicks);

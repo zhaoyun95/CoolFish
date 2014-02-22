@@ -143,15 +143,15 @@ namespace CoolFishNS.Bots.FiniteStateMachine
             builder.Clear();
             builder.Append("ItemsList = {" + items + "} \n");
             builder.Append("LootLeftOnly = " +
-                           Settings.Default.LootOnlyItems.ToString()
+                           LocalSettings.Settings["LootOnlyItems"].ToString()
                                .ToLower() + " \n");
             builder.Append("DontLootLeft = " +
-                                          Settings.Default.DontLootLeft.ToString().ToLower() + " \n");
-            builder.Append("LootQuality = " + Settings.Default.LootQuality + " \n");
+                                          LocalSettings.Settings["DontLootLeft"].ToString().ToLower() + " \n");
+            builder.Append("LootQuality = " + LocalSettings.Settings["LootQuality"] + " \n");
             builder.Append(Resources.WhisperNotes + " \n");
             builder.Append("LootLog = {} \n");
             builder.Append("NoLootLog = {} \n");
-            builder.Append("DODEBUG = " + Settings.Default.DoDebugging.ToString().ToLower());
+            builder.Append("DODEBUG = " + LocalSettings.Settings["DoDebugging"].ToString().ToLower());
 
             DxHook.Instance.ExecuteScript(builder.ToString());
             

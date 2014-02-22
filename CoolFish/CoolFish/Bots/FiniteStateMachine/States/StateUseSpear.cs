@@ -27,7 +27,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             get
             {
-                if (!Settings.Default.UseSpear)
+                if (!LocalSettings.Settings["UseSpear"])
                 {
                     return false;
                 }

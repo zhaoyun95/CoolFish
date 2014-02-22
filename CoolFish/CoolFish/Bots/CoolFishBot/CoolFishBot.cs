@@ -34,23 +34,23 @@ namespace CoolFishNS.Bots.CoolFishBot
         /// </remarks>
         public void StartBot()
         {
-            if (Properties.Settings.Default.LootOnlyItems &&
-                Properties.Settings.Default.DontLootLeft)
+            if (LocalSettings.Settings["LootOnlyItems"] &&
+                LocalSettings.Settings["DontLootLeft"])
             {
                 Logging.Write(LocalSettings.Translations["Loot Options Error"]);
                 return;
             }
 
-            if (Properties.Settings.Default.LootQuality < 0)
+            if (LocalSettings.Settings["LootQuality"] < 0)
             {
                 Logging.Write(LocalSettings.Translations["SelectLootQuality"]);
                 return;
             }
 
-            if (Properties.Settings.Default.StopOnTime)
+            if (LocalSettings.Settings["StopOnTime"])
             {
                 _stopTimer = new Timer(Callback, null, 0,
-                    (int)(Properties.Settings.Default.MinutesToStop * 60 * 1000));
+                    (int)(LocalSettings.Settings["MinutesToStop"].As<double>() * 60 * 1000));
             }
 
             LocalSettings.DumpSettingsToLog();

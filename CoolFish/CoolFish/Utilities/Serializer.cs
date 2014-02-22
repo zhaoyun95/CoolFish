@@ -29,7 +29,7 @@ namespace CoolFishNS.Utilities
         }
 
         /// <summary>
-        /// Serializes an generic item
+        ///     Serializes an generic item
         /// </summary>
         /// <param name="path">File path to save to</param>
         /// <param name="objectToSerialize">generic object to serialize</param>

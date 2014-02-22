@@ -342,7 +342,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
         /// <exception cref="Exception">Throws generic exception if the function hook we need is not applied</exception>
         public void ExecuteScript(string command)
         {
-            if (Settings.Default.DoDebugging)
+            if (LocalSettings.Settings["DoDebugging"].As<bool>())
             {
                 var stackTrace = new StackTrace();
 
@@ -373,7 +373,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
         /// <exception cref="Exception">Throws generic exception if the function hook we need is not applied</exception>
         public string ExecuteScript(string command, string returnVariableName)
         {
-            if (Settings.Default.DoDebugging)
+            if (LocalSettings.Settings["DoDebugging"].As<bool>())
             {
                 var stackTrace = new StackTrace();
 
@@ -401,7 +401,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
         /// <exception cref="Exception">Throws generic exception if the function hook we need is not applied</exception>
         public Dictionary<string, string> ExecuteScript(string executeCommand, IEnumerable<string> commands)
         {
-            if (Settings.Default.DoDebugging)
+            if (LocalSettings.Settings["DoDebugging"].As<bool>())
             {
                 var stackTrace = new StackTrace();
 
@@ -423,12 +423,13 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
                 throw new Exception("ExecuteScript arguments can not be null!");
             }
 
-            IList<string> enumerable = commands as IList<string> ?? commands.ToList();
+            var enumerable = commands as List<string> ?? commands.ToList();
 
             var builder = new StringBuilder(enumerable.Count);
 
             if (enumerable.Any())
             {
+                enumerable.RemoveAll(string.IsNullOrWhiteSpace);
                 foreach (var s in enumerable)
                 {
                     builder.Append(s);
@@ -522,7 +523,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
         /// <exception cref="Exception">Throws generic exception if the function hook we need is not applied</exception>
         public string GetLocalizedText(string command)
         {
-            if (Settings.Default.DoDebugging)
+            if (LocalSettings.Settings["DoDebugging"].As<bool>())
             {
                 var stackTrace = new StackTrace();
 
@@ -538,7 +539,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
             }
             var result = GetLocalizedText(new[] {command})[command];
 
-            if (Settings.Default.DoDebugging)
+            if (LocalSettings.Settings["DoDebugging"].As<bool>())
             {
                 Logging.Write("[DEBUG] result: " + result);
             }
@@ -553,7 +554,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
         /// <exception cref="Exception">Throws generic exception if the function hook we need is not applied</exception>
         public Dictionary<string, string> GetLocalizedText(IEnumerable<string> commands)
         {
-            if (Settings.Default.DoDebugging)
+            if (LocalSettings.Settings["DoDebugging"].As<bool>())
             {
                 var stackTrace = new StackTrace();
 
@@ -577,14 +578,14 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
                 return returnDict;
             }
 
-            IList<string> enumerable = commands.ToList();
+            var enumerable = commands.ToList();
 
             if (!enumerable.Any())
             {
                 return returnDict;
             }
             var builder = new StringBuilder(enumerable.Count);
-
+            enumerable.RemoveAll(string.IsNullOrWhiteSpace);
             foreach (var s in enumerable)
             {
                 builder.Append(s);

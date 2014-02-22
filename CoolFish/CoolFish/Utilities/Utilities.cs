@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -11,8 +12,17 @@ namespace CoolFishNS.Utilities
     /// <summary>
     ///     A class with utilities that can be used.
     /// </summary>
-    public class Utilities
+    public static class Utilities
     {
+
+
+        public static void Upsert<TKey, TValue>(this Dictionary<TKey, TValue> dictionary, Dictionary<TKey, TValue> dictionaryToUpsert)
+        {
+            foreach (var value in dictionaryToUpsert)
+            {
+                dictionary[value.Key] = value.Value;
+            }
+        }
         /// <summary>
         ///     Gets the application path.
         ///     <value>The application path.</value>
@@ -35,16 +45,15 @@ namespace CoolFishNS.Utilities
         }
 
         /// <summary>
-        /// Sets up translations for various controls and messages
+        ///     Sets up translations for various controls and messages
         /// </summary>
         /// <param name="windowToSet">The Control to search for items to set</param>
         public static void SetLanguage(Control windowToSet)
         {
-
             string xmlText;
             LocalSettings.Translations.Clear();
 
-            switch (Settings.Default.LanguageIndex)
+            switch (LocalSettings.Settings["LanguageIndex"])
             {
                 case 0:
                     xmlText = Resources.en_US;
@@ -105,7 +114,7 @@ namespace CoolFishNS.Utilities
                     var control = found as ContentControl;
                     if (control != null)
                     {
-                        var obj = control;
+                        ContentControl obj = control;
                         obj.Content = xElement.Attribute("Value").Value;
                     }
                     else
@@ -113,7 +122,7 @@ namespace CoolFishNS.Utilities
                         var block = found as TextBlock;
                         if (block != null)
                         {
-                            var obj = block;
+                            TextBlock obj = block;
                             obj.Text = xElement.Attribute("Value").Value;
                         }
                         else
@@ -121,7 +130,7 @@ namespace CoolFishNS.Utilities
                             var column = found as DataGridTextColumn;
                             if (column != null)
                             {
-                                var obj = column;
+                                DataGridTextColumn obj = column;
                                 obj.Header = xElement.Attribute("Value").Value;
                             }
                             else
@@ -140,7 +149,7 @@ namespace CoolFishNS.Utilities
                 {
                     Logging.Write(
                         Resources.MissingTranslation);
-                    Settings.Default.LanguageIndex = 0;
+                    LocalSettings.Settings["LanguageIndex"] = BotSetting.As(0);
                     SetLanguage(windowToSet);
                     return;
                 }

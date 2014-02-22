@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using CoolFishNS.Management.CoolManager.HookingLua;
 using CoolFishNS.Properties;
 
@@ -20,7 +21,6 @@ namespace CoolFishNS.Utilities
         {
             get
             {
-
                 string slots =
                     DxHook.Instance.ExecuteScript(
                         "slots = 0; for i=0,4 do local count = GetContainerNumFreeSlots(i); slots = slots + count; end ",
@@ -49,7 +49,8 @@ namespace CoolFishNS.Utilities
             {
                 try
                 {
-                    var count = DxHook.Instance.ExecuteScript(Resources.GetLureCountScript + " \n " + Resources.GetLureName, new [] {"Count" , "LureName" });
+                    Dictionary<string, string> count = DxHook.Instance.ExecuteScript(Resources.GetLureCountScript + " \n " + Resources.GetLureName,
+                        new[] {"Count", "LureName"});
 
                     if (count["Count"] == "1" && !string.IsNullOrEmpty(count["LureName"]))
                     {
@@ -60,11 +61,9 @@ namespace CoolFishNS.Utilities
                 {
                     Logging.Write("Exception while getting lure count " + ex.Message);
                     Logging.Log(ex);
-                    
                 }
                 return 0;
             }
         }
-
     }
 }

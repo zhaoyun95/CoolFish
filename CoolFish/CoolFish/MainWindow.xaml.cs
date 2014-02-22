@@ -67,8 +67,8 @@ namespace CoolFishNS
 
         private void UpdateControlSettings()
         {
-            LanguageCB.SelectedIndex = Settings.Default.LanguageIndex;
-            if (Settings.Default.BlackBackground)
+            LanguageCB.SelectedIndex = LocalSettings.Settings["LanguageIndex"];
+            if (LocalSettings.Settings["BlackBackground"])
             {
                 BackgroundColorObj.Color = Color.FromArgb(0xFF, 0x0, 0x0, 0x0);
             }
@@ -90,16 +90,16 @@ namespace CoolFishNS
 
         private void SaveControlSettings()
         {
-            Settings.Default.LanguageIndex = LanguageCB.SelectedIndex;
-            LocalSettings.Plugins.Clear();
+            LocalSettings.Settings["LanguageIndex"] = BotSetting.As(LanguageCB.SelectedIndex);
+
 
             foreach (CheckBox script in _pluginCheckBoxesList)
             {
-                LocalSettings.Plugins.Add(script.Content.ToString(), new SerializablePlugin
+                LocalSettings.Plugins[script.Content.ToString()] = new SerializablePlugin
                                           {
                                               fileName = script.Content.ToString(),
                                               isEnabled = script.IsChecked
-                                          });
+                                          };
             }
         }
 
@@ -326,12 +326,12 @@ namespace CoolFishNS
             if (BackgroundColorObj.Color == Color.FromArgb(0xFF, 0x34, 0xBF, 0xF3))
             {
                 BackgroundColorObj.Color = Color.FromArgb(0xFF, 0x0, 0x0, 0x0);
-                Settings.Default.BlackBackground = true;
+                LocalSettings.Settings["BlackBackground"] = BotSetting.As(true);
             }
             else
             {
                 BackgroundColorObj.Color = Color.FromArgb(0xFF, 0x34, 0xBF, 0xF3);
-                Settings.Default.BlackBackground = false;
+                LocalSettings.Settings["BlackBackground"] = BotSetting.As(false);
             }
 
 
@@ -422,7 +422,7 @@ namespace CoolFishNS
 
         private void LanguageCB_DropDownClosed(object sender, EventArgs e)
         {
-            Settings.Default.LanguageIndex = LanguageCB.SelectedIndex;
+            LocalSettings.Settings["LanguageIndex"] = BotSetting.As(LanguageCB.SelectedIndex);
             Utilities.Utilities.SetLanguage(this);
         }
 

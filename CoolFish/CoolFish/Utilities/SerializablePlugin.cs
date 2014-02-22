@@ -6,7 +6,7 @@ namespace CoolFishNS.Utilities
     ///     Class for saving info about loaded plugins
     /// </summary>
     [Serializable]
-    public class SerializablePlugin 
+    public class SerializablePlugin
     {
         /// <summary>
         ///     true if the plugin is currently enabled; otherwise, false
@@ -17,6 +17,5 @@ namespace CoolFishNS.Utilities
         ///     File name of the plugin
         /// </summary>
         public string fileName { get; set; }
-
     }
 }

@@ -25,7 +25,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             get
             {
-                if (!Settings.Default.UseRaft)
+                if (!LocalSettings.Settings["UseRaft"])
                 {
                     return false;
                 }

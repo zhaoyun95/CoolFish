@@ -25,7 +25,7 @@ namespace CoolFishNS.Bots.FiniteStateMachine.States
         {
             get
             {
-                if (!Settings.Default.UseCharm)
+                if (!LocalSettings.Settings["UseCharm"])
                 {
                     return false;
                 }
