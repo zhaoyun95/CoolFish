@@ -1,4 +1,4 @@
 News:
-Coolfish for Wow 5.4.2 32-bit Client Only
-Just as a note: You should NOT have paid for this bot. It is available for free on my site linked below.
+Coolfish for Wow 5.4.7 32-bit Client Only
+Updated for the latest patch. Let me know of any bugs.
 http://coolfish.unknowndev.com/
