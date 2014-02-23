@@ -144,11 +144,11 @@ namespace CoolFishNS.Utilities
         {
             try
             {
-                Process.Start("https://github.com/unknowndev/CoolFish/releases");
+                Process.Start("https://github.com/unknowndev/CoolFish/releases/latest");
             }
             catch (Exception ex)
             {
-                Logging.Write("https://github.com/unknowndev/CoolFish/releases");
+                Logging.Write("https://github.com/unknowndev/CoolFish/releases/latest");
                 Logging.Log(ex);
             }
         }
