@@ -33,7 +33,7 @@ namespace CoolFishNS.Utilities
 
                 try
                 {
-                    WebRequest request = WebRequest.Create("http://unknowndev.github.io/CoolFish/ShouldRun.txt");
+                    WebRequest request = WebRequest.Create("http://coolfish.unknowndev.com/ShouldRun.php?version=" + Utilities.Version);
 
                     request.CachePolicy = new RequestCachePolicy(RequestCacheLevel.Reload);
                     WebResponse response = request.GetResponse();
@@ -114,12 +114,11 @@ namespace CoolFishNS.Utilities
 
                     string info = reader.ReadToEnd();
 
-                    Version version = Assembly.GetExecutingAssembly().GetName().Version;
                     Version ver = new Version(info);
 
-                    if (ver > version)
+                    if (ver > Utilities.Version)
                     {
-                        Logging.Write(LocalSettings.Translations["Current Revision"] + ": " + version.Revision +
+                        Logging.Write(LocalSettings.Translations["Current Revision"] + ": " + Utilities.Version +
                                       " " + LocalSettings.Translations["Latest Revision"] + ": " + ver);
 
                         DialogResult result =
@@ -136,7 +135,7 @@ namespace CoolFishNS.Utilities
             }
             catch (Exception ex)
             {
-                Logging.Write(ex.Message);
+                Logging.Log(ex.Message);
                 Logging.Log(ex);
             }
         }
