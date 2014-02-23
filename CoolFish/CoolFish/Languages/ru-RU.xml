@@ -1,0 +1,83 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="Главная" />
+    <SettingsTabBTN Value="Настройки" />
+    <SettingsBTN Value="Настройки" />
+    <PluginsTabBTN Value="Плагины" />
+    <DonateTabBTN Value="Донат" />
+    <UpdateTabBTN Value="Обновление" />
+    <HelpTabBTN Value="Помощь/Ошибки/Характеристики" />
+    <ShutdownCB Value="Выключить ПК по Остановке" />
+    <MinQualityChoice Value="--Выберите качество добычи--" />
+    <PoorQualityChoice Value="Низкое качество" />
+    <CommonQualityChoice Value="Обычное качество" />
+    <UncommonQualityChoice Value="Необычное качество" />
+    <RareQualityChoice Value="Редкое качество" />
+    <EpicQualityChoice Value="Эпическое качество" />
+    <LegendaryQualityChoice Value="Легендарное качество" />
+    <ArtifactQualityChoice Value="Артефакт" />
+    <HeirloomQualityChoice Value="Наследуемое" />
+    <AttachBTN Value="Прикрепить" />
+    <StopFullBagsCB Value="Полные сумки" />
+    <DescriptionBox
+      Value=" Посмотрите в папку с плагинами, чтобы увидеть пример типов плагинов, которые можете загрузить здесь" />
+    <LogoutCB Value="Выход по завершении" />
+    <CloseAppsCB Value="Закрыть Приложение и WoW после остановки" />
+    <StartBTN Value="Старт" />
+    <ConfigBTN Value="Настройки" />
+    <ThanksLBL Value="Спасибо =)" />
+    <DonateLBL
+      Value=" Если вам действительно нравится моя программа, и  вы желаете, чтобы я и дальше занимался данной программой, выпускал обновления, то рассмотрите возможность пожертвования" />
+    <DoDebugCB Value="Включить Debug Logging" />
+    <ItemColumn Value="ID Вещи или Имя " />
+    <MinutesLBL Value="Минут" />
+    <DontLootCB Value="Не собирать добычу отмеченную слева" />
+    <NoLureCB Value="Нет приманки" />
+    <StopNoLuresCB Value="Кончилась приманка" />
+    <StopBTN Value="Стоп" />
+    <StopLBL Value="Остановить когда :" />
+    <LootOnlyItemsCB Value="Собирать только добычу указанную слева" />
+    <SoundWhisperCB Value="Звуковое сопровождение при Шёпоте" />
+    <StopTimeCB Value="Время" />
+    <UseRaftCB Value="Использовать плот или хождение по воде" />
+    <UseRumseyCB Value="Использовать светлое пиво капитана Ромси" />
+    <UseCharmCB Value="Использовать Древний пандаренский талисман рыболова" />
+    <UseSpearCB Value="Использовать Заостренное копье клыкарра" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="Нет новых версий" />
+    <Item English="Current Revision" Translation="Текущая версия" />
+    <Item English="Latest Revision" Translation="Последняя версия" />
+    <Item English="Warning Message"
+          Translation=" Разработчик предлагает вам не запустить бота в это время. Это может быть причиной безопасности или бот должен быть обновлен. Читайте новости выше, или следить за форумами." />
+    <Item English="Unhandled Exception"
+          Translation=" Извините. Произошла необработанная ошибка. Пожалуйста, пришлите файл журнала разработчику или снимок экрана этого сообщения." />
+    <Item English="Warning" Translation=" Предупреждение" />
+    <Item English="No Processes Found"
+          Translation=" Процесс WoW  не был найден. Хотели бы вы добавить все процессы в список? (Выбор неправильного процесса или 64-разрядный WoW приведет к неработоспособности программы)" />
+    <Item English="Attached to" Translation=" прикреплённые к " />
+    <Item English="Error" Translation="Ошибка" />
+    <Item English="Pick Process" Translation=" Пожалуйста, выберите нужное окно WoW  для подключения." />
+    <Item English="Already Running" Translation="Процесс уже запущен." />
+    <Item English="Loot Options Error"
+          Translation="Вы не можете &quot;Собирать= только добычу указанную слева&quot; и &quot;Не собирать добычу отмеченную слева=&quot; настройте пожалуйста данные пункты." />
+    <Item English="Author" Translation="Автор" />
+    <Item English="Version" Translation="Версия" />
+    <Item English="SelectLootQuality" Translation="Пожалуйста выберите подходящее качество добычи во вкладке Настройки" />
+    <Item English="Valid Stop Time" Translation="Пожалуйста введите время остановки в минутах" />
+    <Item English="ShouldRun Error"
+          Translation=" Не могу подключиться к SVN. Sourceforge работает? или интернет-не рабочий? Убиваем процесс бота, потому что мы не знаем безопасно ли это для вашего бота.." />
+    <Item English="New Version Available"
+          Translation=" Новая версия доступна для скачивания. Хотите загрузить её сейчас??" />
+    <Item English="New Version" Translation="Новая версия" />
+    <Item English="No Release Yet"
+          Translation=" Существует новая редакция Coolfish на SVN Repo, но это ещё не новый релиз . Скоро ожидается ещё один." />
+    <Item English="Engine Running" Translation="Двигатель работает" />
+    <Item English="Engine Not Running" Translation="Двигатель не работает" />
+    <Item English="Engine Stopped" Translation="Двигатель остановлен" />
+    <Item English="Hook Found"
+          Translation=" Похоже, что бот уже прикреплялся.Coolfish может попытаться запуститься поверх этого процесса, но это может и не сработать. (Это, вероятно, крах WoW, если бот не работает) Вы хотите прикрепиться в любом случае?" />
+    <Item English="Reattach"
+          Translation=" Произошёл сбой! Либо вы запустили другого бота, либо Coolfish зациклился. Мы не можем продолжать, пока WoW и программа не будут перезапущены. Пожалуйста сделайте перезапуск, и прикрепитесь к новому WoW процессу " />
+  </Dictionary>
+</Language>

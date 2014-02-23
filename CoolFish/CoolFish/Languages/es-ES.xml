@@ -1,0 +1,81 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="Principal" />
+    <SettingsTabBTN Value="Config" />
+    <SettingsBTN Value="Config" />
+    <PluginsTabBTN Value="Plugins" />
+    <DonateTabBTN Value="Donar" />
+    <UpdateTabBTN Value="Actualizar" />
+    <HelpTabBTN Value="Ayuda/Error/Rasgo" />
+    <ShutdownCB Value="Apague el PC en la parada" />
+    <MinQualityChoice Value="--La calidad mínima de los artículos--" />
+    <PoorQualityChoice Value="Pobre" />
+    <CommonQualityChoice Value="Común" />
+    <UncommonQualityChoice Value="Poco común" />
+    <RareQualityChoice Value="Raro" />
+    <EpicQualityChoice Value="Épico" />
+    <LegendaryQualityChoice Value="Legendario" />
+    <ArtifactQualityChoice Value="Artefacto" />
+    <HeirloomQualityChoice Value="Reliquia" />
+    <AttachBTN Value="Adjuntar" />
+    <StopFullBagsCB Value="Bolsas Llenas" />
+    <DescriptionBox Value="Busque en la carpeta Plugins para ver un ejemplo del tipo de plugins que puedes cargar aquí" />
+    <LogoutCB Value="Cerrar la sesión" />
+    <CloseAppsCB Value="Cierra programa y Wow en la parada" />
+    <StartBTN Value="Comenzar" />
+    <ConfigBTN Value="Config" />
+    <ThanksLBL Value="Gracias :)" />
+    <DonateLBL Value="Si te gusta mis programas y desea animar a que continúe trabajando en ellos, considere donar" />
+    <DoDebugCB Value="Mensajes de depuración" />
+    <ItemColumn Value="ItemID o Nombre" />
+    <MinutesLBL Value="Minutos" />
+    <DontLootCB Value="No saquear elementos de la izquierda" />
+    <NoLureCB Value="No Cebo" />
+    <StopNoLuresCB Value="No cebo restante" />
+    <StopBTN Value="Parar" />
+    <StopLBL Value="Parar en" />
+    <LootOnlyItemsCB Value="Saquea sólo los elementos de la izquierda" />
+    <SoundWhisperCB Value="Sona en susurror" />
+    <StopTimeCB Value="Tiempo" />
+    <UseRaftCB Value="Usa balsa o caminar sobre aguag" />
+    <UseRumseyCB Value="Usa cerveza de capitán Rumsey" />
+    <UseCharmCB Value="Usa encano antiguo de panda" />
+    <UseSpearCB Value="Usa lanza afilada de Tuskarr" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="No hay nuevas revisiones disponibles" />
+    <Item English="Current Revision" Translation="Revisión Actual" />
+    <Item English="Latest Revision" Translation="Revisión más reciente" />
+    <Item English="Warning Message"
+          Translation="El Desarrollador indica que no se quede el bot en este momento. Esto podría ser una razón de seguridad o el robot necesita ser actualizado. Lea las noticias sobre o revisar los foros." />
+    <Item English="Unhandled Exception"
+          Translation="Lo siento. Se ha producido un error no controlado. Por favor, envíe el archivo de registro para el desarrollador o capturar el siguiente cuadro de mensaje." />
+    <Item English="Warning" Translation="¡Advertencia!" />
+    <Item English="No Processes Found"
+          Translation="No se encontró un proceso de WoW. ¿Te gustaría añadir todos los procesos a la lista? (Selección de un proceso equivocado o WoW 64 bits hará que sucedan cosas malas)" />
+    <Item English="Attached to" Translation="Adjuntado a" />
+    <Item English="Error" Translation="Error" />
+    <Item English="Pick Process" Translation="Por favor, elija un WoW para adjuntar a." />
+    <Item English="Already Running" Translation="Motor ya se está ejecutando." />
+    <Item English="Loot Options Error"
+          Translation="No se puede &quot;Saquea sólo los elementos de la izquierda&quot; y &quot;No saquear elementos de la izquierda&quot; al mismo tiempo. Ajuste la configuración" />
+    <Item English="Author" Translation="Autor" />
+    <Item English="Version" Translation="Versión" />
+    <Item English="SelectLootQuality"
+          Translation="Por favor seleccione la calidad mínima de los artículos en la configuración" />
+    <Item English="Valid Stop Time" Translation="Por favor introduzca un tiempo de parada válido en minutos" />
+    <Item English="ShouldRun Error"
+          Translation="No se pudo conectar a SVN. Sourceforge es abajo? o internet es irregular? Estamos matando el programa porque no sabemos si es seguro para funcionar." />
+    <Item English="New Version Available"
+          Translation="Una nueva versión está disponible para su descarga. ¿Desea descargarlo ahora?" />
+    <Item English="New Version" Translation="Nueva Versión" />
+    <Item English="No Release Yet"
+          Translation="Hay una nueva revisión de CoolFish en el repositorio, pero aún no hay una nueva versión. Espere un poco." />
+    <Item English="Engine Running" Translation="El motor está funcionando" />
+    <Item English="Engine Not Running" Translation="El motor no está funcionando" />
+    <Item English="Engine Stopped" Translation="El motor se ha parado" />
+    <Item English="Hook Found"
+          Translation="Parece que ya se ha aplicado un gancho. Coolfish puede intentar correr junto a este programa, pero puede que no funcione. (Esto probablemente estrellarse WoW si no es así) ¿Quieres conectar de todos modos?" />
+    <Item English="Reattach" Translation="Reinicie WoW antes de Adjuntar" />
+  </Dictionary>
+</Language>

@@ -1,0 +1,73 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="主界面" />
+    <SettingsTabBTN Value="设置" />
+    <SettingsBTN Value="设置" />
+    <PluginsTabBTN Value="插件" />
+    <DonateTabBTN Value="捐赠" />
+    <UpdateTabBTN Value="更新" />
+    <HelpTabBTN Value="帮助" />
+    <ShutdownCB Value="停止后关闭电脑" />
+    <MinQualityChoice Value="-- 最低拾取标准 --" />
+    <PoorQualityChoice Value="劣质" />
+    <CommonQualityChoice Value="普通" />
+    <UncommonQualityChoice Value="优秀" />
+    <RareQualityChoice Value="精良" />
+    <EpicQualityChoice Value="史诗" />
+    <LegendaryQualityChoice Value="传说" />
+    <ArtifactQualityChoice Value="神器" />
+    <HeirloomQualityChoice Value="传家宝" />
+    <AttachBTN Value="连接" />
+    <StopFullBagsCB Value="满包" />
+    <DescriptionBox Value="在插件文件夹(Plugins)里查看可以加载的插件种类" />
+    <LogoutCB Value="停止后登出游戏" />
+    <CloseAppsCB Value="停止后自动关闭魔兽世界和本程序" />
+    <StartBTN Value="开始" />
+    <ConfigBTN Value="配置" />
+    <ThanksLBL Value="谢谢 ^_^" />
+    <DonateLBL Value="如果喜欢我的程序并且想鼓励继续开发，请捐赠支持我" />
+    <DoDebugCB Value="启用调试日志记录" />
+    <ItemColumn Value="物品ID或名称" />
+    <MinutesLBL Value="分钟" />
+    <DontLootCB Value="不拾取左边列表内的物品" />
+    <NoLureCB Value="不用鱼饵" />
+    <StopNoLuresCB Value="鱼饵用完" />
+    <StopBTN Value="停止" />
+    <StopLBL Value="停止条件" />
+    <LootOnlyItemsCB Value="只拾取左边列表内的物品" />
+    <SoundWhisperCB Value="密语声音提示" />
+    <StopTimeCB Value="计时器" />
+    <UseRaftCB Value="使用筏或水上行走" />
+    <UseRumseyCB Value="使用拉姆瑟船长的特酿啤酒" />
+    <UseCharmCB Value="使用古代熊猫人诱鱼器" />
+    <UseSpearCB Value="使用磨利的海象人鱼叉" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="没有可用的新版本" />
+    <Item English="Current Revision" Translation="当前版本" />
+    <Item English="Latest Revision" Translation="最新版本" />
+    <Item English="Warning Message" Translation="开发者建议现在不要运行本程序。这可能是安全原因或者程序需要更新。请阅读上面的新闻或者查看论坛。" />
+    <Item English="Unhandled Exception" Translation="对不起，发生未知错误。请发送日志文件给开发者或者把下一个消息框截图。" />
+    <Item English="Warning" Translation="警告" />
+    <Item English="No Processes Found" Translation="找不到正在运行的魔兽世界程序。添加所有的进程到列表内吗？（选择错误的进程或64位的魔兽世界可能会导致很糟糕的後果。）" />
+    <Item English="Attached to" Translation="已连接到" />
+    <Item English="Error" Translation="错误" />
+    <Item English="Pick Process" Translation="请选择一个正在运行的魔兽世界程序窗口" />
+    <Item English="Already Running" Translation="程序已启动" />
+    <Item English="Loot Options Error" Translation="不能同时选择“不拾取左边列表内物品”和“拾取左边列表内物品”！请调整设置。" />
+    <Item English="Author" Translation="作者" />
+    <Item English="Version" Translation="版本号" />
+    <Item English="SelectLootQuality" Translation="请在“设置”页面下选择最低拾取标准" />
+    <Item English="Valid Stop Time" Translation="请输入一个有效的停止时间（分钟）" />
+    <Item English="ShouldRun Error" Translation="无法连接到SVN。因安全原因，源代码服务器当机或者网络有问题导致程序无法运行。" />
+    <Item English="New Version Available" Translation="有新版本可供下载。想现在就下载吗？" />
+    <Item English="New Version" Translation="新版本" />
+    <Item English="No Release Yet" Translation="有新的版本在SVN库中，但还没有发布，敬请期待。" />
+    <Item English="Engine Running" Translation="程序运行中" />
+    <Item English="Engine Not Running" Translation="程序未启动" />
+    <Item English="Engine Stopped" Translation="程序已停止" />
+    <Item English="Hook Found" Translation="已经有一个程序在运行了。Coolfish可以尝试和那个程序同时运行，不过可能会有冲突。（这很有可能会使魔兽世界程序崩潰，还想要连接吗？）" />
+    <Item English="Reattach"
+          Translation="貌似要么是有一个程序已经连接上，要么就是Coolfish程序崩潰，没有完全释放内存。只有重新启动魔兽世界程序才能重新连接，请重新启动程序并连接到新的魔兽世界程序进程。" />
+  </Dictionary>
+</Language>

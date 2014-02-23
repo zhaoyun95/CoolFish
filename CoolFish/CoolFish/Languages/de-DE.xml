@@ -1,0 +1,82 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="Hauptmenü" />
+    <SettingsTabBTN Value="Einstellungen" />
+    <SettingsBTN Value="Einstellungen" />
+    <PluginsTabBTN Value="Plugins" />
+    <DonateTabBTN Value="Spenden" />
+    <UpdateTabBTN Value="Update" />
+    <HelpTabBTN Value="Hilfe/Fehler/Feature" />
+    <ShutdownCB Value="Herunterfahren des PC's bei STOP des bots" />
+    <MinQualityChoice Value="-- Minimale Qualität der Beute --" />
+    <PoorQualityChoice Value="Schlecht/Grau" />
+    <CommonQualityChoice Value="Verbreitet / Weis" />
+    <UncommonQualityChoice Value="Ungewöhnlich / Grün" />
+    <RareQualityChoice Value="Selten / Blau" />
+    <EpicQualityChoice Value="Episch / Lila" />
+    <LegendaryQualityChoice Value="Legendär / Orange" />
+    <ArtifactQualityChoice Value="Artefakt" />
+    <HeirloomQualityChoice Value="Erbstück" />
+    <AttachBTN Value="Verknüpfen" />
+    <StopFullBagsCB Value="Taschen voll" />
+    <DescriptionBox Value="Schau in den Plugin-Ordner um zu sehen welche Plugins du hier laden kannst" />
+    <LogoutCB Value="Ausloggen bei Auto-stop" />
+    <CloseAppsCB Value="Bot und WoW beenden bei Auto-stop" />
+    <StartBTN Value="Start" />
+    <ConfigBTN Value="Einstellungen" />
+    <ThanksLBL Value="Danke :)" />
+    <DonateLBL
+      Value="Wenn ihnen dieses Programm gefällt dann ermutigen sie mich doch weiter daran zu arbeiten in dem sie mir eine Spende zukommen lassen" />
+    <DoDebugCB Value="Aktiviere Log-schreiber" />
+    <ItemColumn Value="ItemID oder Name" />
+    <MinutesLBL Value="Minuten" />
+    <DontLootCB Value="Items von Links NICHT looten" />
+    <NoLureCB Value="Keinen Köder benutzen" />
+    <StopNoLuresCB Value="Keiner Köder übrig" />
+    <StopBTN Value="Stop" />
+    <StopLBL Value="Stoppen wenn" />
+    <LootOnlyItemsCB Value="NUR items von Links looten" />
+    <SoundWhisperCB Value="Sound abspielern bei Whisper" />
+    <StopTimeCB Value="Zeit" />
+    <UseRaftCB Value="Benutze Floß, Wasserwandeln ect." />
+    <UseRumseyCB Value="Benutze Rumseys Lagerbier" />
+    <UseCharmCB Value="Benutze pandarischen Angelglücksbringer" />
+    <UseSpearCB Value="Benutze Geschärfter Tuskarrspeer" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="Keine neue Version verfügbar" />
+    <Item English="Current Revision" Translation="Derzeitige Version" />
+    <Item English="Latest Revision" Translation="letzte version" />
+    <Item English="Warning Message"
+          Translation="Der Entwickler empfiehlt Ihnen, den bot derzeit nicht zubenutzen da eine sicherheitslücke vorliegt oder eine neue Version verfügbar ist. lesen die die nachrichten oder werfen sie einen Blick ins Forum." />
+    <Item English="Unhandled Exception"
+          Translation="Entschuldigung. Es kam zu  einem unbekannter Fehler der aufgetreten ist. Bitte senden Sie die Log-Datei oder Screenshot per PM an den Entwickler." />
+    <Item English="Warning" Translation="Warnung" />
+    <Item English="No Processes Found"
+          Translation="Ein WoW-Prozess wurde nicht gefunden. Möchten Sie alle Prozesse zur Liste hinzufügen? (Die Auswahl eines falschen Prozess-oder 64-Bit-WoW verursacht möglicherweise schlimme Dinge)" />
+    <Item English="Attached to" Translation="Verknüpft mit" />
+    <Item English="Error" Translation="Fehler" />
+    <Item English="Pick Process" Translation="Bitte ein WoW-Fenster auswählen zum verknüpfen" />
+    <Item English="Already Running" Translation="Bot läuft bereits." />
+    <Item English="Loot Options Error"
+          Translation="du kannst nicht *NUR items von Links looten* und gleichzeitig *Keine Items von Links looten* aktiviert haben. Bitte überprüfe deine Einstellungen" />
+    <Item English="Author" Translation="Author" />
+    <Item English="Version" Translation="Version" />
+    <Item English="SelectLootQuality" Translation="Bitte wählen sie eine minimale Lootqualität aus" />
+    <Item English="Valid Stop Time" Translation="Bitte eine Gültige Stopp-zeit eintragen" />
+    <Item English="ShouldRun Error"
+          Translation="Konnte nicht zum Server verbinden. Ist der Server down? oder spinnt dein internet? Bot wird beendet weil wir nicht wissen ob der bot sicher ist." />
+    <Item English="New Version Available"
+          Translation="Eine neuere Version steht zum download bereit, möchten sie diese nun herunterladen?" />
+    <Item English="New Version" Translation="Neue Version" />
+    <Item English="No Release Yet"
+          Translation="Es gibt eine neue Version der Coolfish auf dem Server, aber keine neue Veröffnetlichung bisher. Erwarten sie demnächst." />
+    <Item English="Engine Running" Translation="Bot läuft" />
+    <Item English="Engine Not Running" Translation="Bot läuft NICHT" />
+    <Item English="Engine Stopped" Translation="Bot gestoppt" />
+    <Item English="Hook Found"
+          Translation="Es scheint als ob sich bereits ein anderes programm mit WoW verknüpft hätte. Coolfish kann versuchen neben dem anderen programm zu laufen, das wird aber vllt. nicht funktionieren. (WoW wird abstürzen falls es nicht funktioniert) möchtest du es Versuchen?" />
+    <Item English="Reattach"
+          Translation="Sieht so aus als ob ein anderes programm mit WoW verknüpft währe, oder Coolfish hat nicht aufgeräumt nachdem es abgestürzt ist.Bot kann nicht gestartet werden solange WoW nicht neugestartet wird. Bitte WoW neustarten" />
+  </Dictionary>
+</Language>

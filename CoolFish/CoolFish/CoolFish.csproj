@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{440BA8EC-0DAA-4E57-9EE4-52B2088031AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoolFishNS</RootNamespace>
+    <AssemblyName>CoolFish</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>process.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Release\CoolFish.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;x64</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AFFC8B4FEB64C2030BEEF143772FBC574740181C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CoolFish.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="fasmdll_managed, Version=1.0.5080.37084, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\fasmdll_managed.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GreyMagic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GreyMagic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MahApps.Metro, Version=0.12.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MahApps.Metro.0.12.0.0\lib\net40\MahApps.Metro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Build" />
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="Microsoft.Build.Utilities.v4.0" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bots\CoolFishBot\CoolFishBotSettings.xaml.cs">
+      <DependentUpon>CoolFishBotSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bots\PoolFishingBot\PoolFishingBot.cs" />
+    <Compile Include="Management\CoolManager\FindPattern.cs" />
+    <Compile Include="Management\CoolManager\Point.cs" />
+    <Compile Include="Management\BotManager.cs" />
+    <Compile Include="Bots\CoolFishBot\CoolFishBot.cs" />
+    <Compile Include="Bots\IBot.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Utilities\BotSetting.cs" />
+    <Compile Include="Utilities\MessageEventArgs.cs" />
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="Management\CoolManager\D3D\D3D11Device.cs" />
+    <Compile Include="Management\CoolManager\D3D\D3D9Device.cs" />
+    <Compile Include="Management\CoolManager\D3D\D3DDevice.cs" />
+    <Compile Include="Management\CoolManager\D3D\Dirext3D.cs" />
+    <Compile Include="Management\CoolManager\HookingLua\DxHook.cs" />
+    <Compile Include="Management\CoolManager\NativeMethods.cs" />
+    <Compile Include="Management\CoolManager\Objects\ObjectManager.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowContainer.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowCorpse.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowDynamicObject.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowGameObject.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowItem.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowObject.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowPlayer.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowPlayerMe.cs" />
+    <Compile Include="Management\CoolManager\Objects\WowUnit.cs" />
+    <Compile Include="Management\CoolManager\Offsets.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateUseSpear.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateUseRumsey.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateUseCharm.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateDoWhisper.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateApplyLure.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateBobbing.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateDoLoot.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateDoNothing.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateFish.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateStopOrLogout.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\StateUseRaft.cs" />
+    <Compile Include="PluginSystem\IPlugin.cs" />
+    <Compile Include="PluginSystem\PluginContainer.cs" />
+    <Compile Include="PluginSystem\PluginManager.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\BasicFileLogger.cs" />
+    <Compile Include="Utilities\SerializableItem.cs" />
+    <Compile Include="Utilities\SerializablePlugin.cs" />
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Bots\CoolFishBot\CoolFishBotSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Bots\FiniteStateMachine\CoolFishEngine.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Utilities\LocalSettings.cs" />
+    <Compile Include="Utilities\Log.cs" />
+    <Compile Include="Utilities\Logging.cs" />
+    <Compile Include="Utilities\PlayerInventory.cs" />
+    <Compile Include="Utilities\Serializer.cs" />
+    <Compile Include="Bots\FiniteStateMachine\States\State.cs" />
+    <Compile Include="Utilities\Updater.cs" />
+    <Compile Include="Utilities\Utilities.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <Resource Include="Bots\LuaResources\GetLureName.lua" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Bots\LuaResources\WhisperNotes.lua" />
+    <Resource Include="Bots\LuaResources\UseRaft.lua" />
+    <Resource Include="Bots\LuaResources\NeedToRunUseRaft.lua" />
+    <Resource Include="Resources\Entypo.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="process.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\btn_donate_SM.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Bots\LuaResources\DoLoot.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Bots\LuaResources\NeedToRunCharm.lua" />
+    <None Include="Bots\LuaResources\NeedToRunUseRumsey.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Languages\en-US.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Languages\es-ES.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\nn-NO.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\ru-RU.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\fr-FR.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\appbar.minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\appbar.app.remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\zh-CHS.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\el-GR.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\de-DE.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\zh-CHT.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\ar.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\nl-NL.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Languages\sv-SE.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Patterns.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreyMagic.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MahApps.Metro.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\System.Windows.Interactivity.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>cd $(TargetDir)
+Version.exe $(ProjectDir)Properties\AssemblyInfo.cs</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>cd $(TargetDir)
+Version.exe CoolFish.exe fasmdll_managed.dll CoolFish.pdb README.txt CoolFish.exe.config</PostBuildEvent>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_BuildVersioningStyle="None.None.Increment.None" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UpdateFileVersion="True" BuildVersion_DetectChanges="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

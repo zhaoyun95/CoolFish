@@ -1,0 +1,83 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="Main" />
+    <SettingsTabBTN Value="Settings" />
+    <SettingsBTN Value="Settings" />
+    <PluginsTabBTN Value="Plugins" />
+    <DonateTabBTN Value="Donate" />
+    <UpdateTabBTN Value="Update" />
+    <HelpTabBTN Value="Help/Bug/Feature" />
+    <ShutdownCB Value="Shutdown PC on Stop" />
+    <MinQualityChoice Value="-- Minimum Loot Quality --" />
+    <PoorQualityChoice Value="Poor" />
+    <CommonQualityChoice Value="Common" />
+    <UncommonQualityChoice Value="Uncommon" />
+    <RareQualityChoice Value="Rare" />
+    <EpicQualityChoice Value="Epic" />
+    <LegendaryQualityChoice Value="Legendary" />
+    <ArtifactQualityChoice Value="Artifact" />
+    <HeirloomQualityChoice Value="Heirloom" />
+    <AttachBTN Value="Attach" />
+    <StopFullBagsCB Value="Full Bags" />
+    <DescriptionBox Value="Look in the Plugins folder to see an example of the type of plugins you can load here" />
+    <LogoutCB Value="Logout on Stop" />
+    <CloseAppsCB Value="Close App and Wow on Stop" />
+    <StartBTN Value="Start" />
+    <ConfigBTN Value="Config" />
+    <ThanksLBL Value="Thanks :)" />
+    <DonateLBL
+      Value="If you really enjoy my programs and want to encourage me to continue working on them, consider donating" />
+    <DoDebugCB Value="Enable Debug Logging" />
+    <ItemColumn Value="ItemID or Name" />
+    <MinutesLBL Value="Minutes" />
+    <DontLootCB Value="Don't Loot Items on Left" />
+    <NoLureCB Value="No Lure" />
+    <StopNoLuresCB Value="No Lures Left" />
+    <StopBTN Value="Stop" />
+    <StopLBL Value="Stop on" />
+    <LootOnlyItemsCB Value="Loot Only Items on Left" />
+    <SoundWhisperCB Value="Sound on Whisper" />
+    <StopTimeCB Value="Time" />
+    <UseRaftCB Value="Use Raft or Water Walking" />
+    <UseRumseyCB Value="Use Captain Rumsey's Lager" />
+    <UseCharmCB Value="Use Ancient Pandaren Charm" />
+    <UseSpearCB Value="Use Sharpened Tuskarr Spear" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="No New Revisions Available" />
+    <Item English="Current Revision" Translation="Current Revision" />
+    <Item English="Latest Revision" Translation="Latest Revision" />
+    <Item English="Warning Message"
+          Translation="The developer suggests you don't run the bot at this time. This could be a safety reason or the bot needs to be updated. Read the news above or check the forums." />
+    <Item English="Unhandled Exception"
+          Translation="Sorry. There was an unhandled error that has occurred. Please send the log file to the developer or screen shot the next messagebox." />
+    <Item English="Warning" Translation="Warning" />
+    <Item English="No Processes Found"
+          Translation="A WoW process was not found. Would you like to add all processes to the list? (Selecting a wrong process or 64-bit WoW will cause bad things to happen)" />
+    <Item English="Attached to" Translation="Attached to" />
+    <Item English="Error" Translation="Error" />
+    <Item English="Pick Process" Translation="Please select a Wow window to attach to." />
+    <Item English="Already Running" Translation="Engine is already running." />
+    <Item English="Loot Options Error"
+          Translation="You can't &quot;Loot only items on left&quot; and &quot;Don't loot items on left&quot; at the same time. Adjust these settings" />
+    <Item English="Author" Translation="Author" />
+    <Item English="Version" Translation="Version" />
+    <Item English="SelectLootQuality"
+          Translation="Please select a minimum quality threshold for looting in the settings tab" />
+    <Item English="Valid Stop Time" Translation="Please enter a valid stop time in minutes" />
+    <Item English="ShouldRun Error"
+          Translation="Could not connect to SVN. Sourceforge is down? or internet is spotty? Killing bot because we don't know if it is safe to bot." />
+    <Item English="New Version Available"
+          Translation="A new version is available for download. Would you like to download it now??" />
+    <Item English="New Version" Translation="New Version" />
+    <Item English="No Release Yet"
+          Translation="There is a new revision of Coolfish on the SVN Repo, but no new release yet. Expect one soon." />
+    <Item English="Engine Running" Translation="Engine Running" />
+    <Item English="Engine Not Running" Translation="Engine not running" />
+    <Item English="Engine Stopped" Translation="Engine Stopped" />
+    <Item English="Hook Found"
+          Translation="It appears that a hook has already been applied. Coolfish can attempt to run along side this program but it may not work. (This will likely crash WoW if it doesn't) Do you want to attach anyway?" />
+    <Item English="Reattach"
+          Translation="Looks like either another program is hooked, or Coolfish crashed and didn't clean up after itself. We can't attach until WoW is restarted. Please do so and reattach to the new process" />
+  </Dictionary>
+</Language>

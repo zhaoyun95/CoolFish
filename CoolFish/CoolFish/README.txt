@@ -11,3 +11,4 @@ Download Latest CoolFish Version: https://github.com/unknowndev/CoolFish/release
 Wiki: https://github.com/unknowndev/CoolFish/wiki
 
 Need help? Have a question? Have some plugin to release? http://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-bots-programs/384194-coolfish-yet-another-wow-fish-bot.html
+

@@ -1,0 +1,82 @@
+﻿<Language>
+  <Controls>
+    <MainTabBTN Value="Hovedside" />
+    <SettingsTabBTN Value="Instillinger" />
+    <SettingsBTN Value="Instillinger" />
+    <PluginsTabBTN Value="Plugins" />
+    <DonateTabBTN Value="Donèr" />
+    <UpdateTabBTN Value="Oppdater" />
+    <HelpTabBTN Value="Hjelp/Feil/Funksjoner" />
+    <ShutdownCB Value="Skru av Datamaskin på stopp" />
+    <MinQualityChoice Value="-- Minste loot verdi --" />
+    <PoorQualityChoice Value="Poor" />
+    <CommonQualityChoice Value="Common" />
+    <UncommonQualityChoice Value="Uncommon" />
+    <RareQualityChoice Value="Rare" />
+    <EpicQualityChoice Value="Epic" />
+    <LegendaryQualityChoice Value="Legendary" />
+    <ArtifactQualityChoice Value="Artifact" />
+    <HeirloomQualityChoice Value="Heirloom" />
+    <AttachBTN Value="Feste" />
+    <StopFullBagsCB Value="Fullt lager" />
+    <DescriptionBox Value="Se i Plugins-mappen for å se et eksempel på den type plugins du kan laste inn her" />
+    <LogoutCB Value="Logut på Stopp" />
+    <CloseAppsCB Value="Steng programm og WoW på stopp" />
+    <StartBTN Value="Start" />
+    <ConfigBTN Value="Konfigurer" />
+    <ThanksLBL Value="Takk :)" />
+    <DonateLBL
+      Value="Hvis du virkelig liker mine programmer og ønsker å oppmuntre meg til å jobbe videre med dem, vurder å donèr" />
+    <DoDebugCB Value="Skru på Debug logging" />
+    <ItemColumn Value="ItemID eller Navn" />
+    <MinutesLBL Value="Minutter" />
+    <DontLootCB Value="Ikke plukk opp ting til venstre" />
+    <NoLureCB Value="Ingen lokkemat" />
+    <StopNoLuresCB Value="Ikke noe mer lokkemat igjen" />
+    <StopBTN Value="Stopp" />
+    <StopLBL Value="Stopp på" />
+    <LootOnlyItemsCB Value="Plukk opp bare ting til venstre" />
+    <SoundWhisperCB Value="Lyd på Whisper" />
+    <StopTimeCB Value="Tid" />
+    <UseRaftCB Value="Bruk Raft eller Water Walking" />
+    <UseRumseyCB Value="Bruk Captain Rumsey's Lager" />
+    <UseCharmCB Value="Bruk Ancient Pandaren Charm" />
+    <UseSpearCB Value="Bruk Sharpened Tuskarr Spear" />
+  </Controls>
+  <Dictionary>
+    <Item English="No New Revisions Available" Translation="Ingen nye versjoner tilgjengelige" />
+    <Item English="Current Revision" Translation="Nåværende versjon" />
+    <Item English="Latest Revision" Translation="Nyeste versjon" />
+    <Item English="Warning Message"
+          Translation="Utvikleren foreslår at du ikke kjører botten på dette tidspunktet. Dette kan være en sikkerhetsmessig grunn eller at botten må oppdateres. Les nyhetene over eller sjekk forumene." />
+    <Item English="Unhandled Exception"
+          Translation="Beklager. Det var en ubehandlet feil som har oppstått. Vennligst send loggfilen til utvikleren eller skjermbilde på neste meldingsboks." />
+    <Item English="Warning" Translation="Advarsel!" />
+    <Item English="No Processes Found"
+          Translation="En WoW prosess ble ikke funnet. Vil du legge til alle prosesser i listen? (Velg en feil prosess eller 64-bit WoW vil føre til at dårlige ting vil skje)" />
+    <Item English="Attached to" Translation="Heng på til" />
+    <Item English="Error" Translation="Feil" />
+    <Item English="Pick Process" Translation="Vendligst velg et WoW vindu å hente på." />
+    <Item English="Already Running" Translation="Motor kjører allerede." />
+    <Item English="Loot Options Error"
+          Translation="Du kan ikke &quot;Plukke opp ting fra venstre&quot; and &quot;Ikke plukke opp ting fra venstre&quot; samtidig! Juster disse instillingene!" />
+    <Item English="Author" Translation="Forfatter" />
+    <Item English="Version" Translation="Versjon" />
+    <Item English="SelectLootQuality"
+          Translation="Velg et minimum kvalitet krav for å plukke i kategorien Innstillinger" />
+    <Item English="Valid Stop Time" Translation="Vendligst skriv inn en gyldig stopp tid i minutter." />
+    <Item English="ShouldRun Error"
+          Translation="Kunne ikke koble til SVN. Er Sourceforge nede? Er internett-tilbkoblingen ustabil? Stopper botten fordi vi ikke vet om det er trygt å botte." />
+    <Item English="New Version Available" Translation="En ny versjon er tilgjengelig. Vil du laste den ned nå?" />
+    <Item English="New Version" Translation="New Version" />
+    <Item English="No Release Yet"
+          Translation="Det er en ny versjon på SVN Repositt'en, men ingen ny utgivelse enda. Forvent en snart! :)" />
+    <Item English="Engine Running" Translation="Motor kjører" />
+    <Item English="Engine Not Running" Translation="Motor kjører ikke" />
+    <Item English="Engine Stopped" Translation="Motoren stoppet" />
+    <Item English="Hook Found"
+          Translation="Det ser ut til at en krok er allerede kastet ut. Coolfish kan forsøke å kjøre langs siden dette programmet, men det kan være at det ikke fungerer. (Dette vil sannsynligvis krasje WoW hvis det ikke gjør det) Vil du feste likevel?" />
+    <Item English="Reattach"
+          Translation="Ser ut som enten et annet program er hekta, eller at Coolfish krasjet og ikke ryddet opp etter seg selv. Vi kan ikke hente på til WoW før det startes på nytt. Vennligst gjør det og hengsle på Coolfish til den nye prosessen." />
+  </Dictionary>
+</Language>
