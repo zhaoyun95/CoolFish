@@ -404,8 +404,6 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
             if (LocalSettings.Settings["DoDebugging"].As<bool>())
             {
                 var stackTrace = new StackTrace();
-
-
                 Logging.Log("[DEBUG] ExecuteScript (enumerable) Lua from " +
                             stackTrace.GetFrame(1).GetMethod().ReflectedType.Name + "." +
                             stackTrace.GetFrame(1).GetMethod().Name);
@@ -434,6 +432,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
                 {
                     builder.Append(s);
                     builder.Append('\0');
+                    returnDict[s] = string.Empty;
                 }
             }
             else
@@ -479,33 +478,37 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
 
                 if (enumerable.Count > 0)
                 {
-                    int offset = 0;
-                    byte[] address = BotManager.Memory.ReadBytes(mem["returnVarsPtr"], enumerable.Count * 4);
+                    byte[] address = BotManager.Memory.ReadBytes(mem["returnVarsPtr"], enumerable.Count*4);
 
-                    Parallel.ForEach(enumerable, value =>
-                    {
-                        var retnByte = new List<byte>();
-                        var dwAddress = new IntPtr(BitConverter.ToInt32(address, offset));
-
-                        if (dwAddress != IntPtr.Zero)
+                    Parallel.ForEach(enumerable, // source collection
+                        () => 0, // method to initialize the local variable
+                        (value, loop, offset) => // method invoked by the loop on each iteration
                         {
-                            var buf = BotManager.Memory.Read<byte>(dwAddress);
-                            while (buf != 0)
+                            var retnByte = new List<byte>();
+                            var dwAddress = new IntPtr(BitConverter.ToInt32(address, offset));
+
+                            if (dwAddress != IntPtr.Zero)
                             {
-                                retnByte.Add(buf);
-                                dwAddress = dwAddress + 1;
-                                buf = BotManager.Memory.Read<byte>(dwAddress);
+                                var buf = BotManager.Memory.Read<byte>(dwAddress);
+                                while (buf != 0)
+                                {
+                                    retnByte.Add(buf);
+                                    dwAddress = dwAddress + 1;
+                                    buf = BotManager.Memory.Read<byte>(dwAddress);
+                                }
                             }
-                        }
-                        returnDict.Add(value, Encoding.UTF8.GetString(retnByte.ToArray()));
-                        offset += 0x4;
-                    });
+                            returnDict[value] = Encoding.UTF8.GetString(retnByte.ToArray());
+                            offset += 0x4; //modify local variable 
+                            return offset; // value to be passed to next iteration
+                        },
+                        finalResult =>{}
+                        );
                 }
                 
             }
             catch (Exception ex)
             {
-                Logging.Write(ex);
+                Logging.Log(ex);
             }
             finally
             {
@@ -590,6 +593,7 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
             {
                 builder.Append(s);
                 builder.Append('\0');
+                returnDict[s] = string.Empty;
             }
 
 
@@ -612,32 +616,37 @@ namespace CoolFishNS.Management.CoolManager.HookingLua
                 {
                     InternalExecute(IntPtr.Zero, mem["returnVarsNamesPtr"], enumerable.Count, mem["returnVarsPtr"], mem["numberOfReturnVarsAddress"]);
                 }
-                int offset = 0;
+
 
                 byte[] address = BotManager.Memory.ReadBytes(mem["returnVarsPtr"], enumerable.Count*4);
 
-                Parallel.ForEach(enumerable, value =>
-                {
-                    var retnByte = new List<byte>();
-                    var dwAddress = new IntPtr(BitConverter.ToInt32(address, offset));
-
-                    if (dwAddress != IntPtr.Zero)
+                Parallel.ForEach(enumerable, // source collection
+                    () => 0, // method to initialize the local variable
+                    (value, loop, offset) => // method invoked by the loop on each iteration
                     {
-                        var buf = BotManager.Memory.Read<byte>(dwAddress);
-                        while (buf != 0)
+                        var retnByte = new List<byte>();
+                        var dwAddress = new IntPtr(BitConverter.ToInt32(address, offset));
+
+                        if (dwAddress != IntPtr.Zero)
                         {
-                            retnByte.Add(buf);
-                            dwAddress = dwAddress + 1;
-                            buf = BotManager.Memory.Read<byte>(dwAddress);
+                            var buf = BotManager.Memory.Read<byte>(dwAddress);
+                            while (buf != 0)
+                            {
+                                retnByte.Add(buf);
+                                dwAddress = dwAddress + 1;
+                                buf = BotManager.Memory.Read<byte>(dwAddress);
+                            }
                         }
-                    }
-                    returnDict.Add(value, Encoding.UTF8.GetString(retnByte.ToArray()));
-                    offset += 0x4;
-                });
+                        returnDict[value] = Encoding.UTF8.GetString(retnByte.ToArray());
+                        offset += 0x4; //modify local variable 
+                        return offset; // value to be passed to next iteration
+                    },
+                    finalResult => {}
+                    );
             }
             catch (Exception ex)
             {
-                Logging.Write(ex);
+                Logging.Log(ex);
             }
             finally
             {
