@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
@@ -266,14 +267,13 @@ namespace CoolFishNS
         {
             try
             {
-                Process.Start(
-                    Properties.Resources.WebPageLink);
+                Process.Start("http://unknowndev.github.io/CoolFish/");
             }
             catch (Exception ex)
             {
                 TabControlTC.SelectedItem = MainTab;
                 Logging.Log(ex);
-                Logging.Write(Properties.Resources.WebPageLink);
+                Logging.Write("http://unknowndev.github.io/CoolFish/");
             }
         }
 
@@ -281,15 +281,7 @@ namespace CoolFishNS
         {
 
             TabControlTC.SelectedItem = MainTab;
-            try
-            {
-                Process.Start("https://github.com/unknowndev/CoolFish/releases");
-            }
-            catch (Exception ex)
-            {
-                Logging.Log(ex);
-                Logging.Write("https://github.com/unknowndev/CoolFish/releases");
-            }
+            new Task(Updater.Update).Start();
         }
 
         private void MainTab_Click(object sender, RoutedEventArgs e)
@@ -369,7 +361,7 @@ namespace CoolFishNS
             BotBaseCB_DropDownOpened(null, null);
             BotBaseCB.SelectedIndex = 0;
 
-            new Thread(Updater.Update).Start();
+            new Task(Updater.Update).Start();
 
             _processes = GetWowProcesses();
             if (_processes.Length == 1)

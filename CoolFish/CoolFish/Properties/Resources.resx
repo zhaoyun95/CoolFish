@@ -160,9 +160,6 @@
   <data name="BotIsNotReadyError" xml:space="preserve">
     <value>Please attach to a process and select a bot base to use.</value>
   </data>
-  <data name="WebPageLink" xml:space="preserve">
-    <value>http://coolfish.unknowndev.com</value>
-  </data>
   <data name="PaypalLink" xml:space="preserve">
     <value>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MNTAWFX9F4M7N</value>
   </data>
@@ -189,15 +186,6 @@
   </data>
   <data name="ShouldRunException" xml:space="preserve">
     <value>We could not check the server to see if it is safe to run the bot. Would you like to ignore this check and continue (this session only)?</value>
-  </data>
-  <data name="ShouldRunLink" xml:space="preserve">
-    <value>http://coolfish.unknowndev.com/ShouldRun.txt</value>
-  </data>
-  <data name="NewsLink" xml:space="preserve">
-    <value>http://coolfish.unknowndev.com/Message.txt</value>
-  </data>
-  <data name="SVNTrunkLink" xml:space="preserve">
-    <value>http://svn.code.sf.net/p/coolfish/code/trunk/</value>
   </data>
   <data name="MissingTranslation" xml:space="preserve">
     <value>Missing translation for required attribute. Report this to the developer. Setting back to English</value>

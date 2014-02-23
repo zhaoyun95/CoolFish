@@ -33,7 +33,7 @@ namespace CoolFishNS.Utilities
 
                 try
                 {
-                    WebRequest request = WebRequest.Create("http://coolfish.unknowndev.com/ShouldRun.php?version=" + Utilities.Version);
+                    WebRequest request = WebRequest.Create("http://unknowndev.github.io/CoolFish/ShouldRun.txt");
 
                     request.CachePolicy = new RequestCachePolicy(RequestCacheLevel.Reload);
                     WebResponse response = request.GetResponse();
@@ -80,7 +80,7 @@ namespace CoolFishNS.Utilities
         {
             try
             {
-                WebRequest request = WebRequest.Create(Resources.NewsLink);
+                WebRequest request = WebRequest.Create("http://unknowndev.github.io/CoolFish/Message.txt");
 
                 request.CachePolicy = new RequestCachePolicy(RequestCacheLevel.Reload);
                 WebResponse response = request.GetResponse();
@@ -102,19 +102,10 @@ namespace CoolFishNS.Utilities
 
         public static void Update()
         {
-            return;
+           
             try
             {
-                WebRequest request = WebRequest.Create("http://coolfish.unknowndev.com/LatestVersion.php");
-                request.GetResponse();
-            }
-            catch (Exception ex)
-            {
-                Logging.Log(ex);
-            }
-            try
-            {
-                WebRequest request = WebRequest.Create("http://coolfish.unknowndev.com/LatestVersion.txt");
+                WebRequest request = WebRequest.Create("http://unknowndev.github.io/CoolFish/LatestVersion.txt");
                 WebResponse response = request.GetResponse();
                 Stream stream = response.GetResponseStream();
                 if (stream != null)
@@ -124,8 +115,9 @@ namespace CoolFishNS.Utilities
                     string info = reader.ReadToEnd();
 
                     Version version = Assembly.GetExecutingAssembly().GetName().Version;
-                    int ver = Convert.ToInt32(info);
-                    if (ver > version.Revision)
+                    Version ver = new Version(info);
+
+                    if (ver > version)
                     {
                         Logging.Write(LocalSettings.Translations["Current Revision"] + ": " + version.Revision +
                                       " " + LocalSettings.Translations["Latest Revision"] + ": " + ver);
@@ -153,11 +145,11 @@ namespace CoolFishNS.Utilities
         {
             try
             {
-                Process.Start("http://coolfish.unknowndev.com/ReleaseBuilds/");
+                Process.Start("https://github.com/unknowndev/CoolFish/releases");
             }
             catch (Exception ex)
             {
-                Logging.Write("http://coolfish.unknowndev.com/ReleaseBuilds/");
+                Logging.Write("https://github.com/unknowndev/CoolFish/releases");
                 Logging.Log(ex);
             }
         }
