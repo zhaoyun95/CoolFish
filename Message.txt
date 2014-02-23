@@ -1,4 +1,4 @@
 News:
 Coolfish for Wow 5.4.7 32-bit Client Only
-Updated for the latest patch. Let me know of any bugs.
-http://coolfish.unknowndev.com/
+Updated for the latest patch. Let me know of any bugs. In the process of moving the site to Github slowly as my web host time runs out.
+http://unknowndev.github.io/CoolFish/
