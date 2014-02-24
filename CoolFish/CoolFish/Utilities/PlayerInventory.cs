@@ -49,8 +49,7 @@ namespace CoolFishNS.Utilities
             {
                 try
                 {
-                    var count = DxHook.Instance.ExecuteScript(Resources.GetLureCountScript + " \n " + Resources.GetLureName,
-                        new[] {"Count", "LureName"});
+                    var count = DxHook.Instance.ExecuteScript(Resources.GetLureName, new[] {"Count", "LureName"});
 
                     if (count["Count"] == "1" && !string.IsNullOrEmpty(count["LureName"]))
                     {
