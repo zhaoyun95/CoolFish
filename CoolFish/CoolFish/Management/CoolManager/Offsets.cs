@@ -67,18 +67,16 @@ namespace CoolFishNS.Management.CoolManager
 
         /// <summary>
         ///     Memory locations specific to the WoWPlayer type.
-        ///     Version: 5.3
-        ///     TODO: out of date
         /// </summary>
         public enum WoWPlayer
         {
-            NameStore = 0xC71680 + 0x8, //5.3 out of date
+            NameStore = 0xC85368,
             NameMask = 0x24,
-            NameBase = 0x18,
+            NameBase = 0x15,
             NameString = 0x21,
 
             IsCasting = 0xCB8,
-            IsChanneling = 0xCD8,
+            IsChanneling = 0xCD0,
             Speed1 = 0xEC,
             Speed2 = 0x80
         }

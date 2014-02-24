@@ -75,7 +75,7 @@ namespace CoolFishNS.Utilities
             Logging.Log("----Items----");
             foreach (SerializableItem serializableItem in Items)
             {
-                Logging.Log(serializableItem);
+                Logging.Log(serializableItem.Value);
             }
         }
 
