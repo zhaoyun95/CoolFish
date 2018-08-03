@@ -1,6 +1,11 @@
-﻿--README--
 
-Original Author: https://twitter.com/TheUnknownDev
+Original Author: https://twitter.com/TheUnknownDev ; Somehow he (UnknownDev) removed his public repository and abandoned his unknowndev.com domain. That's why the links below don't work anymore.  The version here is an outdated version I forked in 2014.
+
+James Ye
+8/3/2018
+
+-------------- Original README below ------------
+
 
 If you need any assistance with the bot or have comments/bug reports try some of the links below
 
