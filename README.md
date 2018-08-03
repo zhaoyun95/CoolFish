@@ -1,5 +1,7 @@
 ﻿--README--
 
+Original Author: https://twitter.com/TheUnknownDev
+
 If you need any assistance with the bot or have comments/bug reports try some of the links below
 
 Website: http://unknowndev.github.io/CoolFish/
